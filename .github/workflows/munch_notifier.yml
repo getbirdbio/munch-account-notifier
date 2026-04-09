@@ -2,8 +2,9 @@ name: Munch Account Notifier
 
 on:
   schedule:
-    # Run every 10 minutes (SAST = UTC+2, so 06:00–20:00 SAST = 04:00–18:00 UTC)
-    - cron: "*/10 4-18 * * *"
+    # Every 30 min, 06:30–16:30 SAST (= 04:30–14:30 UTC)
+    - cron: "30 4 * * *"
+    - cron: "0,30 5-14 * * *"
   workflow_dispatch:   # Allow manual trigger from GitHub Actions UI
 
 permissions:
