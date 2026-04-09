@@ -91,7 +91,7 @@ def munch_login():
     )
     resp.raise_for_status()
     data = resp.json()
-    token = data.get("employee", {}).get("accessToken")
+    token = data.get("data", {}).get("employee", {}).get("accessToken") or data.get("employee", {}).get("accessToken")
     if not token:
         raise RuntimeError(f"Login failed – no accessToken in response: {data}")
     print("✓ Munch login successful")
