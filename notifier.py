@@ -45,20 +45,33 @@ def save_json(path, data):
     with open(path, "w") as f:
         json.dump(data, f, indent=2)
 
-def format_amount(raw):
-    """Turn '-R418.00' into 'R418.00' for the notification."""
-    return raw.lstrip("-").strip()
+def cents_to_display(cents):
+    """Convert integer cents to display string: -41800 → '-R418.00'"""
+    rands = abs(cents) / 100
+    prefix = "-" if cents < 0 else ""
+    return f"{prefix}R{rands:.2f}"
 
-def format_date(raw):
-    """Turn '09/04/26 - 08:47' into '9 Apr 2026, 08:47 AM'."""
+def iso_to_sast_key(iso_str):
+    """Convert ISO timestamp to SAST display key format: '2026-04-09T06:47:00.000Z' → '09/04/26 - 08:47'"""
     try:
-        dt = datetime.strptime(raw, "%d/%m/%y - %H:%M")
-        return dt.strftime("%-d %b %Y, %I:%M %p")
+        dt = datetime.fromisoformat(iso_str.replace("Z", "+00:00"))
+        dt_sast = dt + timedelta(hours=2)
+        return dt_sast.strftime("%d/%m/%y - %H:%M")
     except Exception:
-        return raw
+        return iso_str
+
+def format_date_display(iso_str):
+    """Convert ISO timestamp to friendly display: '2026-04-09T06:47:00.000Z' → '9 Apr 2026, 08:47 AM'"""
+    try:
+        dt = datetime.fromisoformat(iso_str.replace("Z", "+00:00"))
+        dt_sast = dt + timedelta(hours=2)
+        return dt_sast.strftime("%-d %b %Y, %I:%M %p")
+    except Exception:
+        return iso_str
 
 def transaction_key(tx):
-    return f"{tx['date']}_{tx['user']}_{tx['amount']}"
+    """Build a stable dedup key from a normalised transaction dict."""
+    return f"{tx['date_key']}_{tx['user']}_{tx['amount_display']}"
 
 def format_phone(phone):
     """Normalise to +27... format."""
@@ -69,97 +82,152 @@ def format_phone(phone):
         p = "+" + p
     return p
 
-def is_recent(date_str, hours=LOOKBACK_HOURS):
-    """Return True if the date string is within the last N hours."""
+def is_recent(iso_str, hours=LOOKBACK_HOURS):
+    """Return True if the ISO timestamp is within the last N hours."""
     try:
-        dt = datetime.strptime(date_str, "%d/%m/%y - %H:%M")
-        # Munch dates appear to be in SAST (UTC+2)
-        dt_utc = dt - timedelta(hours=2)
-        now_utc = datetime.now(timezone.utc).replace(tzinfo=None)
-        return (now_utc - dt_utc) <= timedelta(hours=hours)
+        dt = datetime.fromisoformat(iso_str.replace("Z", "+00:00"))
+        now_utc = datetime.now(timezone.utc)
+        return (now_utc - dt) <= timedelta(hours=hours)
     except Exception:
         return True  # if we can't parse, include it
 
 
-# ── Munch API ──────────────────────────────────────────────────────────────
+# ── Munch Auth ─────────────────────────────────────────────────────────────
 
 def munch_login():
+    """
+    Three-step auth flow:
+      1. Login → initial token (organisationId: null)
+      2. retrieve operating contexts → get scopeId
+      3. select operating context → scoped token with organisationId populated
+    Returns: (scoped_token, employee_id, org_id)
+    """
+    # Step 1: Login
     resp = requests.post(
         f"{MUNCH_API}/auth-internal/login",
         json={"email": MUNCH_EMAIL, "password": MUNCH_PASSWORD},
         timeout=30,
     )
     resp.raise_for_status()
-    data = resp.json()
-    token = data.get("data", {}).get("employee", {}).get("accessToken") or data.get("employee", {}).get("accessToken")
-    if not token:
-        raise RuntimeError(f"Login failed – no accessToken in response: {data}")
-    print("✓ Munch login successful")
-    return token
+    login_data = resp.json()
+    initial_token = (
+        login_data.get("data", {}).get("employee", {}).get("accessToken")
+        or login_data.get("employee", {}).get("accessToken")
+    )
+    employee_id = (
+        login_data.get("data", {}).get("employee", {}).get("id")
+        or login_data.get("employee", {}).get("id")
+    )
+    if not initial_token:
+        raise RuntimeError(f"Login failed — no accessToken in response: {login_data}")
+    print("✓ Step 1: Login successful")
 
-def munch_headers(token):
-    return {
-        "Authorization": f"Bearer {token}",
+    base_headers = {
+        "Authorization": f"Bearer {initial_token}",
+        "Authorization-Type": "internal",
         "Content-Type": "application/json",
+        "Munch-Platform": "cloud.munch.portal",
+        "Munch-Timezone": "Africa/Johannesburg",
+        "locale": "en",
     }
 
-def get_ledger(token):
+    # Step 2: Retrieve operating contexts
+    resp = requests.post(
+        f"{MUNCH_API}/operating-context/retrieve",
+        json={},
+        headers=base_headers,
+        timeout=30,
+    )
+    resp.raise_for_status()
+    ctx_data = resp.json()
+    orgs = ctx_data.get("data", {}).get("operatingContexts", {}).get("organisations", [])
+    if not orgs:
+        raise RuntimeError(f"No organisations found in operating contexts: {ctx_data}")
+    org = orgs[0]
+    scope_id = org["scopeId"]
+    org_id   = org["id"]
+    print(f"✓ Step 2: Operating context retrieved — org: {org.get('name')} ({org_id})")
+
+    # Step 3: Select operating context → get scoped token
+    resp = requests.post(
+        f"{MUNCH_API}/operating-context/select",
+        json={"scopeId": scope_id, "organisationId": org_id},
+        headers=base_headers,
+        timeout=30,
+    )
+    resp.raise_for_status()
+    select_data = resp.json()
+    scoped_token = (
+        select_data.get("data", {}).get("employee", {}).get("accessToken")
+        or select_data.get("employee", {}).get("accessToken")
+    )
+    if not scoped_token:
+        raise RuntimeError(f"Context select failed — no accessToken: {select_data}")
+    print(f"✓ Step 3: Scoped token obtained")
+
+    return scoped_token, employee_id, org_id
+
+
+def munch_headers(token, employee_id, org_id):
+    return {
+        "Authorization": f"Bearer {token}",
+        "Authorization-Type": "internal",
+        "Content-Type": "application/json",
+        "Munch-Organisation": org_id,
+        "Munch-Employee": employee_id,
+        "Munch-Platform": "cloud.munch.portal",
+        "Munch-Timezone": "Africa/Johannesburg",
+        "locale": "en",
+    }
+
+
+# ── Munch API ──────────────────────────────────────────────────────────────
+
+def get_ledger(token, employee_id, org_id):
+    """Fetch recent ledger items, most recent first."""
     resp = requests.post(
         f"{MUNCH_API}/account/retrieve-ledger",
         json={
-            "accountId":  ACCOUNT_ID,
-            "companyId":  COMPANY_ID,
-            "limit":      50,
+            "accountId":      ACCOUNT_ID,
+            "companyId":      COMPANY_ID,
+            "limit":          50,
+            "orderBy":        "createdAt",
+            "orderDirection": "DESC",
         },
-        headers=munch_headers(token),
+        headers=munch_headers(token, employee_id, org_id),
         timeout=30,
     )
     resp.raise_for_status()
     data = resp.json()
-
-    # Normalise: the API may return items in different shapes
-    items = data.get("ledgerItems") or data.get("items") or data.get("transactions") or []
+    items = data.get("data", {}).get("accountLedgerItems", [])
     print(f"✓ Ledger fetched: {len(items)} items")
 
     normalised = []
     for item in items:
-        # Try multiple possible field name patterns
-        tx_type   = item.get("transactionType") or item.get("type") or item.get("paymentMethod") or ""
-        user      = item.get("user") or item.get("memberName") or item.get("customer") or ""
-        if isinstance(user, dict):
-            user = user.get("name") or user.get("fullName") or ""
-        employee  = item.get("employee") or ""
-        if isinstance(employee, dict):
-            employee = employee.get("name") or employee.get("fullName") or ""
-        amount    = item.get("amount") or item.get("debit") or ""
-        if isinstance(amount, (int, float)):
-            amount = f"R{abs(amount):.2f}" if amount < 0 else f"R{amount:.2f}"
-        balance   = item.get("balance") or item.get("runningBalance") or ""
-        if isinstance(balance, (int, float)):
-            balance = f"R{balance:.2f}"
-        date      = item.get("date") or item.get("createdAt") or item.get("transactionDate") or ""
-        # Convert ISO dates to our display format if needed
-        if "T" in str(date):
-            try:
-                dt = datetime.fromisoformat(str(date).replace("Z", "+00:00"))
-                dt_sast = dt + timedelta(hours=2)
-                date = dt_sast.strftime("%d/%m/%y - %H:%M")
-            except Exception:
-                pass
+        amount_cents   = item.get("amount", 0)
+        balance_cents  = item.get("balance", 0)
+        created_at     = item.get("createdAt", "")
+        tx_type        = item.get("transactionType", "")
+        payment_method = item.get("payment", {}).get("paymentMethod", {}).get("displayName", "")
+        user_obj       = item.get("user") or {}
+        user_name      = f"{user_obj.get('firstName', '')} {user_obj.get('lastName', '')}".strip()
 
         normalised.append({
-            "type":     tx_type,
-            "user":     user,
-            "employee": employee,
-            "amount":   str(amount),
-            "balance":  str(balance),
-            "date":     str(date),
-            "raw":      item,
+            "type":           tx_type,
+            "payment_method": payment_method,
+            "user":           user_name,
+            "amount_cents":   amount_cents,
+            "amount_display": cents_to_display(amount_cents),
+            "balance_display": cents_to_display(balance_cents),
+            "date_key":       iso_to_sast_key(created_at),
+            "date_display":   format_date_display(created_at),
+            "created_at":     created_at,
         })
 
     return normalised
 
-def search_members(token, name):
+
+def search_members(token, employee_id, org_id, name):
     resp = requests.post(
         f"{MUNCH_API}/account/retrieve-users",
         json={
@@ -168,12 +236,18 @@ def search_members(token, name):
             "search":    name,
             "limit":     10,
         },
-        headers=munch_headers(token),
+        headers=munch_headers(token, employee_id, org_id),
         timeout=30,
     )
     resp.raise_for_status()
     data = resp.json()
-    return data.get("users") or data.get("members") or []
+    return (
+        data.get("data", {}).get("users")
+        or data.get("data", {}).get("members")
+        or data.get("users")
+        or data.get("members")
+        or []
+    )
 
 
 # ── Twilio ─────────────────────────────────────────────────────────────────
@@ -204,36 +278,36 @@ def main():
     print(f"{'='*55}\n")
 
     # Load state
-    state = load_json(STATE_FILE, {"notified": [], "last_updated": ""})
-    notified = set(state.get("notified", []))
-    cache = load_json(CACHE_FILE, {"members": {}, "last_updated": ""})
+    state      = load_json(STATE_FILE, {"notified": [], "last_updated": ""})
+    notified   = set(state.get("notified", []))
+    cache      = load_json(CACHE_FILE, {"members": {}, "last_updated": ""})
     phone_cache = cache.get("members", {})
 
     print(f"State loaded: {len(notified)} previously notified transactions")
     print(f"Phone cache : {len(phone_cache)} cached numbers\n")
 
-    # Auth
-    token = munch_login()
+    # Auth (3-step)
+    token, employee_id, org_id = munch_login()
+    print()
 
     # Fetch ledger
-    ledger = get_ledger(token)
+    ledger = get_ledger(token, employee_id, org_id)
 
-    # Filter
-    DEBIT_TYPES = {"debit", "payment", "sale", "account"}
-    SKIP_USERS  = {"loyalty loyalty", ""}
+    # Filter to new debit candidates
+    SKIP_USERS = {"loyalty loyalty", ""}
 
-    candidates = []
-    skipped_type = 0
-    skipped_old  = 0
-    skipped_user = 0
-    skipped_seen = 0
+    candidates    = []
+    skipped_type  = 0
+    skipped_old   = 0
+    skipped_user  = 0
+    skipped_seen  = 0
 
     for tx in ledger:
         user_lower = tx["user"].strip().lower()
-        type_lower = tx["type"].strip().lower()
 
-        # Skip non-debit types
-        if not any(d in type_lower for d in DEBIT_TYPES):
+        # Only process invoice debits (negative amounts via "Account" payment method)
+        is_debit = tx["amount_cents"] < 0 and tx["payment_method"].lower() == "account"
+        if not is_debit:
             skipped_type += 1
             continue
 
@@ -243,7 +317,7 @@ def main():
             continue
 
         # Skip old transactions
-        if not is_recent(tx["date"]):
+        if not is_recent(tx["created_at"]):
             skipped_old += 1
             continue
 
@@ -256,7 +330,7 @@ def main():
 
         candidates.append((key, tx))
 
-    print(f"Ledger summary:")
+    print(f"\nLedger summary:")
     print(f"  Total rows   : {len(ledger)}")
     print(f"  Wrong type   : {skipped_type}")
     print(f"  Too old      : {skipped_old}")
@@ -275,14 +349,11 @@ def main():
     errors       = []
 
     for key, tx in candidates:
-        user = tx["user"].strip()
+        user       = tx["user"].strip()
         user_lower = user.lower()
         first_name = user.split()[0] if user else "Member"
-        amount_display  = format_amount(tx["amount"])
-        balance_display = tx["balance"]
-        date_display    = format_date(tx["date"])
 
-        print(f"Processing: {user}  |  {amount_display}  |  {date_display}")
+        print(f"Processing: {user}  |  {tx['amount_display']}  |  {tx['date_display']}")
 
         # Get phone
         phone = None
@@ -292,12 +363,20 @@ def main():
             print(f"  Phone (cache): {phone}")
         else:
             cache_misses += 1
-            first = user.split()[0] if user else user
-            members = search_members(token, first)
+            members = search_members(token, employee_id, org_id, first_name)
             for m in members:
-                m_name = (m.get("name") or m.get("fullName") or
-                          f"{m.get('firstName','')} {m.get('lastName','')}").strip()
-                m_phone = m.get("contactNumber") or m.get("phone") or m.get("phoneNumber") or ""
+                m_name = (
+                    m.get("name")
+                    or m.get("fullName")
+                    or f"{m.get('firstName','')} {m.get('lastName','')}".strip()
+                )
+                m_phone = (
+                    m.get("contactNumber")
+                    or m.get("phone")
+                    or m.get("phoneNumber")
+                    or m.get("cellphone")
+                    or ""
+                )
                 if m_name.lower() == user_lower and m_phone:
                     phone = format_phone(str(m_phone))
                     phone_cache[user_lower] = phone
@@ -310,7 +389,13 @@ def main():
 
         # Send WhatsApp
         try:
-            sid = send_whatsapp(phone, first_name, amount_display, date_display, balance_display)
+            sid = send_whatsapp(
+                phone,
+                first_name,
+                tx["amount_display"].lstrip("-"),  # strip leading minus; template shows "R418.00"
+                tx["date_display"],
+                tx["balance_display"],
+            )
             print(f"  ✓ WhatsApp sent — SID: {sid}")
             sent_keys.append(key)
         except Exception as e:
@@ -337,7 +422,7 @@ def main():
     print(f"\n{'='*55}")
     print(f"SUMMARY")
     print(f"  Sent        : {len(sent_keys)}")
-    print(f"  Skipped     : {skipped_seen} already notified, {skipped_user} excluded users, {skipped_old} too old")
+    print(f"  Skipped     : {skipped_seen} already notified, {skipped_user} excluded, {skipped_old} too old")
     print(f"  Cache hits  : {cache_hits}  |  Lookups: {cache_misses}")
     if errors:
         print(f"  Errors ({len(errors)}):")
@@ -347,6 +432,7 @@ def main():
 
     if errors:
         sys.exit(1)
+
 
 if __name__ == "__main__":
     main()
