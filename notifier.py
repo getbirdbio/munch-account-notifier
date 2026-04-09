@@ -52,7 +52,7 @@ def cents_to_display(cents):
     return f"{prefix}R{rands:.2f}"
 
 def iso_to_sast_key(iso_str):
-    """Convert ISO timestamp to SAST display key format: '2026-04-09T06:47:00.000Z' → '09/04/26 - 08:47'"""
+    """Convert ISO timestamp to SAST display key: '2026-04-09T06:47:00Z' → '09/04/26 - 08:47'"""
     try:
         dt = datetime.fromisoformat(iso_str.replace("Z", "+00:00"))
         dt_sast = dt + timedelta(hours=2)
@@ -61,7 +61,7 @@ def iso_to_sast_key(iso_str):
         return iso_str
 
 def format_date_display(iso_str):
-    """Convert ISO timestamp to friendly display: '2026-04-09T06:47:00.000Z' → '9 Apr 2026, 08:47 AM'"""
+    """Convert ISO timestamp to friendly display: '2026-04-09T06:47:00Z' → '9 Apr 2026, 08:47 AM'"""
     try:
         dt = datetime.fromisoformat(iso_str.replace("Z", "+00:00"))
         dt_sast = dt + timedelta(hours=2)
@@ -82,15 +82,6 @@ def format_phone(phone):
         p = "+" + p
     return p
 
-def is_recent(iso_str, hours=LOOKBACK_HOURS):
-    """Return True if the ISO timestamp is within the last N hours."""
-    try:
-        dt = datetime.fromisoformat(iso_str.replace("Z", "+00:00"))
-        now_utc = datetime.now(timezone.utc)
-        return (now_utc - dt) <= timedelta(hours=hours)
-    except Exception:
-        return True  # if we can't parse, include it
-
 
 # ── Munch Auth ─────────────────────────────────────────────────────────────
 
@@ -98,8 +89,8 @@ def munch_login():
     """
     Three-step auth flow:
       1. Login → initial token (organisationId: null)
-      2. retrieve operating contexts → get scopeId
-      3. select operating context → scoped token with organisationId populated
+      2. Retrieve operating contexts → get scopeId
+      3. Select operating context → scoped token with organisationId populated
     Returns: (scoped_token, employee_id, org_id)
     """
     # Step 1: Login
@@ -163,7 +154,7 @@ def munch_login():
     )
     if not scoped_token:
         raise RuntimeError(f"Context select failed — no accessToken: {select_data}")
-    print(f"✓ Step 3: Scoped token obtained")
+    print("✓ Step 3: Scoped token obtained")
 
     return scoped_token, employee_id, org_id
 
@@ -184,15 +175,18 @@ def munch_headers(token, employee_id, org_id):
 # ── Munch API ──────────────────────────────────────────────────────────────
 
 def get_ledger(token, employee_id, org_id):
-    """Fetch recent ledger items, most recent first."""
+    """Fetch ledger items from the last LOOKBACK_HOURS using date filter."""
+    now_utc = datetime.now(timezone.utc)
+    start = (now_utc - timedelta(hours=LOOKBACK_HOURS)).strftime("%Y-%m-%dT%H:%M:%S.000Z")
+    end   = (now_utc + timedelta(hours=1)).strftime("%Y-%m-%dT%H:%M:%S.000Z")
+
     resp = requests.post(
         f"{MUNCH_API}/account/retrieve-ledger",
         json={
-            "accountId":      ACCOUNT_ID,
-            "companyId":      COMPANY_ID,
-            "limit":          50,
-            "orderBy":        "createdAt",
-            "orderDirection": "DESC",
+            "accountId": ACCOUNT_ID,
+            "companyId": COMPANY_ID,
+            "startDate": start,
+            "endDate":   end,
         },
         headers=munch_headers(token, employee_id, org_id),
         timeout=30,
@@ -200,7 +194,8 @@ def get_ledger(token, employee_id, org_id):
     resp.raise_for_status()
     data = resp.json()
     items = data.get("data", {}).get("accountLedgerItems", [])
-    print(f"✓ Ledger fetched: {len(items)} items")
+    total = data.get("data", {}).get("_metadata", {}).get("total", len(items))
+    print(f"✓ Ledger fetched: {len(items)} items in window (total matching: {total})")
 
     normalised = []
     for item in items:
@@ -213,15 +208,15 @@ def get_ledger(token, employee_id, org_id):
         user_name      = f"{user_obj.get('firstName', '')} {user_obj.get('lastName', '')}".strip()
 
         normalised.append({
-            "type":           tx_type,
-            "payment_method": payment_method,
-            "user":           user_name,
-            "amount_cents":   amount_cents,
-            "amount_display": cents_to_display(amount_cents),
+            "type":            tx_type,
+            "payment_method":  payment_method,
+            "user":            user_name,
+            "amount_cents":    amount_cents,
+            "amount_display":  cents_to_display(amount_cents),
             "balance_display": cents_to_display(balance_cents),
-            "date_key":       iso_to_sast_key(created_at),
-            "date_display":   format_date_display(created_at),
-            "created_at":     created_at,
+            "date_key":        iso_to_sast_key(created_at),
+            "date_display":    format_date_display(created_at),
+            "created_at":      created_at,
         })
 
     return normalised
@@ -273,14 +268,15 @@ def send_whatsapp(phone, first_name, amount, date_str, balance):
 # ── Main ───────────────────────────────────────────────────────────────────
 
 def main():
+    now_sast = datetime.now(timezone.utc) + timedelta(hours=2)
     print(f"\n{'='*55}")
-    print(f"Munch Account Notifier — {datetime.now().strftime('%Y-%m-%d %H:%M:%S SAST')}")
+    print(f"Munch Account Notifier — {now_sast.strftime('%Y-%m-%d %H:%M:%S')} SAST")
     print(f"{'='*55}\n")
 
     # Load state
-    state      = load_json(STATE_FILE, {"notified": [], "last_updated": ""})
-    notified   = set(state.get("notified", []))
-    cache      = load_json(CACHE_FILE, {"members": {}, "last_updated": ""})
+    state       = load_json(STATE_FILE, {"notified": [], "last_updated": ""})
+    notified    = set(state.get("notified", []))
+    cache       = load_json(CACHE_FILE, {"members": {}, "last_updated": ""})
     phone_cache = cache.get("members", {})
 
     print(f"State loaded: {len(notified)} previously notified transactions")
@@ -290,7 +286,7 @@ def main():
     token, employee_id, org_id = munch_login()
     print()
 
-    # Fetch ledger
+    # Fetch ledger (date-filtered to last LOOKBACK_HOURS)
     ledger = get_ledger(token, employee_id, org_id)
 
     # Filter to new debit candidates
@@ -298,14 +294,13 @@ def main():
 
     candidates    = []
     skipped_type  = 0
-    skipped_old   = 0
     skipped_user  = 0
     skipped_seen  = 0
 
     for tx in ledger:
         user_lower = tx["user"].strip().lower()
 
-        # Only process invoice debits (negative amounts via "Account" payment method)
+        # Only process debits (negative amounts) via Account payment method
         is_debit = tx["amount_cents"] < 0 and tx["payment_method"].lower() == "account"
         if not is_debit:
             skipped_type += 1
@@ -314,11 +309,6 @@ def main():
         # Skip excluded users
         if user_lower in SKIP_USERS:
             skipped_user += 1
-            continue
-
-        # Skip old transactions
-        if not is_recent(tx["created_at"]):
-            skipped_old += 1
             continue
 
         key = transaction_key(tx)
@@ -333,7 +323,6 @@ def main():
     print(f"\nLedger summary:")
     print(f"  Total rows   : {len(ledger)}")
     print(f"  Wrong type   : {skipped_type}")
-    print(f"  Too old      : {skipped_old}")
     print(f"  Skipped user : {skipped_user}")
     print(f"  Already sent : {skipped_seen}")
     print(f"  To process   : {len(candidates)}\n")
@@ -392,7 +381,7 @@ def main():
             sid = send_whatsapp(
                 phone,
                 first_name,
-                tx["amount_display"].lstrip("-"),  # strip leading minus; template shows "R418.00"
+                tx["amount_display"].lstrip("-"),  # template shows "R418.00" (no minus)
                 tx["date_display"],
                 tx["balance_display"],
             )
@@ -422,7 +411,7 @@ def main():
     print(f"\n{'='*55}")
     print(f"SUMMARY")
     print(f"  Sent        : {len(sent_keys)}")
-    print(f"  Skipped     : {skipped_seen} already notified, {skipped_user} excluded, {skipped_old} too old")
+    print(f"  Skipped     : {skipped_seen} already notified, {skipped_user} excluded")
     print(f"  Cache hits  : {cache_hits}  |  Lookups: {cache_misses}")
     if errors:
         print(f"  Errors ({len(errors)}):")
