@@ -1,0 +1,45 @@
+name: Munch Account Notifier
+
+on:
+  schedule:
+    # Run every 10 minutes (SAST = UTC+2, so 06:00–20:00 SAST = 04:00–18:00 UTC)
+    - cron: "*/10 4-18 * * *"
+  workflow_dispatch:   # Allow manual trigger from GitHub Actions UI
+
+permissions:
+  contents: write      # Needed to commit state file back to repo
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run notifier
+        env:
+          MUNCH_EMAIL:          ${{ secrets.MUNCH_EMAIL }}
+          MUNCH_PASSWORD:       ${{ secrets.MUNCH_PASSWORD }}
+          TWILIO_ACCOUNT_SID:   ${{ secrets.TWILIO_ACCOUNT_SID }}
+          TWILIO_AUTH_TOKEN:    ${{ secrets.TWILIO_AUTH_TOKEN }}
+        run: python notifier.py
+
+      - name: Commit updated state
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add state/notified_transactions.json state/member_phone_cache.json
+          git diff --cached --quiet || git commit -m "chore: update notifier state [skip ci]"
+          git push
