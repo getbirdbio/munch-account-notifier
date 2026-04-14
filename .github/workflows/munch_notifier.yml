@@ -2,9 +2,9 @@ name: Munch Account Notifier
 
 on:
   schedule:
-    # Every 30 min, 06:30–16:30 SAST (= 04:30–14:30 UTC)
-    - cron: "30 4 * * *"
-    - cron: "0,30 5-14 * * *"
+    # Every hour, 06:00–16:00 SAST (= 04:00–14:00 UTC), plus a 16:30 SAST run
+    - cron: "0 4-14 * * *"
+    - cron: "30 14 * * *"
   workflow_dispatch:   # Allow manual trigger from GitHub Actions UI
 
 permissions:
@@ -41,6 +41,6 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add state/notified_transactions.json state/member_phone_cache.json
+          git add state/notified_transactions.json
           git diff --cached --quiet || git commit -m "chore: update notifier state [skip ci]"
           git push
