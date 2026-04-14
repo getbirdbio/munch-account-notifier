@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """
 Munch Account Debit Notifier
-Watches recent closed sales paid via Account and sends WhatsApp to the member.
-Uses /api/sale/list → /api/sale/retrieve for full detail (items + phone).
-No phone cache required — phone comes directly from payments[].user.
+Detects account-charged sales via the ledger, fetches full sale detail for
+items + member phone, and sends a WhatsApp notification via Twilio.
 """
 
 import json
@@ -27,8 +26,9 @@ MUNCH_EMAIL    = os.environ["MUNCH_EMAIL"]
 MUNCH_PASSWORD = os.environ["MUNCH_PASSWORD"]
 
 STATE_FILE        = os.path.join(os.path.dirname(__file__), "state", "notified_transactions.json")
+CACHE_FILE        = os.path.join(os.path.dirname(__file__), "state", "member_phone_cache.json")
 MAX_STATE_ENTRIES = 500
-LOOKBACK_HOURS    = 2    # hourly runner — only look back 2h to avoid backdating
+LOOKBACK_HOURS    = 2    # hourly runner — only look back 2h
 
 
 # ── Helpers ────────────────────────────────────────────────────────────────
@@ -46,20 +46,16 @@ def save_json(path, data):
         json.dump(data, f, indent=2)
 
 def cents_to_rand(cents):
-    """Convert integer cents to display string: 3300 → 'R33.00'"""
     return f"R{abs(cents) / 100:.2f}"
 
 def format_sast(iso_str):
-    """ISO UTC timestamp → '14 Apr 2026 at 08:47' in SAST."""
     try:
         dt = datetime.fromisoformat(iso_str.replace("Z", "+00:00"))
-        dt_sast = dt + timedelta(hours=2)
-        return dt_sast.strftime("%-d %b %Y at %H:%M")
+        return (dt + timedelta(hours=2)).strftime("%-d %b %Y at %H:%M")
     except Exception:
         return iso_str
 
 def format_phone(phone):
-    """Normalise to +27... format."""
     p = str(phone).strip().replace(" ", "").replace("-", "")
     if p.startswith("0"):
         p = "+27" + p[1:]
@@ -71,13 +67,8 @@ def format_phone(phone):
 # ── Munch Auth ─────────────────────────────────────────────────────────────
 
 def munch_login():
-    """
-    Three-step auth:
-      1. POST /auth-internal/login           → initial token
-      2. POST /operating-context/retrieve    → scopeId
-      3. POST /operating-context/select      → scoped token (with org context)
-    Returns (scoped_token, employee_id, org_id)
-    """
+    """Three-step auth → (scoped_token, employee_id, org_id)"""
+
     # Step 1: Login
     r = requests.post(
         f"{MUNCH_API}/auth-internal/login",
@@ -88,7 +79,7 @@ def munch_login():
         timeout=30,
     )
     r.raise_for_status()
-    emp = r.json()["data"]["employee"]
+    emp           = r.json()["data"]["employee"]
     initial_token = emp["accessToken"]
     employee_id   = emp["id"]
     print("✓ Step 1: Login successful")
@@ -102,18 +93,19 @@ def munch_login():
         "Munch-Organisation": ORG_ID,
     }
 
-    # Step 2: Get scopeId
+    # Step 2: Retrieve operating context → get scopeId
     r = requests.post(f"{MUNCH_API}/operating-context/retrieve",
                       json={}, headers=base_h, timeout=30)
     r.raise_for_status()
-    orgs = r.json()["data"]["operatingContexts"]["organisations"]
+    orgs     = r.json()["data"]["operatingContexts"]["organisations"]
     scope_id = orgs[0]["scopeId"]
     org_id   = orgs[0]["id"]
     print(f"✓ Step 2: Scope retrieved ({org_id})")
 
-    # Step 3: Select scope → scoped token
+    # Step 3: Select context — must include BOTH scopeId AND organisationId
     r = requests.post(f"{MUNCH_API}/operating-context/select",
-                      json={"scopeId": scope_id}, headers=base_h, timeout=30)
+                      json={"scopeId": scope_id, "organisationId": org_id},
+                      headers=base_h, timeout=30)
     r.raise_for_status()
     scoped_token = r.json()["data"]["employee"]["accessToken"]
     print("✓ Step 3: Scoped token obtained")
@@ -137,54 +129,67 @@ def api_headers(token, employee_id, org_id):
 
 # ── Munch API ──────────────────────────────────────────────────────────────
 
-def list_recent_sales(token, employee_id, org_id):
+def get_recent_debits(token, employee_id, org_id):
     """
-    Fetch recent sales via /api/sale/list filtered to the last LOOKBACK_HOURS.
-    Returns a list of sale dicts.
+    Fetch ledger items for the last LOOKBACK_HOURS and return account debits.
+    Each item includes saleId for fetching full sale detail.
     """
-    now_utc   = datetime.now(timezone.utc)
-    date_from = (now_utc - timedelta(hours=LOOKBACK_HOURS)).strftime("%Y-%m-%dT%H:%M:%S.000Z")
-    date_to   = now_utc.strftime("%Y-%m-%dT%H:%M:%S.000Z")
+    now   = datetime.now(timezone.utc)
+    start = (now - timedelta(hours=LOOKBACK_HOURS)).strftime("%Y-%m-%dT%H:%M:%S.000Z")
+    end   = now.strftime("%Y-%m-%dT%H:%M:%S.000Z")
 
     r = requests.post(
-        f"{MUNCH_API}/sale/list",
-        json={
-            "accountId": ACCOUNT_ID,
-            "companyId": COMPANY_ID,
-            "timezone":  "Africa/Johannesburg",
-            "dateFrom":  date_from,
-            "dateTo":    date_to,
-        },
+        f"{MUNCH_API}/account/retrieve-ledger",
+        json={"accountId": ACCOUNT_ID, "companyId": COMPANY_ID,
+              "startDate": start, "endDate": end},
         headers=api_headers(token, employee_id, org_id),
         timeout=30,
     )
     r.raise_for_status()
-    sales = r.json().get("data", {}).get("sales", [])
-    print(f"✓ Sale list fetched: {len(sales)} sales in window")
-    return sales
+    items = r.json().get("data", {}).get("accountLedgerItems", [])
+    print(f"✓ Ledger fetched: {len(items)} items in {LOOKBACK_HOURS}h window")
+
+    debits = []
+    for item in items:
+        # Only account-payment debits (negative amounts)
+        method = (item.get("payment") or {}).get("paymentMethod", {}).get("displayName", "")
+        if item.get("amount", 0) >= 0 or method.lower() != "account":
+            continue
+        user = item.get("user") or {}
+        debits.append({
+            "sale_id":      item.get("saleId", ""),
+            "amount_cents": item["amount"],
+            "balance_cents":item.get("balance", 0),
+            "created_at":   item.get("createdAt", ""),
+            "user_name":    f"{user.get('firstName','')} {user.get('lastName','')}".strip(),
+        })
+
+    print(f"  → {len(debits)} account debit(s)")
+    return debits
 
 
 def get_sale_detail(token, employee_id, org_id, sale_id):
-    """
-    Fetch full sale detail via /api/sale/retrieve.
-    Returns the sale dict including saleItems and payments[].user.
-    """
-    r = requests.post(
-        f"{MUNCH_API}/sale/retrieve",
-        json={"id": sale_id, "timezone": "Africa/Johannesburg"},
-        headers=api_headers(token, employee_id, org_id),
-        timeout=30,
-    )
-    r.raise_for_status()
-    sales = r.json().get("data", {}).get("sales", [])
-    return sales[0] if sales else None
+    """Fetch full sale including saleItems and payments[].user."""
+    try:
+        r = requests.post(
+            f"{MUNCH_API}/sale/retrieve",
+            json={"id": sale_id, "timezone": "Africa/Johannesburg"},
+            headers=api_headers(token, employee_id, org_id),
+            timeout=15,
+        )
+        r.raise_for_status()
+        sales = r.json().get("data", {}).get("sales", [])
+        return sales[0] if sales else None
+    except Exception as e:
+        print(f"  ⚠ sale/retrieve failed for {sale_id}: {e}")
+        return None
 
 
 # ── Twilio ─────────────────────────────────────────────────────────────────
 
 def send_whatsapp(phone, first_name, amount, items, date_str, balance):
     """
-    Send WhatsApp via Twilio using the 5-variable approved template:
+    Template (5 vars):
       Hi {{1}}, your Getbird Birdhaven account was charged {{2}} for {{3}}
       on {{4}}. Your remaining balance is {{5}}.
     """
@@ -214,104 +219,86 @@ def main():
     print(f"Munch Account Notifier — {now_sast.strftime('%Y-%m-%d %H:%M:%S')} SAST")
     print(f"{'='*55}\n")
 
-    # Load state (keyed by sale ID)
-    state    = load_json(STATE_FILE, {"notified": [], "last_updated": ""})
-    notified = set(state.get("notified", []))
-    print(f"State loaded: {len(notified)} previously notified sale IDs\n")
+    state       = load_json(STATE_FILE, {"notified": [], "last_updated": ""})
+    notified    = set(state.get("notified", []))
+    cache       = load_json(CACHE_FILE, {"members": {}, "last_updated": ""})
+    phone_cache = cache.get("members", {})
 
-    # Auth
+    print(f"State:       {len(notified)} previously notified sale IDs")
+    print(f"Phone cache: {len(phone_cache)} members\n")
+
     token, employee_id, org_id = munch_login()
     print()
 
-    # List recent sales
-    all_sales = list_recent_sales(token, employee_id, org_id)
+    debits = get_recent_debits(token, employee_id, org_id)
 
-    # Filter: closed + has an account payment + not already notified
-    candidates    = []
-    skipped_status  = 0
-    skipped_payment = 0
-    skipped_seen    = 0
+    # Filter already-notified
+    candidates   = [d for d in debits if d["sale_id"] and d["sale_id"] not in notified]
+    already_seen = len(debits) - len(candidates)
 
-    for sale in all_sales:
-        if sale.get("status") != "closed":
-            skipped_status += 1
-            continue
-        payments = sale.get("payments", [])
-        acct_pmts = [p for p in payments if p.get("method") == "account"]
-        if not acct_pmts:
-            skipped_payment += 1
-            continue
-        if sale["id"] in notified:
-            skipped_seen += 1
-            continue
-        candidates.append(sale["id"])
-
-    print(f"\nSale list summary:")
-    print(f"  Total in window  : {len(all_sales)}")
-    print(f"  Wrong status     : {skipped_status}")
-    print(f"  No account pmt   : {skipped_payment}")
-    print(f"  Already notified : {skipped_seen}")
+    print(f"\n  Already notified : {already_seen}")
     print(f"  To process       : {len(candidates)}\n")
 
     if not candidates:
         print("Nothing to do. Exiting.")
         return
 
-    # Process each candidate — fetch full sale detail
     sent_ids = []
     errors   = []
 
-    for sale_id in candidates:
-        print(f"Fetching detail for sale {sale_id}...")
-        sale = get_sale_detail(token, employee_id, org_id, sale_id)
-        if not sale:
-            print(f"  ⚠ Could not retrieve sale detail — skipping")
-            errors.append(f"No detail for sale {sale_id}")
-            continue
+    for debit in candidates:
+        sale_id    = debit["sale_id"]
+        user_name  = debit["user_name"]
+        first_name = user_name.split()[0] if user_name else "Member"
+        amount_str  = cents_to_rand(debit["amount_cents"])
+        balance_str = cents_to_rand(debit["balance_cents"])
+        date_str    = format_sast(debit["created_at"])
 
-        # Find the account payment
-        acct_pmts = [p for p in sale.get("payments", []) if p.get("method") == "account"]
-        if not acct_pmts:
-            continue
-        payment = acct_pmts[0]
+        print(f"Processing: {user_name}  |  {amount_str}  |  {date_str}")
 
-        # Extract user
-        user       = payment.get("user") or {}
-        first_name = (user.get("firstName") or "Member").strip()
-        phone_raw  = user.get("phone", "")
-        if not phone_raw:
-            print(f"  ⚠ No phone for {first_name} — skipping")
-            errors.append(f"No phone for user in sale {sale_id}")
-            continue
-        phone = format_phone(phone_raw)
+        # Get phone + items from sale detail
+        phone      = None
+        items_str  = "your order"
+        sale       = get_sale_detail(token, employee_id, org_id, sale_id)
 
-        # Extract amounts and items
-        amount_cents  = payment.get("amount", 0)
-        balance_cents = payment.get("account", {}).get("balance", 0)
-        amount_str    = cents_to_rand(amount_cents)
-        balance_str   = cents_to_rand(balance_cents)
+        if sale:
+            acct_pmts = [p for p in sale.get("payments", []) if p.get("method") == "account"]
+            if acct_pmts:
+                user_obj  = acct_pmts[0].get("user") or {}
+                phone_raw = user_obj.get("phone", "")
+                if phone_raw:
+                    phone = format_phone(phone_raw)
+                    print(f"  Phone (sale)  : {phone}")
+                # Items
+                sale_items = sale.get("saleItems", [])
+                joined = ", ".join(
+                    i.get("displayName") or i.get("name", "")
+                    for i in sale_items
+                    if i.get("displayName") or i.get("name")
+                )
+                if joined:
+                    items_str = joined
 
-        sale_items = sale.get("saleItems", [])
-        items_str  = ", ".join(
-            i.get("displayName") or i.get("name", "")
-            for i in sale_items
-            if i.get("displayName") or i.get("name")
-        ) or "your order"
+        # Fall back to phone cache if sale/retrieve didn't give us the phone
+        if not phone:
+            name_lower = user_name.lower()
+            if name_lower in phone_cache:
+                phone = phone_cache[name_lower]
+                print(f"  Phone (cache) : {phone}")
+            else:
+                print(f"  ⚠ No phone found for {user_name} — skipping")
+                errors.append(f"No phone for {user_name} (sale {sale_id})")
+                continue
 
-        date_str = format_sast(sale.get("invoicedAt") or sale.get("createdAt", ""))
+        print(f"  Items         : {items_str}")
 
-        print(f"  Member : {first_name}  |  {phone}")
-        print(f"  Items  : {items_str}")
-        print(f"  Amount : {amount_str}  |  Balance: {balance_str}  |  {date_str}")
-
-        # Send
         try:
             sid = send_whatsapp(phone, first_name, amount_str, items_str, date_str, balance_str)
             print(f"  ✓ WhatsApp sent — SID: {sid}")
             sent_ids.append(sale_id)
         except Exception as e:
             print(f"  ✗ Twilio error: {e}")
-            errors.append(f"Twilio error for sale {sale_id} ({first_name}): {e}")
+            errors.append(f"Twilio error for {user_name}: {e}")
 
     # Persist state
     if sent_ids:
@@ -327,10 +314,10 @@ def main():
     # Summary
     print(f"\n{'='*55}")
     print(f"SUMMARY")
-    print(f"  Sent        : {len(sent_ids)}")
-    print(f"  Skipped     : {skipped_seen} already notified")
+    print(f"  Sent    : {len(sent_ids)}")
+    print(f"  Skipped : {already_seen} already notified")
     if errors:
-        print(f"  Errors ({len(errors)}):")
+        print(f"  Errors  : {len(errors)}")
         for e in errors:
             print(f"    - {e}")
     print(f"{'='*55}\n")
