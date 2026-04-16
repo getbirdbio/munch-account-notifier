@@ -22,7 +22,8 @@ LL_USERNAME   = os.environ["LL_USERNAME"]
 LL_PASSWORD   = os.environ["LL_PASSWORD"]
 ANTHROPIC_KEY = os.environ["ANTHROPIC_API_KEY"]
 
-STATE_FILE = os.path.join(os.path.dirname(__file__), "state", "loopy_state.json")
+STATE_FILE   = os.path.join(os.path.dirname(__file__), "state", "loopy_state.json")
+RUN_LOG_FILE = os.path.join(os.path.dirname(__file__), "state", "run_log.json")
 
 ALMOST_THERE_MIN      = 9    # stamps >= this triggers "almost there"
 COME_BACK_DAYS        = 14   # days since last stamp before nudge
@@ -106,10 +107,10 @@ def generate_message(scenario, context=""):
     client = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
     prompts = {
         "almost_there": (
-            f"Write a single fun, trendy push notification for a coffee loyalty app. "
-            f"The customer has {context} stamps — they need 12 for a free coffee. "
-            f"Hype them up, use 1-2 relevant emojis. MAX 90 characters total. "
-            f"Return ONLY the message text, nothing else."
+            f"Write a single fun, trendy push notification for a coffee loyalty card app. "
+            f"The customer has {context} stamps and is close to their next reward. "
+            f"Nudge them to visit again. Do NOT mention free coffee, discounts, or specific rewards. "
+            f"Use 1-2 emojis. MAX 90 characters. Return ONLY the message text, nothing else."
         ),
         "come_back": (
             f"Write a single fun, warm push notification to re-engage a coffee shop customer "
@@ -250,18 +251,41 @@ def main():
     token = ll_login()
     cards = list_all_cards(token)
 
-    total  = 0
-    total += run_almost_there(token, state, cards)
-    total += run_come_back(token, state, cards)
-    total += run_loyal(token, state, cards)
+    all_notifications = []
+    total = 0
+
+    n, notifs = run_almost_there(token, state, cards)
+    total += n; all_notifications.extend(notifs)
+
+    n, notifs = run_come_back(token, state, cards)
+    total += n; all_notifications.extend(notifs)
+
+    n, notifs = run_loyal(token, state, cards)
+    total += n; all_notifications.extend(notifs)
 
     save_json(STATE_FILE, state)
+
+    # --- Save run log ---
+    run_log = load_json(RUN_LOG_FILE, {"runs": []})
+    run_entry = {
+        "run_ts": now_sast.isoformat(),
+        "total_sent": total,
+        "by_scenario": {
+            "almost_there": sum(1 for n in all_notifications if n["scenario"] == "almost_there"),
+            "come_back":    sum(1 for n in all_notifications if n["scenario"] == "come_back"),
+            "loyal":        sum(1 for n in all_notifications if n["scenario"] == "loyal"),
+        },
+        "notifications": all_notifications,
+    }
+    run_log["runs"].append(run_entry)
+    # Keep last 90 days
+    cutoff90 = (datetime.now(timezone.utc) - timedelta(days=90)).isoformat()
+    run_log["runs"] = [r for r in run_log["runs"] if r["run_ts"] > cutoff90]
+    save_json(RUN_LOG_FILE, run_log)
 
     print(f"\n{'='*55}")
     print(f"TOTAL SENT: {total}")
     print(f"{'='*55}\n")
-    if total == 0 and not any(True for _ in []):
-        pass  # normal — nothing to send today
 
 if __name__ == "__main__":
     main()

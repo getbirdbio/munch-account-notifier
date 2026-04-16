@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loopy Loyalty — Notification Dashboard</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f7; color: #1d1d1f; }
+  header { background: #1a1a2e; color: white; padding: 20px 32px; display: flex; align-items: center; gap: 16px; }
+  header h1 { font-size: 22px; font-weight: 600; }
+  header .sub { font-size: 13px; opacity: 0.6; margin-top: 2px; }
+  .badge { background: #0071e3; color: white; padding: 4px 10px; border-radius: 20px; font-size: 12px; font-weight: 600; }
+  .container { max-width: 1200px; margin: 0 auto; padding: 24px 20px; }
+  .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin-bottom: 24px; }
+  .stat-card { background: white; border-radius: 12px; padding: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+  .stat-card .label { font-size: 12px; color: #6e6e73; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
+  .stat-card .value { font-size: 32px; font-weight: 700; }
+  .stat-card .delta { font-size: 12px; color: #34c759; margin-top: 4px; }
+  .almost { color: #ff9f0a; }
+  .comeback { color: #0071e3; }
+  .loyal { color: #34c759; }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 24px; }
+  @media (max-width: 700px) { .row { grid-template-columns: 1fr; } }
+  .card { background: white; border-radius: 12px; padding: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+  .card h2 { font-size: 15px; font-weight: 600; margin-bottom: 16px; color: #1d1d1f; }
+  .runs-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .runs-table th { text-align: left; padding: 8px 10px; border-bottom: 2px solid #f0f0f0; color: #6e6e73; font-weight: 600; font-size: 11px; text-transform: uppercase; }
+  .runs-table td { padding: 9px 10px; border-bottom: 1px solid #f5f5f7; vertical-align: top; }
+  .runs-table tr:last-child td { border-bottom: none; }
+  .runs-table tr:hover td { background: #fafafa; }
+  .pill { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; }
+  .pill.almost { background: #fff3cd; color: #b8620a; }
+  .pill.comeback { background: #d1ecff; color: #005aad; }
+  .pill.loyal { background: #d4edda; color: #1a7a36; }
+  .msg-text { font-style: italic; color: #444; max-width: 320px; }
+  .filter-bar { display: flex; gap: 10px; margin-bottom: 16px; flex-wrap: wrap; align-items: center; }
+  .filter-bar input { flex: 1; min-width: 200px; padding: 8px 12px; border: 1px solid #ddd; border-radius: 8px; font-size: 13px; }
+  .filter-bar select { padding: 8px 12px; border: 1px solid #ddd; border-radius: 8px; font-size: 13px; background: white; }
+  .filter-bar button { padding: 8px 14px; border: none; border-radius: 8px; cursor: pointer; font-size: 12px; font-weight: 600; }
+  .btn-all { background: #1a1a2e; color: white; }
+  .btn-almost { background: #fff3cd; color: #b8620a; }
+  .btn-cb { background: #d1ecff; color: #005aad; }
+  .btn-loyal { background: #d4edda; color: #1a7a36; }
+  .loader { text-align: center; padding: 60px; color: #6e6e73; font-size: 14px; }
+  .no-data { text-align: center; padding: 40px; color: #aaa; font-size: 14px; }
+  .refresh { float: right; font-size: 12px; color: #0071e3; cursor: pointer; text-decoration: underline; }
+  .run-header { font-weight: 600; font-size: 13px; color: #1d1d1f; margin-bottom: 2px; }
+  .run-sub { font-size: 11px; color: #6e6e73; }
+  .chart-wrap { position: relative; height: 220px; }
+  #pagination { display: flex; gap: 8px; justify-content: center; margin-top: 16px; }
+  #pagination button { padding: 6px 12px; border: 1px solid #ddd; border-radius: 6px; background: white; cursor: pointer; font-size: 12px; }
+  #pagination button.active { background: #1a1a2e; color: white; border-color: #1a1a2e; }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>☕ Loopy Loyalty — Push Notification Dashboard</h1>
+    <div class="sub">Getbird Birdhaven · Coffee Loyalty Campaign · Auto-updates daily</div>
+  </div>
+  <div class="badge" id="last-run-badge">Loading…</div>
+</header>
+
+<div class="container">
+
+  <!-- Summary stats -->
+  <div class="stats-grid" id="stats-grid">
+    <div class="stat-card"><div class="label">Total Sent (All Time)</div><div class="value" id="stat-total">—</div></div>
+    <div class="stat-card"><div class="label">☕ Almost There</div><div class="value almost" id="stat-almost">—</div><div class="delta">9+ stamps nudge</div></div>
+    <div class="stat-card"><div class="label">👋 Come Back</div><div class="value comeback" id="stat-cb">—</div><div class="delta">14+ days away</div></div>
+    <div class="stat-card"><div class="label">⭐ Loyal</div><div class="value loyal" id="stat-loyal">—</div><div class="delta">24+ lifetime stamps</div></div>
+    <div class="stat-card"><div class="label">Total Runs</div><div class="value" id="stat-runs">—</div></div>
+  </div>
+
+  <!-- Charts row -->
+  <div class="row">
+    <div class="card">
+      <h2>Sends Per Run <span class="refresh" onclick="loadData()">↻ Refresh</span></h2>
+      <div class="chart-wrap"><canvas id="chart-timeline"></canvas></div>
+    </div>
+    <div class="card">
+      <h2>Scenario Breakdown</h2>
+      <div class="chart-wrap"><canvas id="chart-pie"></canvas></div>
+    </div>
+  </div>
+
+  <!-- Notification log -->
+  <div class="card">
+    <h2>Notification Log</h2>
+    <div class="filter-bar">
+      <input type="text" id="search" placeholder="Search by name or message…" oninput="renderTable()">
+      <select id="scenario-filter" onchange="renderTable()">
+        <option value="">All Scenarios</option>
+        <option value="almost_there">☕ Almost There</option>
+        <option value="come_back">👋 Come Back</option>
+        <option value="loyal">⭐ Loyal</option>
+      </select>
+      <select id="run-filter" onchange="renderTable()"><option value="">All Runs</option></select>
+    </div>
+    <div id="table-container"><div class="loader">Loading notification data…</div></div>
+    <div id="pagination"></div>
+  </div>
+
+</div>
+
+<script>
+const RAW_URL = 'https://raw.githubusercontent.com/getbirdbio/munch-account-notifier/main/state/run_log.json';
+let allNotifs = [];
+let allRuns = [];
+let currentPage = 1;
+const PAGE_SIZE = 50;
+
+async function loadData() {
+  try {
+    const r = await fetch(RAW_URL + '?t=' + Date.now());
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const data = await r.json();
+    allRuns = (data.runs || []).slice().reverse(); // newest first
+    allNotifs = allRuns.flatMap(run =>
+      (run.notifications || []).map(n => ({...n, run_ts: run.run_ts}))
+    ).reverse(); // newest first
+
+    renderStats();
+    renderCharts();
+    renderRunFilter();
+    renderTable();
+    document.getElementById('last-run-badge').textContent =
+      allRuns.length ? 'Last run: ' + fmtDate(allRuns[0].run_ts) : 'No runs yet';
+  } catch(e) {
+    document.getElementById('table-container').innerHTML =
+      `<div class="no-data">Could not load data: ${e.message}<br><small>Data may not be available until the first run completes.</small></div>`;
+    document.getElementById('last-run-badge').textContent = 'No data';
+  }
+}
+
+function fmtDate(iso) {
+  if (!iso) return '—';
+  const d = new Date(iso);
+  return d.toLocaleDateString('en-ZA', {day:'2-digit',month:'short',year:'numeric'}) + ' ' +
+         d.toLocaleTimeString('en-ZA', {hour:'2-digit',minute:'2-digit'});
+}
+
+function renderStats() {
+  const total = allNotifs.length;
+  const almost = allNotifs.filter(n => n.scenario === 'almost_there').length;
+  const cb     = allNotifs.filter(n => n.scenario === 'come_back').length;
+  const loyal  = allNotifs.filter(n => n.scenario === 'loyal').length;
+  document.getElementById('stat-total').textContent  = total.toLocaleString();
+  document.getElementById('stat-almost').textContent = almost.toLocaleString();
+  document.getElementById('stat-cb').textContent     = cb.toLocaleString();
+  document.getElementById('stat-loyal').textContent  = loyal.toLocaleString();
+  document.getElementById('stat-runs').textContent   = allRuns.length;
+}
+
+let timelineChart, pieChart;
+function renderCharts() {
+  const runs = allRuns.slice(0, 20).reverse();
+  const labels = runs.map(r => fmtDate(r.run_ts).split(' ')[0]);
+  const almostData = runs.map(r => r.by_scenario?.almost_there || 0);
+  const cbData     = runs.map(r => r.by_scenario?.come_back    || 0);
+  const loyalData  = runs.map(r => r.by_scenario?.loyal        || 0);
+
+  if (timelineChart) timelineChart.destroy();
+  timelineChart = new Chart(document.getElementById('chart-timeline'), {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [
+        { label: 'Almost There', data: almostData, backgroundColor: '#ff9f0a' },
+        { label: 'Come Back',    data: cbData,     backgroundColor: '#0071e3' },
+        { label: 'Loyal',        data: loyalData,  backgroundColor: '#34c759' },
+      ]
+    },
+    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom' } }, scales: { x: { stacked: true }, y: { stacked: true } } }
+  });
+
+  const totals = [
+    allNotifs.filter(n => n.scenario === 'almost_there').length,
+    allNotifs.filter(n => n.scenario === 'come_back').length,
+    allNotifs.filter(n => n.scenario === 'loyal').length,
+  ];
+  if (pieChart) pieChart.destroy();
+  pieChart = new Chart(document.getElementById('chart-pie'), {
+    type: 'doughnut',
+    data: {
+      labels: ['Almost There', 'Come Back', 'Loyal'],
+      datasets: [{ data: totals, backgroundColor: ['#ff9f0a','#0071e3','#34c759'], borderWidth: 2 }]
+    },
+    options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom' } } }
+  });
+}
+
+function renderRunFilter() {
+  const sel = document.getElementById('run-filter');
+  const existing = sel.value;
+  sel.innerHTML = '<option value="">All Runs</option>';
+  allRuns.forEach(r => {
+    const opt = document.createElement('option');
+    opt.value = r.run_ts;
+    opt.textContent = fmtDate(r.run_ts) + ' (' + r.total_sent + ' sent)';
+    sel.appendChild(opt);
+  });
+  sel.value = existing;
+}
+
+function scenarioPill(s) {
+  const map = { almost_there: ['almost','☕ Almost There'], come_back: ['comeback','👋 Come Back'], loyal: ['loyal','⭐ Loyal'] };
+  const [cls, label] = map[s] || ['','Unknown'];
+  return `<span class="pill ${cls}">${label}</span>`;
+}
+
+function renderTable() {
+  const search   = document.getElementById('search').value.toLowerCase();
+  const scenario = document.getElementById('scenario-filter').value;
+  const runTs    = document.getElementById('run-filter').value;
+
+  let filtered = allNotifs.filter(n => {
+    if (scenario && n.scenario !== scenario) return false;
+    if (runTs && n.run_ts !== runTs) return false;
+    if (search && !n.name?.toLowerCase().includes(search) && !n.message?.toLowerCase().includes(search)) return false;
+    return true;
+  });
+
+  const total = filtered.length;
+  const pages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+  if (currentPage > pages) currentPage = 1;
+  const slice = filtered.slice((currentPage-1)*PAGE_SIZE, currentPage*PAGE_SIZE);
+
+  let html = `<table class="runs-table">
+    <thead><tr>
+      <th>Date &amp; Time (SAST)</th>
+      <th>Name</th>
+      <th>Scenario</th>
+      <th>Stamps</th>
+      <th>Message Sent</th>
+    </tr></thead><tbody>`;
+
+  if (!slice.length) {
+    html += `<tr><td colspan="5"><div class="no-data">No notifications match your filters.</div></td></tr>`;
+  } else {
+    slice.forEach(n => {
+      html += `<tr>
+        <td style="white-space:nowrap;color:#6e6e73">${fmtDate(n.ts)}</td>
+        <td><strong>${n.name || '—'}</strong></td>
+        <td>${scenarioPill(n.scenario)}</td>
+        <td style="text-align:center">${n.stamps ?? '—'}</td>
+        <td class="msg-text">${n.message || '—'}</td>
+      </tr>`;
+    });
+  }
+  html += '</tbody></table>';
+  html += `<div style="font-size:12px;color:#999;margin-top:8px">Showing ${Math.min((currentPage-1)*PAGE_SIZE+1, total)}–${Math.min(currentPage*PAGE_SIZE, total)} of ${total.toLocaleString()} notifications</div>`;
+  document.getElementById('table-container').innerHTML = html;
+
+  // Pagination
+  let pag = '';
+  for (let i = 1; i <= Math.min(pages, 10); i++) {
+    pag += `<button class="${i===currentPage?'active':''}" onclick="goPage(${i})">${i}</button>`;
+  }
+  if (pages > 10) pag += `<button disabled>…${pages}</button>`;
+  document.getElementById('pagination').innerHTML = pag;
+}
+
+function goPage(p) { currentPage = p; renderTable(); }
+
+loadData();
+setInterval(loadData, 5 * 60 * 1000); // auto-refresh every 5 min
+</script>
+</body>
+</html>
