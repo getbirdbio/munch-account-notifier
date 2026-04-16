@@ -31,6 +31,9 @@ CACHE_FILE        = os.path.join(os.path.dirname(__file__), "state", "member_pho
 MAX_STATE_ENTRIES = 500
 LOOKBACK_HOURS    = 2    # hourly runner — only look back 2h
 
+# System / test accounts to never notify
+SKIP_USERS = {"loyalty loyalty", ""}
+
 
 # ── Helpers ────────────────────────────────────────────────────────────────
 
@@ -196,9 +199,8 @@ def send_whatsapp(phone, first_name, amount, items, date_str, balance):
     """
     url = f"https://api.twilio.com/2010-04-01/Accounts/{TWILIO_SID}/Messages.json"
     payload = {
-        "From":                TWILIO_FROM,
-        "To":                  f"whatsapp:{phone}",
         "MessagingServiceSid": MESSAGING_SVC,
+        "To":                  f"whatsapp:{phone}",
         "ContentSid":          CONTENT_SID,
         "ContentVariables":    json.dumps({
             "1": first_name,
@@ -255,6 +257,12 @@ def main():
         amount_str  = cents_to_rand(debit["amount_cents"])
         balance_str = cents_to_rand(debit["balance_cents"])
         date_str    = format_sast(debit["created_at"])
+
+        # Skip system/test accounts
+        if user_name.lower() in SKIP_USERS:
+            print(f"  ↷ Skipping system account: {user_name!r}")
+            notified.add(sale_id)   # mark so it doesn't reappear
+            continue
 
         print(f"Processing: {user_name}  |  {amount_str}  |  {date_str}")
 
