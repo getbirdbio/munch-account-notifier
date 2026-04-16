@@ -29,7 +29,7 @@ MUNCH_PASSWORD = os.environ["MUNCH_PASSWORD"]
 STATE_FILE        = os.path.join(os.path.dirname(__file__), "state", "notified_transactions.json")
 CACHE_FILE        = os.path.join(os.path.dirname(__file__), "state", "member_phone_cache.json")
 MAX_STATE_ENTRIES = 500
-LOOKBACK_HOURS    = 2    # hourly runner — only look back 2h
+LOOKBACK_HOURS    = 25   # one-off catch-up run for today
 
 
 # ── Helpers ────────────────────────────────────────────────────────────────
