@@ -1,0 +1,4991 @@
+{
+  "runs": [
+    {
+      "run_ts": "2026-04-16T11:16:38+02:00",
+      "total_sent": 622,
+      "by_scenario": {
+        "almost_there": 153,
+        "come_back": 50,
+        "loyal": 419
+      },
+      "notifications": [
+        {
+          "ts": "2026-04-16T09:16:45.059243+00:00",
+          "scenario": "almost_there",
+          "card_id": "UuVujkXgmA229i",
+          "name": "Brent Fuhr",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:45.498948+00:00",
+          "scenario": "almost_there",
+          "card_id": "uqxu3j9hc5MX9c",
+          "name": "Howard Segall",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:45.962201+00:00",
+          "scenario": "almost_there",
+          "card_id": "sXNDSwJU0apMcV",
+          "name": "Alexa Peters",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:46.418813+00:00",
+          "scenario": "almost_there",
+          "card_id": "O35rONA6X0xCwf",
+          "name": "Gabriella",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:46.829279+00:00",
+          "scenario": "almost_there",
+          "card_id": "mrWOtVS9apqRb7",
+          "name": "Josephine",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:47.384568+00:00",
+          "scenario": "almost_there",
+          "card_id": "xiVaeawLvmorPw",
+          "name": "Tanya Cruz",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:48.016858+00:00",
+          "scenario": "almost_there",
+          "card_id": "ng0qLrDSkjtADu",
+          "name": "Jenna Kantor",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:48.444406+00:00",
+          "scenario": "almost_there",
+          "card_id": "jDSOLEmKOQWBrQ",
+          "name": "Albe",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:48.919075+00:00",
+          "scenario": "almost_there",
+          "card_id": "G8fAFXlT5mi9vZ",
+          "name": "Heather Dixon",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:49.331293+00:00",
+          "scenario": "almost_there",
+          "card_id": "tlFsMpWUN0zcr6",
+          "name": "Michael Gamsu",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:49.939396+00:00",
+          "scenario": "almost_there",
+          "card_id": "0tYEXOFGT1eZme",
+          "name": "Jhana Weltman",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:50.341659+00:00",
+          "scenario": "almost_there",
+          "card_id": "659gFUiy55x2hp",
+          "name": "Candice",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:50.753787+00:00",
+          "scenario": "almost_there",
+          "card_id": "KR1qNuNnSpY0LP",
+          "name": "Lee-In Chen",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:51.226169+00:00",
+          "scenario": "almost_there",
+          "card_id": "ghWMXvuDP8f223",
+          "name": "Amira Bloch",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:51.729293+00:00",
+          "scenario": "almost_there",
+          "card_id": "aEajVoJY7kQsn5",
+          "name": "Jacqui Clucas",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:52.252991+00:00",
+          "scenario": "almost_there",
+          "card_id": "r3kaB7dcQorRYH",
+          "name": "Mia van der Nest",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:52.649582+00:00",
+          "scenario": "almost_there",
+          "card_id": "7VDlzAAP9ORpYH",
+          "name": "Carli Hugo",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:53.071577+00:00",
+          "scenario": "almost_there",
+          "card_id": "WOAPjWTJ1Yl10r",
+          "name": "Talya",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:53.480541+00:00",
+          "scenario": "almost_there",
+          "card_id": "1hH88ZEvFPoL3o",
+          "name": "Simon",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:53.886475+00:00",
+          "scenario": "almost_there",
+          "card_id": "4TqvnBXfiADYMS",
+          "name": "David Rabinowitz",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:54.554581+00:00",
+          "scenario": "almost_there",
+          "card_id": "4l9U4UoGP2OgPw",
+          "name": "G S",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:55.024239+00:00",
+          "scenario": "almost_there",
+          "card_id": "Cs5bxir6Dv3vY7",
+          "name": "Sarah Vogel",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:55.441669+00:00",
+          "scenario": "almost_there",
+          "card_id": "W32JAGtrphK8bf",
+          "name": "Charles Burman",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:55.887948+00:00",
+          "scenario": "almost_there",
+          "card_id": "fVuRXZKTYM4HiH",
+          "name": "Wanya Visagie",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:56.358643+00:00",
+          "scenario": "almost_there",
+          "card_id": "v1zgIPqdPdtGro",
+          "name": "Kelby Crane",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:56.817536+00:00",
+          "scenario": "almost_there",
+          "card_id": "xq4aK4ckT7i7xZ",
+          "name": "Pierre van der Hoven",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:57.246999+00:00",
+          "scenario": "almost_there",
+          "card_id": "jqT91RyqRelcwO",
+          "name": "Mike",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:57.658744+00:00",
+          "scenario": "almost_there",
+          "card_id": "ehUBSMjD9w86CN",
+          "name": "Jodi",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:58.083640+00:00",
+          "scenario": "almost_there",
+          "card_id": "Gz6Runw5ZT1wQR",
+          "name": "Rachelli",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:58.657468+00:00",
+          "scenario": "almost_there",
+          "card_id": "vAWXt4jqDHq8j2",
+          "name": "Rita",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:59.081762+00:00",
+          "scenario": "almost_there",
+          "card_id": "TLvBEP21qqDAqI",
+          "name": "Karen Prissman",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:59.538883+00:00",
+          "scenario": "almost_there",
+          "card_id": "4w6g1UgKwww9M5",
+          "name": "Julian Sun",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:16:59.966724+00:00",
+          "scenario": "almost_there",
+          "card_id": "JcAUPzJOapOlSy",
+          "name": "Benji",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:00.584343+00:00",
+          "scenario": "almost_there",
+          "card_id": "3o4AQMIQKlqw8q",
+          "name": "Tracy Ackermann",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:01.000332+00:00",
+          "scenario": "almost_there",
+          "card_id": "v5vjRgODspoT41",
+          "name": "Sello",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:01.417266+00:00",
+          "scenario": "almost_there",
+          "card_id": "uqF7gqN0DXSuiM",
+          "name": "Sean",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:01.868619+00:00",
+          "scenario": "almost_there",
+          "card_id": "DT63rWTnRqJwew",
+          "name": "Zo\u00eb Austen",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:02.500448+00:00",
+          "scenario": "almost_there",
+          "card_id": "JHoKYxhJFHYa9L",
+          "name": "Caitlin Solomons",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:02.935348+00:00",
+          "scenario": "almost_there",
+          "card_id": "lzSVXi5T8sttXk",
+          "name": "Mari Rabie",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:03.387624+00:00",
+          "scenario": "almost_there",
+          "card_id": "h5Iy4d0sKPB6uP",
+          "name": "Caitlin Williams",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:03.813751+00:00",
+          "scenario": "almost_there",
+          "card_id": "eCkeh7AD7o9ggJ",
+          "name": "Glen Copans",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:04.258611+00:00",
+          "scenario": "almost_there",
+          "card_id": "bUAFj88r68M7NI",
+          "name": "Doron Falk",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:04.664174+00:00",
+          "scenario": "almost_there",
+          "card_id": "rz6heaknrOVR0N",
+          "name": "Francois Lion-Cachet",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:05.094583+00:00",
+          "scenario": "almost_there",
+          "card_id": "tFFnn9Y9gBNx6T",
+          "name": "Marc Romberg",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:05.676450+00:00",
+          "scenario": "almost_there",
+          "card_id": "wVwCTjEEzV9Hwd",
+          "name": "Justin",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:06.135335+00:00",
+          "scenario": "almost_there",
+          "card_id": "ktZOxatZq5NGgN",
+          "name": "Darren Sosnovik",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:06.583436+00:00",
+          "scenario": "almost_there",
+          "card_id": "vWUDtSaPLFyK3Y",
+          "name": "Ben",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:06.975409+00:00",
+          "scenario": "almost_there",
+          "card_id": "8VJc9PnXFmgsvl",
+          "name": "Matthew Bray",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:07.552437+00:00",
+          "scenario": "almost_there",
+          "card_id": "5NiSL1xF6TOpXc",
+          "name": "David",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:08.183570+00:00",
+          "scenario": "almost_there",
+          "card_id": "z1VOK8QjIMNdJI",
+          "name": "Michael Naude",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:08.600567+00:00",
+          "scenario": "almost_there",
+          "card_id": "z43kkoGCNGBe1A",
+          "name": "Mia Nichol",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:09.062956+00:00",
+          "scenario": "almost_there",
+          "card_id": "yclE9dHnIsNNkN",
+          "name": "Tori Emdin",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:09.477731+00:00",
+          "scenario": "almost_there",
+          "card_id": "keSoIopMSJkMcv",
+          "name": "Dani Zekry",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:09.889801+00:00",
+          "scenario": "almost_there",
+          "card_id": "th74VFoxR4tg5a",
+          "name": "Heather green",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:10.503348+00:00",
+          "scenario": "almost_there",
+          "card_id": "9HtulsWRTsPFdQ",
+          "name": "Hannah Jossel",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:10.989304+00:00",
+          "scenario": "almost_there",
+          "card_id": "s9U9i5uFEJ5pCp",
+          "name": "Glenda Kaplan",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:11.448021+00:00",
+          "scenario": "almost_there",
+          "card_id": "kIQ7J0vyDGlORZ",
+          "name": "Sarah Erasmus",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:12.281403+00:00",
+          "scenario": "almost_there",
+          "card_id": "oXOu5Lr8LJqk5F",
+          "name": "Chaya Riesenburg",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:12.719335+00:00",
+          "scenario": "almost_there",
+          "card_id": "EkikWyrOoiIa2Q",
+          "name": "Laura van der Haer",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:13.184398+00:00",
+          "scenario": "almost_there",
+          "card_id": "mLVQQheX0cpflM",
+          "name": "Jessica Dutton",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:13.725850+00:00",
+          "scenario": "almost_there",
+          "card_id": "pUiAC0KkEsfyaw",
+          "name": "Adam Bresler",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:14.184820+00:00",
+          "scenario": "almost_there",
+          "card_id": "RFN9lzrFpi3IY2",
+          "name": "Stella",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:14.773410+00:00",
+          "scenario": "almost_there",
+          "card_id": "QRLf54OuFteSy7",
+          "name": "Neil Promnick",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:15.215142+00:00",
+          "scenario": "almost_there",
+          "card_id": "Wn8wtFSrN9nWaz",
+          "name": "Rokeya Lakhi",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:15.857125+00:00",
+          "scenario": "almost_there",
+          "card_id": "xDxuqhsmMSlEHM",
+          "name": "Allan Joffe",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:16.334140+00:00",
+          "scenario": "almost_there",
+          "card_id": "RWDH1oAy8lWImf",
+          "name": "Mark Smith",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:16.737842+00:00",
+          "scenario": "almost_there",
+          "card_id": "DIv8j3avvT9EuZ",
+          "name": "Brendan",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:18.869468+00:00",
+          "scenario": "almost_there",
+          "card_id": "rCYADouMyCo8BZ",
+          "name": "Eleni Artemides",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:19.290790+00:00",
+          "scenario": "almost_there",
+          "card_id": "auKQxoj0WOP3Pe",
+          "name": "Jesmika",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:19.860844+00:00",
+          "scenario": "almost_there",
+          "card_id": "whRcwfWYlPfPTg",
+          "name": "Kate",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:20.292846+00:00",
+          "scenario": "almost_there",
+          "card_id": "gGaZWf4sQiObJA",
+          "name": "Nuvi Pillay",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:20.705044+00:00",
+          "scenario": "almost_there",
+          "card_id": "F0ENFRlLnL1iFc",
+          "name": "Robbie",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:21.135422+00:00",
+          "scenario": "almost_there",
+          "card_id": "6E9pLLV6CmHdcg",
+          "name": "Adrienne B",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:21.580239+00:00",
+          "scenario": "almost_there",
+          "card_id": "GVaXas5K7gyhma",
+          "name": "Sofia",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:21.992390+00:00",
+          "scenario": "almost_there",
+          "card_id": "XyTs0BiIrRuvLp",
+          "name": "Gina Altshuler",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:22.408028+00:00",
+          "scenario": "almost_there",
+          "card_id": "3rSmt4R9LwFin6",
+          "name": "David",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:22.895990+00:00",
+          "scenario": "almost_there",
+          "card_id": "e2TjyBL5tAlPPr",
+          "name": "Kevin Frankental",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:23.313253+00:00",
+          "scenario": "almost_there",
+          "card_id": "kAsamPxRZGFoq5",
+          "name": "Sarah",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:23.757411+00:00",
+          "scenario": "almost_there",
+          "card_id": "gqj0MTG8WzFWSV",
+          "name": "Theo de Jager",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:24.419891+00:00",
+          "scenario": "almost_there",
+          "card_id": "tK1kPsFDzAMeTC",
+          "name": "Kirsten Keen",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:25.138073+00:00",
+          "scenario": "almost_there",
+          "card_id": "sZl0CbY9Ml4Wm1",
+          "name": "Luke Judhe",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:25.589196+00:00",
+          "scenario": "almost_there",
+          "card_id": "4eOtNXs3oGEqgF",
+          "name": "Alexa Bortz",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:26.176808+00:00",
+          "scenario": "almost_there",
+          "card_id": "rOBxOi90fXMcFU",
+          "name": "Thea Shapiro",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:26.607635+00:00",
+          "scenario": "almost_there",
+          "card_id": "h1RYCRFjNMOpDw",
+          "name": "Josh Ackerman",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:27.016592+00:00",
+          "scenario": "almost_there",
+          "card_id": "8ferBI2F4tWMn0",
+          "name": "Natalie Moutafis",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:27.457012+00:00",
+          "scenario": "almost_there",
+          "card_id": "5XfRUf2oUOIvA6",
+          "name": "Ryan Brick",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:27.873828+00:00",
+          "scenario": "almost_there",
+          "card_id": "rdB8bCEoJvH0Rl",
+          "name": "Ari Chipkin",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:28.294864+00:00",
+          "scenario": "almost_there",
+          "card_id": "XjdIyfB8Ir0xku",
+          "name": "Jonathan Hertz",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:28.986195+00:00",
+          "scenario": "almost_there",
+          "card_id": "562nSqX3bbvP6O",
+          "name": "Jo morreira",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:29.415572+00:00",
+          "scenario": "almost_there",
+          "card_id": "oWTX0qQ5EayUMn",
+          "name": "Ruhan Strydom",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:29.825847+00:00",
+          "scenario": "almost_there",
+          "card_id": "xN5AcYV1mGzz2G",
+          "name": "Josh Katz",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:30.227815+00:00",
+          "scenario": "almost_there",
+          "card_id": "QZtgiau4cn23kf",
+          "name": "Dr Vladimir Jovanovic",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:30.669731+00:00",
+          "scenario": "almost_there",
+          "card_id": "pYHQPtSy3RQ2PY",
+          "name": "Emma",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:31.097429+00:00",
+          "scenario": "almost_there",
+          "card_id": "uxsWbANicViyqB",
+          "name": "Yasmin Furmie",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:31.530398+00:00",
+          "scenario": "almost_there",
+          "card_id": "0cZ4SWcHTe3WFB",
+          "name": "Adel",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:32.184076+00:00",
+          "scenario": "almost_there",
+          "card_id": "zpf48yrhWovDX9",
+          "name": "Taryn",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:32.588886+00:00",
+          "scenario": "almost_there",
+          "card_id": "dUlu91zfhaRJ9i",
+          "name": "Beverly Smullen",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:33.013338+00:00",
+          "scenario": "almost_there",
+          "card_id": "nu47WC2Upnf7PG",
+          "name": "Bernalee",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:33.409097+00:00",
+          "scenario": "almost_there",
+          "card_id": "xRgtLMFejOuTbE",
+          "name": "Sharon Sopher",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:33.852303+00:00",
+          "scenario": "almost_there",
+          "card_id": "3DbmiZeb9PDbVU",
+          "name": "Yael",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:34.273402+00:00",
+          "scenario": "almost_there",
+          "card_id": "Tp8kgxDDUsFyI7",
+          "name": "James",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:34.700732+00:00",
+          "scenario": "almost_there",
+          "card_id": "UBeWrs89QWh2Nx",
+          "name": "Leonie",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:35.117438+00:00",
+          "scenario": "almost_there",
+          "card_id": "RscamNqylLISdT",
+          "name": "Fabienne Witts-Hewinson",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:35.537001+00:00",
+          "scenario": "almost_there",
+          "card_id": "pMc4r58oTl8QA1",
+          "name": "David Greenway",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:35.937471+00:00",
+          "scenario": "almost_there",
+          "card_id": "xKNKnJUN9VuFNB",
+          "name": "Adam Hurwitz",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:37.446718+00:00",
+          "scenario": "almost_there",
+          "card_id": "zUEpuxMlYGPZaN",
+          "name": "Tidimalo",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:37.877454+00:00",
+          "scenario": "almost_there",
+          "card_id": "f076TxIoH3NNw9",
+          "name": "Caiti Mackenzie",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:38.276285+00:00",
+          "scenario": "almost_there",
+          "card_id": "uikbmLVNEFFxiE",
+          "name": "Odwa",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:38.669774+00:00",
+          "scenario": "almost_there",
+          "card_id": "Taxtx6AYEH718l",
+          "name": "Matt",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:39.062999+00:00",
+          "scenario": "almost_there",
+          "card_id": "hYdAXtvOxgJufJ",
+          "name": "Charlotte",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:39.478833+00:00",
+          "scenario": "almost_there",
+          "card_id": "LgFaxfgF7obcjI",
+          "name": "Olivia Radford",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:39.899783+00:00",
+          "scenario": "almost_there",
+          "card_id": "sTN5DE1Zo8Rgn2",
+          "name": "Qhawekazi Ngcobo",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:40.335388+00:00",
+          "scenario": "almost_there",
+          "card_id": "vkRU7mZaHTHuSP",
+          "name": "Mark Mofsowitz",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:40.782850+00:00",
+          "scenario": "almost_there",
+          "card_id": "JI0Ek2CHTwqmRJ",
+          "name": "Kayleigh Bersiks",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:41.200567+00:00",
+          "scenario": "almost_there",
+          "card_id": "NiKdpyPwUsIv9s",
+          "name": "Portia Matoli",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:41.615786+00:00",
+          "scenario": "almost_there",
+          "card_id": "h6GmM3hVk3emJc",
+          "name": "Khumo",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:42.228430+00:00",
+          "scenario": "almost_there",
+          "card_id": "UbSYsJDurpyEqe",
+          "name": "Tali berzack",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:42.653441+00:00",
+          "scenario": "almost_there",
+          "card_id": "vD6GBZLd6bjxQf",
+          "name": "Lindi Hawke",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:43.299425+00:00",
+          "scenario": "almost_there",
+          "card_id": "LwQBbRxdHjOj00",
+          "name": "Chandni",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:43.958517+00:00",
+          "scenario": "almost_there",
+          "card_id": "SPowX4WWI6eKi4",
+          "name": "Michael Shapiro",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:44.388597+00:00",
+          "scenario": "almost_there",
+          "card_id": "jMtnvp3a2FTqWC",
+          "name": "Danielle Meyerowitz",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:44.830238+00:00",
+          "scenario": "almost_there",
+          "card_id": "gZMpP65LGAFwoW",
+          "name": "Gila Orkin",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:45.246706+00:00",
+          "scenario": "almost_there",
+          "card_id": "IrKUB14dqfG3wD",
+          "name": "Katinka Harsanyi",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:45.674163+00:00",
+          "scenario": "almost_there",
+          "card_id": "yBWbtoZoHTtgvy",
+          "name": "Jake",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:46.359589+00:00",
+          "scenario": "almost_there",
+          "card_id": "SIr8v85271LiLF",
+          "name": "Riana",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:46.760487+00:00",
+          "scenario": "almost_there",
+          "card_id": "6f29TMB0DB2zs4",
+          "name": "Pretash Bhoola",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:47.188637+00:00",
+          "scenario": "almost_there",
+          "card_id": "QQTmbq6XGbuJ1r",
+          "name": "Sara Joselowsky",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:47.857092+00:00",
+          "scenario": "almost_there",
+          "card_id": "vxlCQUpokzvg36",
+          "name": "Gabi goldstein",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:48.267540+00:00",
+          "scenario": "almost_there",
+          "card_id": "mBrhWNynRXhijT",
+          "name": "Cliff Rosen",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:48.684433+00:00",
+          "scenario": "almost_there",
+          "card_id": "aUKZjf3R64pcHK",
+          "name": "Justine Seeff",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:49.296080+00:00",
+          "scenario": "almost_there",
+          "card_id": "FYCpFbtBKF8QK7",
+          "name": "Ross",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:49.726443+00:00",
+          "scenario": "almost_there",
+          "card_id": "V5MeCpK6VRrBXT",
+          "name": "Helena Comitis",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:50.119773+00:00",
+          "scenario": "almost_there",
+          "card_id": "ZHx7HpKn5coLOV",
+          "name": "Kylie Skye",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:50.523269+00:00",
+          "scenario": "almost_there",
+          "card_id": "Lc983IP1dP5ECH",
+          "name": "Hadassah Atie",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:50.922534+00:00",
+          "scenario": "almost_there",
+          "card_id": "VcK8AHWn5uoJB6",
+          "name": "Marissa Selipas",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:51.334595+00:00",
+          "scenario": "almost_there",
+          "card_id": "HUVl1uLhhYLVHC",
+          "name": "Mark Morreira",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:52.024492+00:00",
+          "scenario": "almost_there",
+          "card_id": "O819UcAmT8Cia4",
+          "name": "Andrew Smith",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:52.448859+00:00",
+          "scenario": "almost_there",
+          "card_id": "GgzKgrsDJzUs8T",
+          "name": "Ruan Du Toit",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:52.849223+00:00",
+          "scenario": "almost_there",
+          "card_id": "xiNC9P55iIutBr",
+          "name": "Thabo Boom",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:53.246615+00:00",
+          "scenario": "almost_there",
+          "card_id": "6B1ywKNe6hrFyP",
+          "name": "Gavin Morris",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:53.649321+00:00",
+          "scenario": "almost_there",
+          "card_id": "QLIulaKWXyVmE8",
+          "name": "Claire Hislop",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:54.088340+00:00",
+          "scenario": "almost_there",
+          "card_id": "4CxWprORSrwAmE",
+          "name": "Morgan Robbie",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:54.521546+00:00",
+          "scenario": "almost_there",
+          "card_id": "C2aY1KoxeVtGKg",
+          "name": "Tali Britany",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:54.946922+00:00",
+          "scenario": "almost_there",
+          "card_id": "DwxPtuiM2DBInM",
+          "name": "Erin Gottlieb",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:55.387134+00:00",
+          "scenario": "almost_there",
+          "card_id": "j1XnJA4UAXxUjo",
+          "name": "Julie Moritz",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:55.787012+00:00",
+          "scenario": "almost_there",
+          "card_id": "tv6lxn4xmu5URF",
+          "name": "Jenna Moritz",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:56.208675+00:00",
+          "scenario": "almost_there",
+          "card_id": "bhtQIZG3gWyABb",
+          "name": "Kerry Vinokur",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:56.818747+00:00",
+          "scenario": "almost_there",
+          "card_id": "vhHMcDfE1dybhw",
+          "name": "Jonathan Blumenthal",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:57.237337+00:00",
+          "scenario": "almost_there",
+          "card_id": "znrumVEr3ZLq1T",
+          "name": "Meg",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:57.654137+00:00",
+          "scenario": "almost_there",
+          "card_id": "RW1CjzxkpCnMiW",
+          "name": "Amy messer",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:58.268871+00:00",
+          "scenario": "almost_there",
+          "card_id": "D5rNYu5F3pTpGG",
+          "name": "Serena",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:58.692895+00:00",
+          "scenario": "almost_there",
+          "card_id": "35AJahvt04Fk7S",
+          "name": "Anna Rose",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:17:59.493597+00:00",
+          "scenario": "almost_there",
+          "card_id": "8Trtst3gewg2rq",
+          "name": "Ross Maharage",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:01.139114+00:00",
+          "scenario": "come_back",
+          "card_id": "SM6WLhQFEYfq8n",
+          "name": "Simanga Anosa",
+          "stamps": 3,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:01.567031+00:00",
+          "scenario": "come_back",
+          "card_id": "svqyMv1ILstXuh",
+          "name": "Ross Minter-Brown",
+          "stamps": 5,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:01.967526+00:00",
+          "scenario": "come_back",
+          "card_id": "jKxvzRl80m3WUy",
+          "name": "Jemma Waksman",
+          "stamps": 2,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:02.385178+00:00",
+          "scenario": "come_back",
+          "card_id": "zUEpuxMlYGPZaN",
+          "name": "Tidimalo",
+          "stamps": 11,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:02.831409+00:00",
+          "scenario": "come_back",
+          "card_id": "bCK7kMjwiB6U93",
+          "name": "Nathan van Muylwyk",
+          "stamps": 4,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:03.266316+00:00",
+          "scenario": "come_back",
+          "card_id": "eFfZMmDn2MHeqX",
+          "name": "Michelle",
+          "stamps": 2,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:03.714623+00:00",
+          "scenario": "come_back",
+          "card_id": "wq9Mvzbtg6NIv7",
+          "name": "Kirsty Varejes",
+          "stamps": 5,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:04.170003+00:00",
+          "scenario": "come_back",
+          "card_id": "XN3MxOnSGtNpJi",
+          "name": "Katie",
+          "stamps": 1,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:04.674810+00:00",
+          "scenario": "come_back",
+          "card_id": "fToVatQ9vtakhR",
+          "name": "Rebecca Duffy",
+          "stamps": 2,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:05.077079+00:00",
+          "scenario": "come_back",
+          "card_id": "F5o5jesEwLDn3u",
+          "name": "Katerina georgiades",
+          "stamps": 6,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:05.699998+00:00",
+          "scenario": "come_back",
+          "card_id": "234Y3tyTT6Ui2k",
+          "name": "Katherine Ward",
+          "stamps": 6,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:06.100536+00:00",
+          "scenario": "come_back",
+          "card_id": "Q7y5VAb0K0fPPt",
+          "name": "Jordy Sevitz",
+          "stamps": 6,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:06.745657+00:00",
+          "scenario": "come_back",
+          "card_id": "Cnw1dKfOWniZ1l",
+          "name": "Jaden Jaffe",
+          "stamps": 4,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:07.234528+00:00",
+          "scenario": "come_back",
+          "card_id": "1RR33Jsv378U6J",
+          "name": "Brochi Ginsberg",
+          "stamps": 2,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:07.623065+00:00",
+          "scenario": "come_back",
+          "card_id": "GsPAskclL23c3i",
+          "name": "Robin Champion",
+          "stamps": 7,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:08.115414+00:00",
+          "scenario": "come_back",
+          "card_id": "eMTGCWcG17N27v",
+          "name": "Gabriella Hector",
+          "stamps": 4,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:08.558829+00:00",
+          "scenario": "come_back",
+          "card_id": "zqvg5vbYM26Amq",
+          "name": "Banzi",
+          "stamps": 2,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:08.992273+00:00",
+          "scenario": "come_back",
+          "card_id": "lxTlecZRmzyH1w",
+          "name": "Mia Lazarus",
+          "stamps": 7,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:09.412709+00:00",
+          "scenario": "come_back",
+          "card_id": "lZ4hPzxPvnWs07",
+          "name": "George Gearing",
+          "stamps": 2,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:09.818630+00:00",
+          "scenario": "come_back",
+          "card_id": "sXNDSwJU0apMcV",
+          "name": "Alexa Peters",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:10.236836+00:00",
+          "scenario": "come_back",
+          "card_id": "FbutPwUyBismg6",
+          "name": "Bev",
+          "stamps": 5,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:10.641866+00:00",
+          "scenario": "come_back",
+          "card_id": "mkKBm5OylhbgSO",
+          "name": "Caitlin Carson",
+          "stamps": 4,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:11.071728+00:00",
+          "scenario": "come_back",
+          "card_id": "PNIBiWIwWhpGgC",
+          "name": "Harry",
+          "stamps": 7,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:11.471377+00:00",
+          "scenario": "come_back",
+          "card_id": "Z4a8hTurrWrPan",
+          "name": "Shelene Shaer",
+          "stamps": 1,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:11.870082+00:00",
+          "scenario": "come_back",
+          "card_id": "dPlh9r8QPqCSZF",
+          "name": "Deandra",
+          "stamps": 1,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:12.283459+00:00",
+          "scenario": "come_back",
+          "card_id": "qd1oaXFP5ixK5i",
+          "name": "Christopher Flower",
+          "stamps": 7,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:12.728168+00:00",
+          "scenario": "come_back",
+          "card_id": "Cr1T4pGFOKHElB",
+          "name": "Sebastian Naidoo",
+          "stamps": 1,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:13.142431+00:00",
+          "scenario": "come_back",
+          "card_id": "BDwHPi595MU1ur",
+          "name": "Leanne Phillips",
+          "stamps": 1,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:13.554933+00:00",
+          "scenario": "come_back",
+          "card_id": "0zFApiMOKR6sHB",
+          "name": "Megan Dixon",
+          "stamps": 3,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:14.097581+00:00",
+          "scenario": "come_back",
+          "card_id": "0tJh2aCMe6Q8VT",
+          "name": "Paul Troskie",
+          "stamps": 2,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:14.518421+00:00",
+          "scenario": "come_back",
+          "card_id": "TqOPh6ptjhHQP2",
+          "name": "Jill Steinberg",
+          "stamps": 12,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:14.944844+00:00",
+          "scenario": "come_back",
+          "card_id": "iREfoR5FmwprAt",
+          "name": "David romero",
+          "stamps": 2,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:15.352726+00:00",
+          "scenario": "come_back",
+          "card_id": "LkChWICZu1x2cD",
+          "name": "Zach Melvill",
+          "stamps": 2,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:15.799130+00:00",
+          "scenario": "come_back",
+          "card_id": "mfgaEHaTDm3w3l",
+          "name": "Cristina Da Naia",
+          "stamps": 1,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:16.190588+00:00",
+          "scenario": "come_back",
+          "card_id": "rCYADouMyCo8BZ",
+          "name": "Eleni Artemides",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:16.582033+00:00",
+          "scenario": "come_back",
+          "card_id": "xiVaeawLvmorPw",
+          "name": "Tanya Cruz",
+          "stamps": 9,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:17.138058+00:00",
+          "scenario": "come_back",
+          "card_id": "4Wdyi6UCiOxU0p",
+          "name": "Mabedi",
+          "stamps": 4,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:17.562743+00:00",
+          "scenario": "come_back",
+          "card_id": "nnc97AI9VuuCYj",
+          "name": "Sherril Goldberg",
+          "stamps": 3,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:18.190140+00:00",
+          "scenario": "come_back",
+          "card_id": "52Rpw0DhCivw0x",
+          "name": "Tessa Ovadia",
+          "stamps": 12,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:18.641248+00:00",
+          "scenario": "come_back",
+          "card_id": "aLKgR2Z3u0YJ0S",
+          "name": "Marina Wildt",
+          "stamps": 2,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:19.044087+00:00",
+          "scenario": "come_back",
+          "card_id": "9tzDi5QD4eyUZp",
+          "name": "Georgina Midgley",
+          "stamps": 6,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:19.445760+00:00",
+          "scenario": "come_back",
+          "card_id": "UGDUI4FcK0ct9B",
+          "name": "Amira",
+          "stamps": 7,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:19.846755+00:00",
+          "scenario": "come_back",
+          "card_id": "auKQxoj0WOP3Pe",
+          "name": "Jesmika",
+          "stamps": 10,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:20.242590+00:00",
+          "scenario": "come_back",
+          "card_id": "SmyQEcJ6u9bO0U",
+          "name": "Hannah Prawde",
+          "stamps": 1,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:20.651732+00:00",
+          "scenario": "come_back",
+          "card_id": "70kGe58kIxhe9C",
+          "name": "Gemma Katz",
+          "stamps": 2,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:21.225299+00:00",
+          "scenario": "come_back",
+          "card_id": "DD3ev33zeZjPGK",
+          "name": "Hylton",
+          "stamps": 5,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:21.698465+00:00",
+          "scenario": "come_back",
+          "card_id": "38SHgKYV6xIGRp",
+          "name": "Derryn",
+          "stamps": 2,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:22.130383+00:00",
+          "scenario": "come_back",
+          "card_id": "ONIfCkPz6XBBIL",
+          "name": "Annika",
+          "stamps": 2,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:22.554366+00:00",
+          "scenario": "come_back",
+          "card_id": "4v86UmgsYAIqjI",
+          "name": "Emma Robertson",
+          "stamps": 4,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:22.956352+00:00",
+          "scenario": "come_back",
+          "card_id": "UAXmtOYk1IF51A",
+          "name": "Emily Whiting",
+          "stamps": 3,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:24.450226+00:00",
+          "scenario": "loyal",
+          "card_id": "svqyMv1ILstXuh",
+          "name": "Ross Minter-Brown",
+          "stamps": 29,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:24.982380+00:00",
+          "scenario": "loyal",
+          "card_id": "OUkKpl0U20Cckl",
+          "name": "Emily",
+          "stamps": 25,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:25.617146+00:00",
+          "scenario": "loyal",
+          "card_id": "KSKjl8VpWWwzpm",
+          "name": "Saskia Lasch",
+          "stamps": 50,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:26.034599+00:00",
+          "scenario": "loyal",
+          "card_id": "F3WNNAEhS41wFV",
+          "name": "Kim",
+          "stamps": 30,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:26.584368+00:00",
+          "scenario": "loyal",
+          "card_id": "uikbmLVNEFFxiE",
+          "name": "Odwa",
+          "stamps": 59,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:26.986848+00:00",
+          "scenario": "loyal",
+          "card_id": "PNIBiWIwWhpGgC",
+          "name": "Harry",
+          "stamps": 67,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:27.437852+00:00",
+          "scenario": "loyal",
+          "card_id": "Cr1T4pGFOKHElB",
+          "name": "Sebastian Naidoo",
+          "stamps": 25,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:28.022342+00:00",
+          "scenario": "loyal",
+          "card_id": "5KtZCHbrfhZLPk",
+          "name": "Daniel",
+          "stamps": 38,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:28.664168+00:00",
+          "scenario": "loyal",
+          "card_id": "FXVIkMWdIBf2l5",
+          "name": "William Racinne",
+          "stamps": 116,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:29.216643+00:00",
+          "scenario": "loyal",
+          "card_id": "Dl6QyXMA4fxf6y",
+          "name": "Aviv Weil",
+          "stamps": 104,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:29.779188+00:00",
+          "scenario": "loyal",
+          "card_id": "LkChWICZu1x2cD",
+          "name": "Zach Melvill",
+          "stamps": 26,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:30.469281+00:00",
+          "scenario": "loyal",
+          "card_id": "wglfcpm3FnToHm",
+          "name": "Sarah Bryer",
+          "stamps": 66,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:30.878932+00:00",
+          "scenario": "loyal",
+          "card_id": "mfgaEHaTDm3w3l",
+          "name": "Cristina Da Naia",
+          "stamps": 49,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:31.292579+00:00",
+          "scenario": "loyal",
+          "card_id": "pzNv9MK3wXTalN",
+          "name": "Jaydon Hanan",
+          "stamps": 88,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:31.710332+00:00",
+          "scenario": "loyal",
+          "card_id": "1eYREgGmqZpanE",
+          "name": "Mark Midgley",
+          "stamps": 44,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:32.123337+00:00",
+          "scenario": "loyal",
+          "card_id": "SmyQEcJ6u9bO0U",
+          "name": "Hannah Prawde",
+          "stamps": 37,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:32.743466+00:00",
+          "scenario": "loyal",
+          "card_id": "DD3ev33zeZjPGK",
+          "name": "Hylton",
+          "stamps": 53,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:33.130587+00:00",
+          "scenario": "loyal",
+          "card_id": "GaKBKsr8hIeM7x",
+          "name": "Helen",
+          "stamps": 240,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:33.543224+00:00",
+          "scenario": "loyal",
+          "card_id": "Loo22DCe9xo025",
+          "name": "Justine Rubin",
+          "stamps": 51,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:34.031066+00:00",
+          "scenario": "loyal",
+          "card_id": "3ttS9Lepx20QjI",
+          "name": "Aronnico",
+          "stamps": 90,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:34.585228+00:00",
+          "scenario": "loyal",
+          "card_id": "R16JYiDZPxV3H5",
+          "name": "Liora",
+          "stamps": 37,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:34.987252+00:00",
+          "scenario": "loyal",
+          "card_id": "eYrWIwMw5WNTyy",
+          "name": "Sean Douglass",
+          "stamps": 49,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:35.400624+00:00",
+          "scenario": "loyal",
+          "card_id": "W4eDgoIlJIrS4B",
+          "name": "Leora Kallner",
+          "stamps": 358,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:35.805555+00:00",
+          "scenario": "loyal",
+          "card_id": "Ah0sNxE0jkyeBo",
+          "name": "Austen Parfitt",
+          "stamps": 91,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:36.203593+00:00",
+          "scenario": "loyal",
+          "card_id": "lDKmlXsg4o0yoN",
+          "name": "PJ",
+          "stamps": 40,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:36.736533+00:00",
+          "scenario": "loyal",
+          "card_id": "3iYYAq4mMNOsAQ",
+          "name": "Michelle",
+          "stamps": 36,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:37.161730+00:00",
+          "scenario": "loyal",
+          "card_id": "WOLTVFnOdN3Uup",
+          "name": "Levi Marx",
+          "stamps": 24,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:37.570218+00:00",
+          "scenario": "loyal",
+          "card_id": "GHBe8M2S0LzGje",
+          "name": "Danielle Sack",
+          "stamps": 52,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:38.238882+00:00",
+          "scenario": "loyal",
+          "card_id": "pRu45ApyYpGSug",
+          "name": "Jess Parker",
+          "stamps": 43,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:38.821226+00:00",
+          "scenario": "loyal",
+          "card_id": "TimsHaN2yuy3Ji",
+          "name": "Ramiza",
+          "stamps": 84,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:39.215540+00:00",
+          "scenario": "loyal",
+          "card_id": "8XLasHLdFyU4KT",
+          "name": "Megan Bryer",
+          "stamps": 101,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:39.661895+00:00",
+          "scenario": "loyal",
+          "card_id": "k9WpZyRoYHbsZL",
+          "name": "Zayd Laher",
+          "stamps": 24,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:40.064738+00:00",
+          "scenario": "loyal",
+          "card_id": "Otcn3aSZSZVC17",
+          "name": "Zeenat Laher",
+          "stamps": 38,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:40.657269+00:00",
+          "scenario": "loyal",
+          "card_id": "EoX0tzgBRg8U2h",
+          "name": "Faith",
+          "stamps": 26,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:41.089499+00:00",
+          "scenario": "loyal",
+          "card_id": "2fe2ZxjPhmQiDO",
+          "name": "Lisa",
+          "stamps": 126,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:41.619214+00:00",
+          "scenario": "loyal",
+          "card_id": "whRcwfWYlPfPTg",
+          "name": "Kate",
+          "stamps": 46,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:42.185826+00:00",
+          "scenario": "loyal",
+          "card_id": "F0ENFRlLnL1iFc",
+          "name": "Robbie",
+          "stamps": 118,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:42.587643+00:00",
+          "scenario": "loyal",
+          "card_id": "s8WOmtTjtlTpQM",
+          "name": "Alex",
+          "stamps": 63,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:43.015012+00:00",
+          "scenario": "loyal",
+          "card_id": "LgFaxfgF7obcjI",
+          "name": "Olivia Radford",
+          "stamps": 35,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:43.436682+00:00",
+          "scenario": "loyal",
+          "card_id": "xvsNIqQDLamPBX",
+          "name": "Audrey-Lee",
+          "stamps": 30,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:43.856174+00:00",
+          "scenario": "loyal",
+          "card_id": "6E9pLLV6CmHdcg",
+          "name": "Adrienne B",
+          "stamps": 70,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:44.278905+00:00",
+          "scenario": "loyal",
+          "card_id": "msvzxvVTMR6Rpy",
+          "name": "Raey",
+          "stamps": 96,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:44.904590+00:00",
+          "scenario": "loyal",
+          "card_id": "cNFdQDxl7XdAJP",
+          "name": "Josh Kaplan",
+          "stamps": 56,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:45.314340+00:00",
+          "scenario": "loyal",
+          "card_id": "lWoLWxLOZfnXeF",
+          "name": "Tuscan Lambrechts",
+          "stamps": 49,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:45.737374+00:00",
+          "scenario": "loyal",
+          "card_id": "PLuc1CppPvF6nj",
+          "name": "Jessica",
+          "stamps": 52,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:46.136518+00:00",
+          "scenario": "loyal",
+          "card_id": "5yYnI1VnlJANg3",
+          "name": "Monde",
+          "stamps": 24,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:46.607006+00:00",
+          "scenario": "loyal",
+          "card_id": "3xyR6jCO1vGTf7",
+          "name": "Graeme",
+          "stamps": 61,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:47.037179+00:00",
+          "scenario": "loyal",
+          "card_id": "kStvucd8FN9lSb",
+          "name": "Tiaan Goussard",
+          "stamps": 52,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:47.440506+00:00",
+          "scenario": "loyal",
+          "card_id": "vkRU7mZaHTHuSP",
+          "name": "Mark Mofsowitz",
+          "stamps": 35,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:47.858612+00:00",
+          "scenario": "loyal",
+          "card_id": "6CTs5Q0JPZEyeC",
+          "name": "Caylin Firer",
+          "stamps": 38,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:48.281188+00:00",
+          "scenario": "loyal",
+          "card_id": "w1Fl5UlQ4fRC4x",
+          "name": "katrien van den berg",
+          "stamps": 29,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:48.684278+00:00",
+          "scenario": "loyal",
+          "card_id": "jRSyoOVMJb15xI",
+          "name": "Hannah",
+          "stamps": 43,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:49.216036+00:00",
+          "scenario": "loyal",
+          "card_id": "WdGij2GW0eAKch",
+          "name": "Lily",
+          "stamps": 42,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:49.618818+00:00",
+          "scenario": "loyal",
+          "card_id": "NwzSfQNexDNOcB",
+          "name": "Amy Serebro",
+          "stamps": 162,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:50.040654+00:00",
+          "scenario": "loyal",
+          "card_id": "D530hw8Mz1Lr4d",
+          "name": "Jenna Rivera",
+          "stamps": 24,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:50.663802+00:00",
+          "scenario": "loyal",
+          "card_id": "XyTs0BiIrRuvLp",
+          "name": "Gina Altshuler",
+          "stamps": 34,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:51.071452+00:00",
+          "scenario": "loyal",
+          "card_id": "r0ebcU2RC45fsq",
+          "name": "Glen thompson",
+          "stamps": 101,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:51.481796+00:00",
+          "scenario": "loyal",
+          "card_id": "yRMNYC2XwAXoQW",
+          "name": "Regan Boden",
+          "stamps": 26,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:51.901014+00:00",
+          "scenario": "loyal",
+          "card_id": "o063ejweZP8LR1",
+          "name": "Megan Swallow",
+          "stamps": 36,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:52.325083+00:00",
+          "scenario": "loyal",
+          "card_id": "MhlVRuXrdRgCuH",
+          "name": "Tal",
+          "stamps": 247,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:52.762278+00:00",
+          "scenario": "loyal",
+          "card_id": "3rSmt4R9LwFin6",
+          "name": "David",
+          "stamps": 34,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:53.297853+00:00",
+          "scenario": "loyal",
+          "card_id": "qHgN1grcG5M8jT",
+          "name": "Carrie",
+          "stamps": 125,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:53.719465+00:00",
+          "scenario": "loyal",
+          "card_id": "ZSTS7taBH7Fn5X",
+          "name": "Bianca Toman",
+          "stamps": 89,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:54.264301+00:00",
+          "scenario": "loyal",
+          "card_id": "lCJPUJZICTrcXq",
+          "name": "Kerri Dimant",
+          "stamps": 231,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:54.689932+00:00",
+          "scenario": "loyal",
+          "card_id": "dHk2udnEbMPgQx",
+          "name": "Sinem",
+          "stamps": 295,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:55.107789+00:00",
+          "scenario": "loyal",
+          "card_id": "12VluexKCkI0uy",
+          "name": "Hannes Kruger",
+          "stamps": 168,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:55.508528+00:00",
+          "scenario": "loyal",
+          "card_id": "vjVVIxXgocCzB8",
+          "name": "Damian Sparks",
+          "stamps": 78,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:55.923183+00:00",
+          "scenario": "loyal",
+          "card_id": "iVftQnSU9aNzuO",
+          "name": "Sam",
+          "stamps": 29,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:56.499055+00:00",
+          "scenario": "loyal",
+          "card_id": "eesGoQX4Sn6R1R",
+          "name": "Taryn Smith",
+          "stamps": 27,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:57.059362+00:00",
+          "scenario": "loyal",
+          "card_id": "e2TjyBL5tAlPPr",
+          "name": "Kevin Frankental",
+          "stamps": 106,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:57.454010+00:00",
+          "scenario": "loyal",
+          "card_id": "CLAsJhVSj0Ijra",
+          "name": "Sara",
+          "stamps": 138,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:57.866993+00:00",
+          "scenario": "loyal",
+          "card_id": "7Ufcl6q8rIXAzT",
+          "name": "Angelika",
+          "stamps": 39,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:58.256510+00:00",
+          "scenario": "loyal",
+          "card_id": "bJpkNMgowIPIbA",
+          "name": "Andile Manganye",
+          "stamps": 42,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:58.827558+00:00",
+          "scenario": "loyal",
+          "card_id": "4TqvnBXfiADYMS",
+          "name": "David Rabinowitz",
+          "stamps": 69,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:59.223756+00:00",
+          "scenario": "loyal",
+          "card_id": "UbSYsJDurpyEqe",
+          "name": "Tali berzack",
+          "stamps": 71,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:18:59.640656+00:00",
+          "scenario": "loyal",
+          "card_id": "13rawYrF1yITNE",
+          "name": "Gillian Mead",
+          "stamps": 26,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:00.058472+00:00",
+          "scenario": "loyal",
+          "card_id": "21j2XXJXiLeXH7",
+          "name": "Nicholas Church",
+          "stamps": 114,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:00.576725+00:00",
+          "scenario": "loyal",
+          "card_id": "vc1eFFaD42ilFW",
+          "name": "Catherine",
+          "stamps": 37,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:00.996514+00:00",
+          "scenario": "loyal",
+          "card_id": "L4NBCSIznHO4UI",
+          "name": "Loren shapiro",
+          "stamps": 42,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:01.388700+00:00",
+          "scenario": "loyal",
+          "card_id": "OxQfrkX7LAmyVX",
+          "name": "Warren Flood",
+          "stamps": 27,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:01.852828+00:00",
+          "scenario": "loyal",
+          "card_id": "02iCeS2UhDd2gx",
+          "name": "Peter Mennen",
+          "stamps": 281,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:02.276302+00:00",
+          "scenario": "loyal",
+          "card_id": "ZyQueSmGdp8PPY",
+          "name": "Meg Duffy",
+          "stamps": 116,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:02.725164+00:00",
+          "scenario": "loyal",
+          "card_id": "qHCwcy9qhQ9h2m",
+          "name": "Andrew Munro",
+          "stamps": 60,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:03.151220+00:00",
+          "scenario": "loyal",
+          "card_id": "LwQBbRxdHjOj00",
+          "name": "Chandni",
+          "stamps": 47,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:03.545920+00:00",
+          "scenario": "loyal",
+          "card_id": "wNgYjqWxGi63ib",
+          "name": "Carl",
+          "stamps": 37,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:04.021340+00:00",
+          "scenario": "loyal",
+          "card_id": "qbUwufPMHc31lE",
+          "name": "Michelle",
+          "stamps": 252,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:04.593344+00:00",
+          "scenario": "loyal",
+          "card_id": "D4SMrLcZgDB77F",
+          "name": "Christopher Schmidt",
+          "stamps": 24,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:05.026334+00:00",
+          "scenario": "loyal",
+          "card_id": "63RPFqWqVtzSPC",
+          "name": "Valery Mthunywa",
+          "stamps": 99,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:05.417676+00:00",
+          "scenario": "loyal",
+          "card_id": "SPowX4WWI6eKi4",
+          "name": "Michael Shapiro",
+          "stamps": 71,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:05.961858+00:00",
+          "scenario": "loyal",
+          "card_id": "gqj0MTG8WzFWSV",
+          "name": "Theo de Jager",
+          "stamps": 298,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:06.374168+00:00",
+          "scenario": "loyal",
+          "card_id": "Uz0tqFeh18J0xX",
+          "name": "Chanan Emdin",
+          "stamps": 55,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:06.800323+00:00",
+          "scenario": "loyal",
+          "card_id": "W32JAGtrphK8bf",
+          "name": "Charles Burman",
+          "stamps": 261,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:07.258186+00:00",
+          "scenario": "loyal",
+          "card_id": "FsOoaO2DHDW9hB",
+          "name": "Noah Ditz",
+          "stamps": 32,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:07.690768+00:00",
+          "scenario": "loyal",
+          "card_id": "jMtnvp3a2FTqWC",
+          "name": "Danielle Meyerowitz",
+          "stamps": 95,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:08.262542+00:00",
+          "scenario": "loyal",
+          "card_id": "JxtpcB0AQFipI9",
+          "name": "Richard Fraser",
+          "stamps": 96,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:08.665959+00:00",
+          "scenario": "loyal",
+          "card_id": "rgfINO33PwtzcO",
+          "name": "CECILIA",
+          "stamps": 65,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:09.240597+00:00",
+          "scenario": "loyal",
+          "card_id": "tK1kPsFDzAMeTC",
+          "name": "Kirsten Keen",
+          "stamps": 34,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:09.659577+00:00",
+          "scenario": "loyal",
+          "card_id": "wmfIG0RezN4xxH",
+          "name": "Shane",
+          "stamps": 103,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:10.062733+00:00",
+          "scenario": "loyal",
+          "card_id": "ayYSDT8X7l7ouj",
+          "name": "Chereen",
+          "stamps": 25,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:10.469029+00:00",
+          "scenario": "loyal",
+          "card_id": "BpTfoDpuqlhcX0",
+          "name": "Dean Steinberg",
+          "stamps": 27,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:10.991907+00:00",
+          "scenario": "loyal",
+          "card_id": "KLQbXcAe2QNR5f",
+          "name": "Ari Slotsky",
+          "stamps": 43,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:11.393781+00:00",
+          "scenario": "loyal",
+          "card_id": "khAEFHKrZNrvAj",
+          "name": "Bev",
+          "stamps": 24,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:11.782546+00:00",
+          "scenario": "loyal",
+          "card_id": "jqT91RyqRelcwO",
+          "name": "Mike",
+          "stamps": 45,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:12.360505+00:00",
+          "scenario": "loyal",
+          "card_id": "Tf1YD16EyPy540",
+          "name": "Zeyn Osman",
+          "stamps": 26,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:12.982532+00:00",
+          "scenario": "loyal",
+          "card_id": "C2jswIJyuWWsJx",
+          "name": "Robi",
+          "stamps": 26,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:13.395137+00:00",
+          "scenario": "loyal",
+          "card_id": "0K4W9w47zqcl06",
+          "name": "Gregory Shaw",
+          "stamps": 44,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:13.803393+00:00",
+          "scenario": "loyal",
+          "card_id": "a8gKW0Pksb4YRW",
+          "name": "Zaana",
+          "stamps": 68,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:14.201040+00:00",
+          "scenario": "loyal",
+          "card_id": "YSsZCufOw1V7Ee",
+          "name": "Alon Katz",
+          "stamps": 32,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:14.640150+00:00",
+          "scenario": "loyal",
+          "card_id": "zZAyHyJAT4HP2Q",
+          "name": "Gavin",
+          "stamps": 233,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:15.041893+00:00",
+          "scenario": "loyal",
+          "card_id": "ehUBSMjD9w86CN",
+          "name": "Jodi",
+          "stamps": 33,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:15.448714+00:00",
+          "scenario": "loyal",
+          "card_id": "gZMpP65LGAFwoW",
+          "name": "Gila Orkin",
+          "stamps": 71,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:15.883670+00:00",
+          "scenario": "loyal",
+          "card_id": "rvxbIW1Kp2LaYW",
+          "name": "Lisa Swaine",
+          "stamps": 259,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:16.317077+00:00",
+          "scenario": "loyal",
+          "card_id": "2yFxf6OXnpYec8",
+          "name": "Sara",
+          "stamps": 55,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:16.766376+00:00",
+          "scenario": "loyal",
+          "card_id": "FQxIEVeWvci4Ql",
+          "name": "Aneesa omar",
+          "stamps": 49,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:17.228915+00:00",
+          "scenario": "loyal",
+          "card_id": "PY3YxT0GW4QoX9",
+          "name": "Dyllan Roach",
+          "stamps": 267,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:17.777144+00:00",
+          "scenario": "loyal",
+          "card_id": "L5qDsresMuuYa0",
+          "name": "Jenny gifford",
+          "stamps": 101,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:18.423398+00:00",
+          "scenario": "loyal",
+          "card_id": "IrKUB14dqfG3wD",
+          "name": "Katinka Harsanyi",
+          "stamps": 551,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:18.906151+00:00",
+          "scenario": "loyal",
+          "card_id": "FUbgP69XjxQ5wT",
+          "name": "Jackie Standish-White",
+          "stamps": 39,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:19.305506+00:00",
+          "scenario": "loyal",
+          "card_id": "yBWbtoZoHTtgvy",
+          "name": "Jake",
+          "stamps": 35,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:19.718581+00:00",
+          "scenario": "loyal",
+          "card_id": "Gz6Runw5ZT1wQR",
+          "name": "Rachelli",
+          "stamps": 81,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:20.130235+00:00",
+          "scenario": "loyal",
+          "card_id": "OBd7n5D3ZPZ2pR",
+          "name": "Meera Morar",
+          "stamps": 36,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:20.550254+00:00",
+          "scenario": "loyal",
+          "card_id": "DOnhq0GKl0bJNJ",
+          "name": "Gila rozowski",
+          "stamps": 26,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:20.980615+00:00",
+          "scenario": "loyal",
+          "card_id": "OEYjHUk7el2BQ7",
+          "name": "Howard Berchowitz",
+          "stamps": 62,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:21.558370+00:00",
+          "scenario": "loyal",
+          "card_id": "ur60J8zknzLNDe",
+          "name": "Devon",
+          "stamps": 247,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:21.975554+00:00",
+          "scenario": "loyal",
+          "card_id": "6DBkkiChusUuB8",
+          "name": "Jarred Britany",
+          "stamps": 27,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:22.389922+00:00",
+          "scenario": "loyal",
+          "card_id": "TLvBEP21qqDAqI",
+          "name": "Karen Prissman",
+          "stamps": 45,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:22.977711+00:00",
+          "scenario": "loyal",
+          "card_id": "ZapbZ25oY9oxgV",
+          "name": "Jenna Duffy",
+          "stamps": 54,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:23.388694+00:00",
+          "scenario": "loyal",
+          "card_id": "cAJlVPWsqDGeCE",
+          "name": "Cornel",
+          "stamps": 124,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:23.820446+00:00",
+          "scenario": "loyal",
+          "card_id": "Zs7s3wJyBjRBq5",
+          "name": "Roberta Stamatis",
+          "stamps": 41,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:24.219247+00:00",
+          "scenario": "loyal",
+          "card_id": "cD7J12nRByAh0W",
+          "name": "MARK ROBINSON",
+          "stamps": 101,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:24.648244+00:00",
+          "scenario": "loyal",
+          "card_id": "9Y7gs6ESskLkeJ",
+          "name": "Jess",
+          "stamps": 26,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:25.057640+00:00",
+          "scenario": "loyal",
+          "card_id": "SIr8v85271LiLF",
+          "name": "Riana",
+          "stamps": 59,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:25.454307+00:00",
+          "scenario": "loyal",
+          "card_id": "Ai9A8ZRkgBSw7e",
+          "name": "Nadia Dannhauser",
+          "stamps": 66,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:26.099762+00:00",
+          "scenario": "loyal",
+          "card_id": "6f29TMB0DB2zs4",
+          "name": "Pretash Bhoola",
+          "stamps": 71,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:26.506203+00:00",
+          "scenario": "loyal",
+          "card_id": "8ferBI2F4tWMn0",
+          "name": "Natalie Moutafis",
+          "stamps": 58,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:27.138047+00:00",
+          "scenario": "loyal",
+          "card_id": "cWK5LTPi0j3196",
+          "name": "Aileen",
+          "stamps": 39,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:27.549264+00:00",
+          "scenario": "loyal",
+          "card_id": "XSs2Ss1LEjhyEH",
+          "name": "Rumbi",
+          "stamps": 28,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:27.962486+00:00",
+          "scenario": "loyal",
+          "card_id": "dgTojXdRNOyoLu",
+          "name": "Yoni Balkind",
+          "stamps": 41,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:28.365318+00:00",
+          "scenario": "loyal",
+          "card_id": "38LPSauJeCtu6J",
+          "name": "Jonah Hoffmann",
+          "stamps": 27,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:28.754938+00:00",
+          "scenario": "loyal",
+          "card_id": "5XfRUf2oUOIvA6",
+          "name": "Ryan Brick",
+          "stamps": 34,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:29.183119+00:00",
+          "scenario": "loyal",
+          "card_id": "eOqH5hWvPRGnin",
+          "name": "Warren",
+          "stamps": 75,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:29.616746+00:00",
+          "scenario": "loyal",
+          "card_id": "MtJxZc2zEEi1GE",
+          "name": "Tasneem",
+          "stamps": 43,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:30.039676+00:00",
+          "scenario": "loyal",
+          "card_id": "GScZRPdSP7Jon1",
+          "name": "Jennifer",
+          "stamps": 115,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:30.450228+00:00",
+          "scenario": "loyal",
+          "card_id": "xT2uGmNCvGdygn",
+          "name": "Natalie",
+          "stamps": 48,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:30.836495+00:00",
+          "scenario": "loyal",
+          "card_id": "rdB8bCEoJvH0Rl",
+          "name": "Ari Chipkin",
+          "stamps": 34,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:31.258920+00:00",
+          "scenario": "loyal",
+          "card_id": "0S5pw5pZQ332Dw",
+          "name": "Daniella boner",
+          "stamps": 55,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:31.666436+00:00",
+          "scenario": "loyal",
+          "card_id": "3o4AQMIQKlqw8q",
+          "name": "Tracy Ackermann",
+          "stamps": 45,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:32.078677+00:00",
+          "scenario": "loyal",
+          "card_id": "uqF7gqN0DXSuiM",
+          "name": "Sean",
+          "stamps": 33,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:32.506482+00:00",
+          "scenario": "loyal",
+          "card_id": "iQmsaJTupqmpwn",
+          "name": "Georgia Turner",
+          "stamps": 25,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:32.930640+00:00",
+          "scenario": "loyal",
+          "card_id": "TZEuHZfPn5A9ja",
+          "name": "Brandon",
+          "stamps": 24,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:33.332114+00:00",
+          "scenario": "loyal",
+          "card_id": "vBscOGHU1vyvU2",
+          "name": "Jonathan",
+          "stamps": 41,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:33.742499+00:00",
+          "scenario": "loyal",
+          "card_id": "fzfVyyAYoBAWRg",
+          "name": "Likho Jiba",
+          "stamps": 54,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:34.340472+00:00",
+          "scenario": "loyal",
+          "card_id": "xvrPTUTYpIlfdo",
+          "name": "Sabreen",
+          "stamps": 289,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:34.753017+00:00",
+          "scenario": "loyal",
+          "card_id": "LlKBjjgLeajvC6",
+          "name": "Debra Rosen",
+          "stamps": 270,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:35.297635+00:00",
+          "scenario": "loyal",
+          "card_id": "ycyd4pvzHBDEO0",
+          "name": "Kish",
+          "stamps": 25,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:35.857386+00:00",
+          "scenario": "loyal",
+          "card_id": "mBrhWNynRXhijT",
+          "name": "Cliff Rosen",
+          "stamps": 71,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:36.258536+00:00",
+          "scenario": "loyal",
+          "card_id": "SUCsZCx9VYotwt",
+          "name": "Isabella Polkinghorne",
+          "stamps": 61,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:36.685958+00:00",
+          "scenario": "loyal",
+          "card_id": "K1ZkutAg4oYLKY",
+          "name": "Shavanna",
+          "stamps": 30,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:37.114408+00:00",
+          "scenario": "loyal",
+          "card_id": "4ZEtYIWb3mxaft",
+          "name": "Michelle Josset",
+          "stamps": 91,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:37.616585+00:00",
+          "scenario": "loyal",
+          "card_id": "FYCpFbtBKF8QK7",
+          "name": "Ross",
+          "stamps": 287,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:38.041511+00:00",
+          "scenario": "loyal",
+          "card_id": "i1k8HtMzYsrVu6",
+          "name": "Tanya Waksman",
+          "stamps": 42,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:38.470053+00:00",
+          "scenario": "loyal",
+          "card_id": "qQvWbVqDEyh4mZ",
+          "name": "Jared",
+          "stamps": 122,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:38.939170+00:00",
+          "scenario": "loyal",
+          "card_id": "3cmOn29NsrKeVz",
+          "name": "Ralph Tsatsi",
+          "stamps": 88,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:39.351515+00:00",
+          "scenario": "loyal",
+          "card_id": "V5MeCpK6VRrBXT",
+          "name": "Helena Comitis",
+          "stamps": 47,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:39.785644+00:00",
+          "scenario": "loyal",
+          "card_id": "b2Tu8sqDlv1vRm",
+          "name": "Julia Morte",
+          "stamps": 72,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:40.336764+00:00",
+          "scenario": "loyal",
+          "card_id": "Jbxge3OwMYl65W",
+          "name": "Kate Ludwig",
+          "stamps": 43,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:40.768242+00:00",
+          "scenario": "loyal",
+          "card_id": "R66GIkNrMYgq9I",
+          "name": "Ksenia",
+          "stamps": 116,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:41.378060+00:00",
+          "scenario": "loyal",
+          "card_id": "4atYebFL6I60So",
+          "name": "Jonjon",
+          "stamps": 197,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:41.804071+00:00",
+          "scenario": "loyal",
+          "card_id": "B4FTo4XzpWEwIj",
+          "name": "Amanda Gifford",
+          "stamps": 570,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:42.359425+00:00",
+          "scenario": "loyal",
+          "card_id": "XjdIyfB8Ir0xku",
+          "name": "Jonathan Hertz",
+          "stamps": 82,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:43.015558+00:00",
+          "scenario": "loyal",
+          "card_id": "Tw4zRHLF5gZ5ZL",
+          "name": "Emma Sutherland",
+          "stamps": 36,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:43.421272+00:00",
+          "scenario": "loyal",
+          "card_id": "qd0sEP0c44SdYP",
+          "name": "Erin",
+          "stamps": 24,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:43.849860+00:00",
+          "scenario": "loyal",
+          "card_id": "s3RtrJ2TdicfLK",
+          "name": "Frank Hennings",
+          "stamps": 98,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:44.249419+00:00",
+          "scenario": "loyal",
+          "card_id": "562nSqX3bbvP6O",
+          "name": "Jo morreira",
+          "stamps": 130,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:44.657431+00:00",
+          "scenario": "loyal",
+          "card_id": "glclj7fc6tJnFs",
+          "name": "Gisela van Wyk",
+          "stamps": 27,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:45.101749+00:00",
+          "scenario": "loyal",
+          "card_id": "NU9IKWc1eYAtFh",
+          "name": "Liesl Olivier",
+          "stamps": 135,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:45.623083+00:00",
+          "scenario": "loyal",
+          "card_id": "5n1HN3k7pn1efb",
+          "name": "Caz Abrahams",
+          "stamps": 460,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:46.260611+00:00",
+          "scenario": "loyal",
+          "card_id": "4LSiHQ80bpxiQ4",
+          "name": "Shaun",
+          "stamps": 91,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:46.897752+00:00",
+          "scenario": "loyal",
+          "card_id": "eA96DmwGNJIhCR",
+          "name": "Erin Atie",
+          "stamps": 39,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:47.315510+00:00",
+          "scenario": "loyal",
+          "card_id": "h5Iy4d0sKPB6uP",
+          "name": "Caitlin Williams",
+          "stamps": 57,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:47.736222+00:00",
+          "scenario": "loyal",
+          "card_id": "Lc983IP1dP5ECH",
+          "name": "Hadassah Atie",
+          "stamps": 83,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:48.144201+00:00",
+          "scenario": "loyal",
+          "card_id": "VcK8AHWn5uoJB6",
+          "name": "Marissa Selipas",
+          "stamps": 47,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:48.576989+00:00",
+          "scenario": "loyal",
+          "card_id": "5tYHoh3fEzGeuY",
+          "name": "Roz",
+          "stamps": 128,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:48.996460+00:00",
+          "scenario": "loyal",
+          "card_id": "iMVXBwoSsdp1Po",
+          "name": "Jillian katz",
+          "stamps": 355,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:49.414561+00:00",
+          "scenario": "loyal",
+          "card_id": "klsue11GnlErbI",
+          "name": "Sally Faber",
+          "stamps": 62,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:50.018277+00:00",
+          "scenario": "loyal",
+          "card_id": "IcvrkfxJ32XDtV",
+          "name": "Venessa",
+          "stamps": 41,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:50.447181+00:00",
+          "scenario": "loyal",
+          "card_id": "KMZW0LvYXIowo0",
+          "name": "Kayla Feinberg",
+          "stamps": 31,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:50.863863+00:00",
+          "scenario": "loyal",
+          "card_id": "06XCUmI7S9bA0v",
+          "name": "Candice-Jane Le Roux",
+          "stamps": 252,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:51.261798+00:00",
+          "scenario": "loyal",
+          "card_id": "pY5gUlREWQych6",
+          "name": "Herman",
+          "stamps": 380,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:51.651806+00:00",
+          "scenario": "loyal",
+          "card_id": "fdXZKXwRRfcTKL",
+          "name": "Stacey Crouse",
+          "stamps": 73,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:52.073513+00:00",
+          "scenario": "loyal",
+          "card_id": "eCkeh7AD7o9ggJ",
+          "name": "Glen Copans",
+          "stamps": 165,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:52.655343+00:00",
+          "scenario": "loyal",
+          "card_id": "G0ViRNoEiFsu89",
+          "name": "Julia Tosi",
+          "stamps": 40,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:53.073401+00:00",
+          "scenario": "loyal",
+          "card_id": "Q3Ra7oyvYN3q2s",
+          "name": "Cade",
+          "stamps": 39,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:53.504618+00:00",
+          "scenario": "loyal",
+          "card_id": "yQ1SlfgJHG51ka",
+          "name": "Lance Maron",
+          "stamps": 62,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:53.954174+00:00",
+          "scenario": "loyal",
+          "card_id": "ILUv4CVZsuRgrY",
+          "name": "Daliah",
+          "stamps": 97,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:54.663916+00:00",
+          "scenario": "loyal",
+          "card_id": "bUAFj88r68M7NI",
+          "name": "Doron Falk",
+          "stamps": 33,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:55.094611+00:00",
+          "scenario": "loyal",
+          "card_id": "suz2gsPt8DvTVL",
+          "name": "Jenna",
+          "stamps": 53,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:55.529068+00:00",
+          "scenario": "loyal",
+          "card_id": "HUVl1uLhhYLVHC",
+          "name": "Mark Morreira",
+          "stamps": 95,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:56.105428+00:00",
+          "scenario": "loyal",
+          "card_id": "a7UCzJWApe93KX",
+          "name": "Nokuzola Jenness",
+          "stamps": 173,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:56.736437+00:00",
+          "scenario": "loyal",
+          "card_id": "VgEPWStt5SvTnO",
+          "name": "Mvelo",
+          "stamps": 84,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:57.299180+00:00",
+          "scenario": "loyal",
+          "card_id": "fkgn9Evg0iF624",
+          "name": "Tzvia",
+          "stamps": 90,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:57.937911+00:00",
+          "scenario": "loyal",
+          "card_id": "862oP5AhbXoNh5",
+          "name": "William Oldnall",
+          "stamps": 174,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:58.578775+00:00",
+          "scenario": "loyal",
+          "card_id": "ctnXIsvYEZB6fj",
+          "name": "Joburg Coffee dude",
+          "stamps": 43,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:59.220237+00:00",
+          "scenario": "loyal",
+          "card_id": "oVdHFJbf8CIjOS",
+          "name": "Greg Senior",
+          "stamps": 195,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:19:59.639768+00:00",
+          "scenario": "loyal",
+          "card_id": "pXTy6epJj02CoY",
+          "name": "Nina Gamsu",
+          "stamps": 40,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:00.047237+00:00",
+          "scenario": "loyal",
+          "card_id": "tFFnn9Y9gBNx6T",
+          "name": "Marc Romberg",
+          "stamps": 45,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:00.464600+00:00",
+          "scenario": "loyal",
+          "card_id": "P4uhgBEId8HekJ",
+          "name": "Raphi Druion",
+          "stamps": 74,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:00.875221+00:00",
+          "scenario": "loyal",
+          "card_id": "qOq6ZcJ1U6erKK",
+          "name": "Anton Jaffe",
+          "stamps": 109,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:01.304379+00:00",
+          "scenario": "loyal",
+          "card_id": "zpKU2u43szV3dU",
+          "name": "Tanith Quait",
+          "stamps": 38,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:01.751466+00:00",
+          "scenario": "loyal",
+          "card_id": "mh1dkD5Za5RaDm",
+          "name": "Roberto Gorgulho",
+          "stamps": 48,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:02.419083+00:00",
+          "scenario": "loyal",
+          "card_id": "kRp2f1JVRfcwZu",
+          "name": "Kevin",
+          "stamps": 37,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:03.057196+00:00",
+          "scenario": "loyal",
+          "card_id": "nAaRH7HKwE5bYK",
+          "name": "Leah Jacobs",
+          "stamps": 25,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:03.466399+00:00",
+          "scenario": "loyal",
+          "card_id": "tgr5pMMYpa2jcE",
+          "name": "Kubash",
+          "stamps": 43,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:04.097652+00:00",
+          "scenario": "loyal",
+          "card_id": "xN5AcYV1mGzz2G",
+          "name": "Josh Katz",
+          "stamps": 46,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:04.524344+00:00",
+          "scenario": "loyal",
+          "card_id": "MbymCJ1idZlGU9",
+          "name": "Matt",
+          "stamps": 77,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:04.938281+00:00",
+          "scenario": "loyal",
+          "card_id": "1szDQuTQ7tMxG0",
+          "name": "Michele",
+          "stamps": 92,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:05.347693+00:00",
+          "scenario": "loyal",
+          "card_id": "p2ksUFz4ua9jI0",
+          "name": "Claire Glickman",
+          "stamps": 44,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:05.758851+00:00",
+          "scenario": "loyal",
+          "card_id": "5vZNKInAb3ZZpB",
+          "name": "Eluse",
+          "stamps": 78,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:06.195229+00:00",
+          "scenario": "loyal",
+          "card_id": "EPs2RBP1vBm304",
+          "name": "Graham",
+          "stamps": 76,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:06.622168+00:00",
+          "scenario": "loyal",
+          "card_id": "ye9M3pGLrHX9jX",
+          "name": "Astin Blumenthal",
+          "stamps": 193,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:07.032823+00:00",
+          "scenario": "loyal",
+          "card_id": "tlPIQM8hlENmkJ",
+          "name": "Namhla Motsukunyane",
+          "stamps": 24,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:07.697211+00:00",
+          "scenario": "loyal",
+          "card_id": "cfnLJjqGxClWox",
+          "name": "Vanja",
+          "stamps": 100,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:08.095591+00:00",
+          "scenario": "loyal",
+          "card_id": "mAWiIEzxDx8NHo",
+          "name": "Dana Lazarus",
+          "stamps": 60,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:08.512437+00:00",
+          "scenario": "loyal",
+          "card_id": "QZtgiau4cn23kf",
+          "name": "Dr Vladimir Jovanovic",
+          "stamps": 46,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:08.915199+00:00",
+          "scenario": "loyal",
+          "card_id": "rGaXWMwFMtfrUA",
+          "name": "Finn",
+          "stamps": 260,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:09.330104+00:00",
+          "scenario": "loyal",
+          "card_id": "jYxEsD6RIsxAs2",
+          "name": "Giselle",
+          "stamps": 49,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:09.741878+00:00",
+          "scenario": "loyal",
+          "card_id": "4R3HM4KLeBp4Fa",
+          "name": "Michaela Brugman",
+          "stamps": 51,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:10.185901+00:00",
+          "scenario": "loyal",
+          "card_id": "7VtnHkne3CChcx",
+          "name": "Thameenah",
+          "stamps": 36,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:10.702187+00:00",
+          "scenario": "loyal",
+          "card_id": "2SLsyDBaRe6SJd",
+          "name": "Anthea Pokroy",
+          "stamps": 74,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:11.119865+00:00",
+          "scenario": "loyal",
+          "card_id": "LO2l6CxJcj8toj",
+          "name": "Neil van Heerden",
+          "stamps": 123,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:11.534890+00:00",
+          "scenario": "loyal",
+          "card_id": "WiIwIKbTgCpL6K",
+          "name": "Shayna Sundy",
+          "stamps": 64,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:11.950252+00:00",
+          "scenario": "loyal",
+          "card_id": "SkaUrHW41g6UET",
+          "name": "Flavio Belluigi",
+          "stamps": 100,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:12.358870+00:00",
+          "scenario": "loyal",
+          "card_id": "ktZOxatZq5NGgN",
+          "name": "Darren Sosnovik",
+          "stamps": 33,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:12.781154+00:00",
+          "scenario": "loyal",
+          "card_id": "O819UcAmT8Cia4",
+          "name": "Andrew Smith",
+          "stamps": 35,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:13.298696+00:00",
+          "scenario": "loyal",
+          "card_id": "EVVqfoz3f2rnIm",
+          "name": "Bev Cohen",
+          "stamps": 55,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:13.941890+00:00",
+          "scenario": "loyal",
+          "card_id": "GgzKgrsDJzUs8T",
+          "name": "Ruan Du Toit",
+          "stamps": 47,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:14.632213+00:00",
+          "scenario": "loyal",
+          "card_id": "dhVl42F5of0j1N",
+          "name": "Christopher envy",
+          "stamps": 87,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:15.034876+00:00",
+          "scenario": "loyal",
+          "card_id": "xiNC9P55iIutBr",
+          "name": "Thabo Boom",
+          "stamps": 299,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:15.454768+00:00",
+          "scenario": "loyal",
+          "card_id": "Vlp5vRZ4APWnfS",
+          "name": "Wayne Bouwer",
+          "stamps": 290,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:15.878748+00:00",
+          "scenario": "loyal",
+          "card_id": "pPCFrNcXj1Oau1",
+          "name": "Jessica Boyer",
+          "stamps": 156,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:16.349863+00:00",
+          "scenario": "loyal",
+          "card_id": "BNsg2BpwT1YvFU",
+          "name": "Evan",
+          "stamps": 67,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:16.899524+00:00",
+          "scenario": "loyal",
+          "card_id": "3opJbAMSadTq9h",
+          "name": "Kutlwano",
+          "stamps": 26,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:17.536731+00:00",
+          "scenario": "loyal",
+          "card_id": "mhZOPWX5Lesytt",
+          "name": "Sophie Greig",
+          "stamps": 109,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:17.977557+00:00",
+          "scenario": "loyal",
+          "card_id": "2Y4AsgdBz1S00G",
+          "name": "Carla Greeff",
+          "stamps": 197,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:18.397433+00:00",
+          "scenario": "loyal",
+          "card_id": "fhxR9wFc1N7y1O",
+          "name": "Josh Kaplan",
+          "stamps": 76,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:19.060429+00:00",
+          "scenario": "loyal",
+          "card_id": "k2ntmcU6nEV9oJ",
+          "name": "Jay",
+          "stamps": 56,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:19.461554+00:00",
+          "scenario": "loyal",
+          "card_id": "9TfNqLEY34gBIH",
+          "name": "Rosie",
+          "stamps": 26,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:19.884585+00:00",
+          "scenario": "loyal",
+          "card_id": "4WYmJ6nDUQx9Hn",
+          "name": "David Vinokur",
+          "stamps": 53,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:20.284340+00:00",
+          "scenario": "loyal",
+          "card_id": "6B1ywKNe6hrFyP",
+          "name": "Gavin Morris",
+          "stamps": 119,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:20.696714+00:00",
+          "scenario": "loyal",
+          "card_id": "1DwfSphFMx3Aif",
+          "name": "Josh Sack",
+          "stamps": 84,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:21.302832+00:00",
+          "scenario": "loyal",
+          "card_id": "0cZ4SWcHTe3WFB",
+          "name": "Adel",
+          "stamps": 82,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:21.708737+00:00",
+          "scenario": "loyal",
+          "card_id": "omGEnu9iJWnoz7",
+          "name": "Laura Loveland",
+          "stamps": 68,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:22.338188+00:00",
+          "scenario": "loyal",
+          "card_id": "uPx01tp3Na2YaU",
+          "name": "Janet",
+          "stamps": 25,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:22.756680+00:00",
+          "scenario": "loyal",
+          "card_id": "DBq6dXeNA2Fdo6",
+          "name": "Ruby",
+          "stamps": 28,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:23.155614+00:00",
+          "scenario": "loyal",
+          "card_id": "PkoaSgcIKRAHtQ",
+          "name": "Taryn Louch",
+          "stamps": 324,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:23.574784+00:00",
+          "scenario": "loyal",
+          "card_id": "J6YgusrgTPHetK",
+          "name": "Melissa Rowlston",
+          "stamps": 280,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:23.994081+00:00",
+          "scenario": "loyal",
+          "card_id": "vWUDtSaPLFyK3Y",
+          "name": "Ben",
+          "stamps": 33,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:24.408013+00:00",
+          "scenario": "loyal",
+          "card_id": "juCJzEdedQoDjC",
+          "name": "Mamokete",
+          "stamps": 25,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:24.822482+00:00",
+          "scenario": "loyal",
+          "card_id": "7JanywzjNVq7sT",
+          "name": "Silvia Barber Luna",
+          "stamps": 329,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:25.217176+00:00",
+          "scenario": "loyal",
+          "card_id": "8VJc9PnXFmgsvl",
+          "name": "Matthew Bray",
+          "stamps": 57,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:25.714029+00:00",
+          "scenario": "loyal",
+          "card_id": "8fSjOUNTpbgxu3",
+          "name": "Jake Zilesnick",
+          "stamps": 28,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:26.503271+00:00",
+          "scenario": "loyal",
+          "card_id": "Za66pCKPeJRN0P",
+          "name": "Siyabulela Mafanya",
+          "stamps": 67,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:26.908042+00:00",
+          "scenario": "loyal",
+          "card_id": "z1VOK8QjIMNdJI",
+          "name": "Michael Naude",
+          "stamps": 213,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:27.306306+00:00",
+          "scenario": "loyal",
+          "card_id": "O2wgFCojEdOsaY",
+          "name": "Talia Zulberg",
+          "stamps": 122,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:27.859740+00:00",
+          "scenario": "loyal",
+          "card_id": "xiTa6Er0YTlwxK",
+          "name": "Loren Lanzer",
+          "stamps": 49,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:28.502667+00:00",
+          "scenario": "loyal",
+          "card_id": "Br02vzkNHBW6Fx",
+          "name": "Candice Kirchmann",
+          "stamps": 56,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:29.062713+00:00",
+          "scenario": "loyal",
+          "card_id": "8Z8pQrVYXOPDS7",
+          "name": "Kyle Winik",
+          "stamps": 301,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:29.486199+00:00",
+          "scenario": "loyal",
+          "card_id": "yclE9dHnIsNNkN",
+          "name": "Tori Emdin",
+          "stamps": 81,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:29.910906+00:00",
+          "scenario": "loyal",
+          "card_id": "BFPaJr1Ym7GLbD",
+          "name": "Mel",
+          "stamps": 54,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:30.341363+00:00",
+          "scenario": "loyal",
+          "card_id": "6L1Ru2jKB7tKjc",
+          "name": "Donna Gewer",
+          "stamps": 168,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:30.979090+00:00",
+          "scenario": "loyal",
+          "card_id": "PVgwDWetsVjx0F",
+          "name": "Gershon Koral",
+          "stamps": 27,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:31.496349+00:00",
+          "scenario": "loyal",
+          "card_id": "3V7nXg6peqDamo",
+          "name": "Steph",
+          "stamps": 61,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:32.098049+00:00",
+          "scenario": "loyal",
+          "card_id": "keSoIopMSJkMcv",
+          "name": "Dani Zekry",
+          "stamps": 105,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:32.495234+00:00",
+          "scenario": "loyal",
+          "card_id": "uaLlgGWPrS5QcM",
+          "name": "Tali Romberg",
+          "stamps": 80,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:33.136479+00:00",
+          "scenario": "loyal",
+          "card_id": "mqsQnv31wxecpp",
+          "name": "Justine",
+          "stamps": 84,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:33.698558+00:00",
+          "scenario": "loyal",
+          "card_id": "th74VFoxR4tg5a",
+          "name": "Heather green",
+          "stamps": 417,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:34.126638+00:00",
+          "scenario": "loyal",
+          "card_id": "mgCGaVonIiYvAo",
+          "name": "Sara",
+          "stamps": 25,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:34.612104+00:00",
+          "scenario": "loyal",
+          "card_id": "M5HcNzpFM6SyCP",
+          "name": "Ashley pogir",
+          "stamps": 133,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:35.104531+00:00",
+          "scenario": "loyal",
+          "card_id": "PFavhqvOI93g9u",
+          "name": "David Orleow",
+          "stamps": 108,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:35.501248+00:00",
+          "scenario": "loyal",
+          "card_id": "9CR5gajQFSon7Z",
+          "name": "Twila Cannell",
+          "stamps": 30,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:35.941494+00:00",
+          "scenario": "loyal",
+          "card_id": "BVoth827kR6S1v",
+          "name": "Jay",
+          "stamps": 75,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:36.361006+00:00",
+          "scenario": "loyal",
+          "card_id": "UtFV7q4WJD2SmH",
+          "name": "Lance Van Der Westhuizen",
+          "stamps": 134,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:36.780122+00:00",
+          "scenario": "loyal",
+          "card_id": "kHsuHmm8Vv0CeI",
+          "name": "Josh Moritz",
+          "stamps": 39,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:37.215693+00:00",
+          "scenario": "loyal",
+          "card_id": "q1wLygVi92emm4",
+          "name": "willie nel",
+          "stamps": 348,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:37.608849+00:00",
+          "scenario": "loyal",
+          "card_id": "LTV1aZxCIfveyr",
+          "name": "Karyn Harrington",
+          "stamps": 120,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:38.179932+00:00",
+          "scenario": "loyal",
+          "card_id": "8PkiDUi8w0X9yj",
+          "name": "Rori",
+          "stamps": 30,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:38.596308+00:00",
+          "scenario": "loyal",
+          "card_id": "J7EO4792hieWu3",
+          "name": "Kirsten McCormack",
+          "stamps": 56,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:39.020155+00:00",
+          "scenario": "loyal",
+          "card_id": "DM9DfYgaDMVkQ4",
+          "name": "sarah savage",
+          "stamps": 48,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:39.418992+00:00",
+          "scenario": "loyal",
+          "card_id": "S4sPHSAaC2vExv",
+          "name": "Ang Ridge",
+          "stamps": 60,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:39.833315+00:00",
+          "scenario": "loyal",
+          "card_id": "esDpJrpSj3Tlm3",
+          "name": "Shani Leon",
+          "stamps": 53,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:40.246175+00:00",
+          "scenario": "loyal",
+          "card_id": "WW7FkFackjFE1g",
+          "name": "Kate pettit",
+          "stamps": 87,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:40.648361+00:00",
+          "scenario": "loyal",
+          "card_id": "lnoAgIJ33cz2iz",
+          "name": "Greg Shein",
+          "stamps": 40,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:41.217367+00:00",
+          "scenario": "loyal",
+          "card_id": "SkrLQnKtl2Q5Cz",
+          "name": "Yair",
+          "stamps": 75,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:41.644207+00:00",
+          "scenario": "loyal",
+          "card_id": "Ku7kHq16sgHthn",
+          "name": "Almero Oosthuizen",
+          "stamps": 243,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:42.075097+00:00",
+          "scenario": "loyal",
+          "card_id": "u6HQvy5GbY0x4c",
+          "name": "Ria Parbhoo",
+          "stamps": 147,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:42.659505+00:00",
+          "scenario": "loyal",
+          "card_id": "YKAt6miiD9rnUv",
+          "name": "Jessica Leigh Chimes",
+          "stamps": 377,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:43.218795+00:00",
+          "scenario": "loyal",
+          "card_id": "4oo6oChj6zgFQV",
+          "name": "Grant",
+          "stamps": 50,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:43.778505+00:00",
+          "scenario": "loyal",
+          "card_id": "cQHulpxuwXef1a",
+          "name": "Natalie Swil",
+          "stamps": 385,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:44.185050+00:00",
+          "scenario": "loyal",
+          "card_id": "uJMs4afiS35rsX",
+          "name": "Nicci Lefson Hutton",
+          "stamps": 61,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:44.614266+00:00",
+          "scenario": "loyal",
+          "card_id": "587E019vQDQqzp",
+          "name": "Waseem omar",
+          "stamps": 72,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:45.233001+00:00",
+          "scenario": "loyal",
+          "card_id": "KR0xKSxRZQ0CFM",
+          "name": "Aneen Bodewig",
+          "stamps": 136,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:45.782060+00:00",
+          "scenario": "loyal",
+          "card_id": "1KemQi0hAAagKI",
+          "name": "Tz",
+          "stamps": 55,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:46.417758+00:00",
+          "scenario": "loyal",
+          "card_id": "CVUh1deMQzVy1I",
+          "name": "Tarinda Diemont",
+          "stamps": 32,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:46.824564+00:00",
+          "scenario": "loyal",
+          "card_id": "2xro9JoBKpHlQ7",
+          "name": "Carly Whitaker",
+          "stamps": 122,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:47.276444+00:00",
+          "scenario": "loyal",
+          "card_id": "QbP0tziyFOudgF",
+          "name": "Leanne James",
+          "stamps": 38,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:47.706900+00:00",
+          "scenario": "loyal",
+          "card_id": "tXpuYwG8s8Sxyr",
+          "name": "Kevin shein",
+          "stamps": 43,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:48.136445+00:00",
+          "scenario": "loyal",
+          "card_id": "TBEfmWjgbgJ8Lv",
+          "name": "Hayley Pogir",
+          "stamps": 116,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:48.554231+00:00",
+          "scenario": "loyal",
+          "card_id": "feCKMV35yDcTth",
+          "name": "Dean Joffe",
+          "stamps": 38,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:48.985082+00:00",
+          "scenario": "loyal",
+          "card_id": "2VrPaZzQh5eTnh",
+          "name": "Ricky Musiker",
+          "stamps": 136,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:49.544043+00:00",
+          "scenario": "loyal",
+          "card_id": "BDRwcSyajPyorC",
+          "name": "Michael Gildenhuys",
+          "stamps": 102,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:49.966008+00:00",
+          "scenario": "loyal",
+          "card_id": "g95rS7hUiIG9vV",
+          "name": "Tam",
+          "stamps": 195,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:50.578008+00:00",
+          "scenario": "loyal",
+          "card_id": "hxXN7MiYdkqMDz",
+          "name": "Trevor Trope",
+          "stamps": 124,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:51.219461+00:00",
+          "scenario": "loyal",
+          "card_id": "RKYGxvp5IZKGC3",
+          "name": "Killoran Kettles",
+          "stamps": 128,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:51.641258+00:00",
+          "scenario": "loyal",
+          "card_id": "MOcp0GB85wxrvm",
+          "name": "Sarah Hoffman",
+          "stamps": 86,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:52.039262+00:00",
+          "scenario": "loyal",
+          "card_id": "TrLUwAaVbI8cgG",
+          "name": "Francesca",
+          "stamps": 436,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:52.577805+00:00",
+          "scenario": "loyal",
+          "card_id": "FJc7BOgPhcTBxn",
+          "name": "Vicky Peech",
+          "stamps": 247,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:53.146578+00:00",
+          "scenario": "loyal",
+          "card_id": "5qQGb46sb4ar5e",
+          "name": "Shaun Heyman",
+          "stamps": 148,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:53.553439+00:00",
+          "scenario": "loyal",
+          "card_id": "ckn935KSC1Ulsw",
+          "name": "Massimo",
+          "stamps": 36,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:54.176002+00:00",
+          "scenario": "loyal",
+          "card_id": "Zxet9x7zli8k3P",
+          "name": "Yumna Peer",
+          "stamps": 158,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:54.671752+00:00",
+          "scenario": "loyal",
+          "card_id": "xRgtLMFejOuTbE",
+          "name": "Sharon Sopher",
+          "stamps": 118,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:55.095399+00:00",
+          "scenario": "loyal",
+          "card_id": "GlJqkshiLsKv0J",
+          "name": "Irene Bacher",
+          "stamps": 37,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:55.522167+00:00",
+          "scenario": "loyal",
+          "card_id": "s9U9i5uFEJ5pCp",
+          "name": "Glenda Kaplan",
+          "stamps": 33,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:55.972903+00:00",
+          "scenario": "loyal",
+          "card_id": "kIQ7J0vyDGlORZ",
+          "name": "Sarah Erasmus",
+          "stamps": 129,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:56.370928+00:00",
+          "scenario": "loyal",
+          "card_id": "3DbmiZeb9PDbVU",
+          "name": "Yael",
+          "stamps": 58,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:56.783388+00:00",
+          "scenario": "loyal",
+          "card_id": "1CYLBhuTnskWku",
+          "name": "Michelle",
+          "stamps": 37,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:57.298567+00:00",
+          "scenario": "loyal",
+          "card_id": "HxbW4oiNAlXyIp",
+          "name": "Rafiek",
+          "stamps": 38,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:57.720685+00:00",
+          "scenario": "loyal",
+          "card_id": "aCyRDKEvCsrPQ8",
+          "name": "Megan Lee",
+          "stamps": 355,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:58.116793+00:00",
+          "scenario": "loyal",
+          "card_id": "wgbOpdrJWY1P5U",
+          "name": "Gabriella sassen",
+          "stamps": 27,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:58.737359+00:00",
+          "scenario": "loyal",
+          "card_id": "V50Yp8zdjegUMP",
+          "name": "Ryan sacks",
+          "stamps": 37,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:59.131116+00:00",
+          "scenario": "loyal",
+          "card_id": "9Qc1ygKaRApHfE",
+          "name": "Tali",
+          "stamps": 44,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:20:59.647728+00:00",
+          "scenario": "loyal",
+          "card_id": "kMrl4cIw9UED8C",
+          "name": "Naomi Booysen",
+          "stamps": 66,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:00.171117+00:00",
+          "scenario": "loyal",
+          "card_id": "HK6Go5rsj5nCyl",
+          "name": "Candy",
+          "stamps": 173,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:00.578484+00:00",
+          "scenario": "loyal",
+          "card_id": "L6ixEycF6E8wbG",
+          "name": "Alan Azizollahoff",
+          "stamps": 67,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:00.998876+00:00",
+          "scenario": "loyal",
+          "card_id": "MXXzw0rWDAe4JH",
+          "name": "Steffen",
+          "stamps": 85,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:01.403001+00:00",
+          "scenario": "loyal",
+          "card_id": "2F4j7b5EE2wvh8",
+          "name": "Cindy",
+          "stamps": 29,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:01.912548+00:00",
+          "scenario": "loyal",
+          "card_id": "mLVQQheX0cpflM",
+          "name": "Jessica Dutton",
+          "stamps": 45,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:02.341334+00:00",
+          "scenario": "loyal",
+          "card_id": "pUiAC0KkEsfyaw",
+          "name": "Adam Bresler",
+          "stamps": 93,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:02.780533+00:00",
+          "scenario": "loyal",
+          "card_id": "qSUep7sohSO6OJ",
+          "name": "Rob Alexander",
+          "stamps": 134,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:03.183635+00:00",
+          "scenario": "loyal",
+          "card_id": "q19BmbJNiyyrCq",
+          "name": "Paul Hinch",
+          "stamps": 139,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:03.605473+00:00",
+          "scenario": "loyal",
+          "card_id": "qVDbCLVu7VEECs",
+          "name": "Melanie Sohn",
+          "stamps": 25,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:04.076803+00:00",
+          "scenario": "loyal",
+          "card_id": "DBA1rRv7UtprQI",
+          "name": "Elzhet Robbertse",
+          "stamps": 76,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:04.559937+00:00",
+          "scenario": "loyal",
+          "card_id": "n53Uy5lklNdToc",
+          "name": "Phillippa Grundlingh",
+          "stamps": 111,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:05.216440+00:00",
+          "scenario": "loyal",
+          "card_id": "Em9bUzF4nT5hbD",
+          "name": "Darrin Thomas",
+          "stamps": 172,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:05.860354+00:00",
+          "scenario": "loyal",
+          "card_id": "j1XnJA4UAXxUjo",
+          "name": "Julie Moritz",
+          "stamps": 731,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:06.259833+00:00",
+          "scenario": "loyal",
+          "card_id": "tv6lxn4xmu5URF",
+          "name": "Jenna Moritz",
+          "stamps": 107,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:06.662764+00:00",
+          "scenario": "loyal",
+          "card_id": "E7Jqc72cdAlsgE",
+          "name": "Adrianne Hobbs",
+          "stamps": 90,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:07.084244+00:00",
+          "scenario": "loyal",
+          "card_id": "JqKHt7GFeaPPH9",
+          "name": "Jozua Booysen",
+          "stamps": 79,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:07.521371+00:00",
+          "scenario": "loyal",
+          "card_id": "2XMu3XChe8E7fu",
+          "name": "Gabriella Maserow",
+          "stamps": 37,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:08.097807+00:00",
+          "scenario": "loyal",
+          "card_id": "bLBjJ3s6zChWlI",
+          "name": "Leanne Chimes",
+          "stamps": 98,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:08.518637+00:00",
+          "scenario": "loyal",
+          "card_id": "Tp8kgxDDUsFyI7",
+          "name": "James",
+          "stamps": 190,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:08.921739+00:00",
+          "scenario": "loyal",
+          "card_id": "QxK9zWojNduxwj",
+          "name": "Romi Rabinowitz",
+          "stamps": 134,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:09.317807+00:00",
+          "scenario": "loyal",
+          "card_id": "UBeWrs89QWh2Nx",
+          "name": "Leonie",
+          "stamps": 82,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:09.733748+00:00",
+          "scenario": "loyal",
+          "card_id": "pZsJbDa3wgqfwW",
+          "name": "Satoshi Nakamoto",
+          "stamps": 79,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:10.148796+00:00",
+          "scenario": "loyal",
+          "card_id": "VvhDQ2KkcUV0m6",
+          "name": "Warren Narotzky",
+          "stamps": 578,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:10.590412+00:00",
+          "scenario": "loyal",
+          "card_id": "l8CVSUvMBYPFbH",
+          "name": "Anche de Villiers",
+          "stamps": 85,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:11.021922+00:00",
+          "scenario": "loyal",
+          "card_id": "hN7TJRO9ER256e",
+          "name": "Eitan Malkin",
+          "stamps": 281,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:11.429999+00:00",
+          "scenario": "loyal",
+          "card_id": "RscamNqylLISdT",
+          "name": "Fabienne Witts-Hewinson",
+          "stamps": 70,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:11.827141+00:00",
+          "scenario": "loyal",
+          "card_id": "vhHMcDfE1dybhw",
+          "name": "Jonathan Blumenthal",
+          "stamps": 95,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:12.224890+00:00",
+          "scenario": "loyal",
+          "card_id": "OVfcyxH8UO6zQV",
+          "name": "Sanjuri Naidoo",
+          "stamps": 24,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:12.676410+00:00",
+          "scenario": "loyal",
+          "card_id": "fS4hxdPPjsw3ge",
+          "name": "Nikhal Narismulu",
+          "stamps": 31,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:13.063287+00:00",
+          "scenario": "loyal",
+          "card_id": "znrumVEr3ZLq1T",
+          "name": "Meg",
+          "stamps": 239,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:13.556482+00:00",
+          "scenario": "loyal",
+          "card_id": "oQ7poKsufAGWF8",
+          "name": "Camille Strydom",
+          "stamps": 96,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:14.014457+00:00",
+          "scenario": "loyal",
+          "card_id": "RFN9lzrFpi3IY2",
+          "name": "Stella",
+          "stamps": 57,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:14.445158+00:00",
+          "scenario": "loyal",
+          "card_id": "RW1CjzxkpCnMiW",
+          "name": "Amy messer",
+          "stamps": 47,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:15.138675+00:00",
+          "scenario": "loyal",
+          "card_id": "mnF6ObwlALP22C",
+          "name": "Crystal",
+          "stamps": 73,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:15.654944+00:00",
+          "scenario": "loyal",
+          "card_id": "BIx7FOWt3BCdJw",
+          "name": "Saul Nossel",
+          "stamps": 68,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:16.118178+00:00",
+          "scenario": "loyal",
+          "card_id": "dql2DervP3M2ia",
+          "name": "Marc Romoff",
+          "stamps": 37,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:16.560441+00:00",
+          "scenario": "loyal",
+          "card_id": "LAfez4A65LTTkY",
+          "name": "Jason",
+          "stamps": 92,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:16.991761+00:00",
+          "scenario": "loyal",
+          "card_id": "Wn8wtFSrN9nWaz",
+          "name": "Rokeya Lakhi",
+          "stamps": 153,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:17.447790+00:00",
+          "scenario": "loyal",
+          "card_id": "zJaho3Gb97Kqyd",
+          "name": "Hilton",
+          "stamps": 195,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:18.103290+00:00",
+          "scenario": "loyal",
+          "card_id": "Db39f7v71U2zTn",
+          "name": "Joanne Kaplan",
+          "stamps": 216,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:18.558821+00:00",
+          "scenario": "loyal",
+          "card_id": "pkcToyrpQyXDhg",
+          "name": "Kelly Barnett",
+          "stamps": 26,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:18.967690+00:00",
+          "scenario": "loyal",
+          "card_id": "N4ykygtcTbeiCD",
+          "name": "Tanya",
+          "stamps": 86,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:19.414571+00:00",
+          "scenario": "loyal",
+          "card_id": "tJWU0Nbi3WOvf5",
+          "name": "Philippa",
+          "stamps": 128,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:20.103549+00:00",
+          "scenario": "loyal",
+          "card_id": "a8jiIYfheBsHyB",
+          "name": "Steven Isaacson",
+          "stamps": 198,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:20.658145+00:00",
+          "scenario": "loyal",
+          "card_id": "Zx57iklE32rtX6",
+          "name": "Layve",
+          "stamps": 91,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:21.301496+00:00",
+          "scenario": "loyal",
+          "card_id": "OOX24GnAZO22Eb",
+          "name": "Janet Otto",
+          "stamps": 133,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:21.939058+00:00",
+          "scenario": "loyal",
+          "card_id": "JQIkIeY5kMMgDD",
+          "name": "Kevin",
+          "stamps": 552,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:22.352129+00:00",
+          "scenario": "loyal",
+          "card_id": "pMc4r58oTl8QA1",
+          "name": "David Greenway",
+          "stamps": 598,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:22.800999+00:00",
+          "scenario": "loyal",
+          "card_id": "xDxuqhsmMSlEHM",
+          "name": "Allan Joffe",
+          "stamps": 261,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:23.219554+00:00",
+          "scenario": "loyal",
+          "card_id": "jG4VkQWiCI6eBu",
+          "name": "Brigitte Stander",
+          "stamps": 38,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:23.673286+00:00",
+          "scenario": "loyal",
+          "card_id": "IG1Recb1gjVtWC",
+          "name": "Christopher",
+          "stamps": 499,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:24.110905+00:00",
+          "scenario": "loyal",
+          "card_id": "mByh6grwuZcunJ",
+          "name": "Linda",
+          "stamps": 38,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:24.530205+00:00",
+          "scenario": "loyal",
+          "card_id": "xKNKnJUN9VuFNB",
+          "name": "Adam Hurwitz",
+          "stamps": 46,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:24.932566+00:00",
+          "scenario": "loyal",
+          "card_id": "iSHdOF1zQii7wu",
+          "name": "Megan Holesgrove",
+          "stamps": 31,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:25.617444+00:00",
+          "scenario": "loyal",
+          "card_id": "HcK3imjOxYTCqv",
+          "name": "Emma Davidson",
+          "stamps": 169,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:26.044674+00:00",
+          "scenario": "loyal",
+          "card_id": "sbtZOeXdyY6ch0",
+          "name": "Sarshnee Pather",
+          "stamps": 338,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:26.674383+00:00",
+          "scenario": "loyal",
+          "card_id": "mSNJhll37P22jW",
+          "name": "Farai Engelbrecht",
+          "stamps": 62,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:27.203565+00:00",
+          "scenario": "loyal",
+          "card_id": "5xdPGl3EWl6RVs",
+          "name": "Oliver Keys",
+          "stamps": 230,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:27.624263+00:00",
+          "scenario": "loyal",
+          "card_id": "epALhJ7jX14uhG",
+          "name": "Jonathan Waksman",
+          "stamps": 244,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:28.066075+00:00",
+          "scenario": "loyal",
+          "card_id": "Bm2xWiYfI5tpBI",
+          "name": "Shaun Pavkovich  Pavkovich",
+          "stamps": 74,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:28.500685+00:00",
+          "scenario": "loyal",
+          "card_id": "skMrBJtiQlvH2z",
+          "name": "Didi",
+          "stamps": 128,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:28.908751+00:00",
+          "scenario": "loyal",
+          "card_id": "PTuxin2eY5rKDb",
+          "name": "Chris Cannon",
+          "stamps": 53,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:29.307689+00:00",
+          "scenario": "loyal",
+          "card_id": "nZHSMzb8ymd6qG",
+          "name": "Ayabonga Sonjica",
+          "stamps": 37,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:29.859386+00:00",
+          "scenario": "loyal",
+          "card_id": "K5I6J2RvUlgUhz",
+          "name": "Lance Jacobson",
+          "stamps": 36,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:30.267994+00:00",
+          "scenario": "loyal",
+          "card_id": "D5rNYu5F3pTpGG",
+          "name": "Serena",
+          "stamps": 179,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:30.694297+00:00",
+          "scenario": "loyal",
+          "card_id": "mpZAxyackjI318",
+          "name": "Sandi Kuper",
+          "stamps": 39,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:31.094406+00:00",
+          "scenario": "loyal",
+          "card_id": "js0iPloMeZdLk7",
+          "name": "Megan Hutton",
+          "stamps": 152,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:31.524276+00:00",
+          "scenario": "loyal",
+          "card_id": "DIv8j3avvT9EuZ",
+          "name": "Brendan",
+          "stamps": 201,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:31.937450+00:00",
+          "scenario": "loyal",
+          "card_id": "ko34sqoE1CcBjJ",
+          "name": "Danielle Fine",
+          "stamps": 65,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:32.334684+00:00",
+          "scenario": "loyal",
+          "card_id": "8Trtst3gewg2rq",
+          "name": "Ross Maharage",
+          "stamps": 47,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:32.739945+00:00",
+          "scenario": "loyal",
+          "card_id": "3T5kw4igEO9D5a",
+          "name": "Sara",
+          "stamps": 121,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:33.145486+00:00",
+          "scenario": "loyal",
+          "card_id": "l8K3EMxUTH6TrH",
+          "name": "Paula Levitt",
+          "stamps": 192,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:33.539823+00:00",
+          "scenario": "loyal",
+          "card_id": "bl9eSnnc8o6ktP",
+          "name": "Della Berkowitz",
+          "stamps": 37,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:34.177115+00:00",
+          "scenario": "loyal",
+          "card_id": "aXzqvHhZvF0dws",
+          "name": "Demi Treger",
+          "stamps": 38,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:34.581997+00:00",
+          "scenario": "loyal",
+          "card_id": "tBaQUxvA4a9N3l",
+          "name": "Ekerete Umoetok",
+          "stamps": 192,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:34.987357+00:00",
+          "scenario": "loyal",
+          "card_id": "v47U1lRKrXnD0e",
+          "name": "Simone Soares",
+          "stamps": 65,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:35.540416+00:00",
+          "scenario": "loyal",
+          "card_id": "t9fTNYTWHYUY9c",
+          "name": "Dinah Druion",
+          "stamps": 61,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:35.973779+00:00",
+          "scenario": "loyal",
+          "card_id": "uo6ThndKlHwUig",
+          "name": "Chris McConnachie",
+          "stamps": 134,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:36.380568+00:00",
+          "scenario": "loyal",
+          "card_id": "Jxt4OYboHdyAd0",
+          "name": "Stephen Griffin",
+          "stamps": 44,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:36.783761+00:00",
+          "scenario": "loyal",
+          "card_id": "kME7J5iYwF7jqh",
+          "name": "Brett",
+          "stamps": 78,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:37.228955+00:00",
+          "scenario": "loyal",
+          "card_id": "2Y8Y23UXVCbDix",
+          "name": "Albert Van der Wat",
+          "stamps": 98,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:37.669348+00:00",
+          "scenario": "loyal",
+          "card_id": "O97V7kf3ryhKH6",
+          "name": "Sophie Hoffmann",
+          "stamps": 76,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:38.076443+00:00",
+          "scenario": "loyal",
+          "card_id": "ueNtfw9ZbaQUCa",
+          "name": "Talya Kier",
+          "stamps": 32,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:38.487544+00:00",
+          "scenario": "loyal",
+          "card_id": "0M6yFulsHzwljS",
+          "name": "Loren",
+          "stamps": 31,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:39.057673+00:00",
+          "scenario": "loyal",
+          "card_id": "QXBU0aUNoGDiGf",
+          "name": "Julia Hurwitz",
+          "stamps": 197,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:39.482339+00:00",
+          "scenario": "loyal",
+          "card_id": "W8Y0LTvVInCXrT",
+          "name": "Jody Michelle Kruger",
+          "stamps": 160,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:39.881582+00:00",
+          "scenario": "loyal",
+          "card_id": "QSyyM3ohUNQKPb",
+          "name": "Jess Ostrin",
+          "stamps": 456,
+          "message": "[Message not logged \u2014 first run]"
+        },
+        {
+          "ts": "2026-04-16T09:21:40.281375+00:00",
+          "scenario": "loyal",
+          "card_id": "ByGNgVJ8VcLGve",
+          "name": "Dayne Levinrad",
+          "stamps": 65,
+          "message": "[Message not logged \u2014 first run]"
+        }
+      ]
+    }
+  ]
+}
