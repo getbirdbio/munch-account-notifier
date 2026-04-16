@@ -208,6 +208,8 @@ def send_whatsapp(phone, first_name, amount, items, date_str, balance):
         }),
     }
     r = requests.post(url, data=payload, auth=(TWILIO_SID, TWILIO_TOKEN), timeout=30)
+    if not r.ok:
+        print(f"  Twilio response ({r.status_code}): {r.text}")
     r.raise_for_status()
     return r.json().get("sid")
 
