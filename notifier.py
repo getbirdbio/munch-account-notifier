@@ -24,10 +24,10 @@ CONTENT_SID    = "HXcc32f85ac944517098c4c212978e938c"   # 5-var template
 MUNCH_EMAIL    = os.environ["MUNCH_EMAIL"]
 MUNCH_PASSWORD = os.environ["MUNCH_PASSWORD"]
 
-STATE_FILE        = os.path.join(os.path.dirname(__file__), "state", "notified_transactions.json")
-CACHE_FILE        = os.path.join(os.path.dirname(__file__), "state", "member_phone_cache.json")
-MAX_STATE_ENTRIES = 500
-LOOKBACK_HOURS    = 2    # hourly runner — only look back 2h
+STATE_FILE     = os.path.join(os.path.dirname(__file__), "state", "notified_transactions.json")
+CACHE_FILE     = os.path.join(os.path.dirname(__file__), "state", "member_phone_cache.json")
+STATE_TTL_DAYS = 7    # prune sale IDs older than this — keeps state small
+LOOKBACK_HOURS = 2    # only look back 2h each run
 
 
 # ── Helpers ────────────────────────────────────────────────────────────────
@@ -63,10 +63,41 @@ def format_phone(phone):
     return p
 
 
+def load_state(path):
+    """
+    Load state file.  Supports both formats:
+      Legacy : {"notified": ["id1", "id2", ...]}
+      Current: {"notified": {"id1": "<iso-ts>", "id2": "<iso-ts>", ...}}
+    Always returns a dict mapping sale_id -> notified_at ISO string.
+    """
+    raw = load_json(path, {})
+    notified = raw.get("notified", {})
+
+    # Migrate legacy list format to dict
+    if isinstance(notified, list):
+        now_iso = datetime.now(timezone.utc).isoformat()
+        notified = {sale_id: now_iso for sale_id in notified}
+
+    return notified
+
+
+def save_state(path, notified_dict):
+    """
+    Persist state, pruning entries older than STATE_TTL_DAYS to keep file small.
+    """
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=STATE_TTL_DAYS)).isoformat()
+    pruned = {sid: ts for sid, ts in notified_dict.items() if ts >= cutoff}
+    save_json(path, {
+        "notified":     pruned,
+        "last_updated": datetime.now(timezone.utc).isoformat(),
+    })
+    return pruned
+
+
 # ── Munch Auth ─────────────────────────────────────────────────────────────
 
 def munch_login():
-    """Three-step auth → (scoped_token, employee_id, org_id)"""
+    """Three-step auth -> (scoped_token, employee_id, org_id)"""
 
     # Step 1: Login
     r = requests.post(
@@ -81,7 +112,7 @@ def munch_login():
     emp           = r.json()["data"]["employee"]
     initial_token = emp["accessToken"]
     employee_id   = emp["id"]
-    print("✓ Step 1: Login successful")
+    print("+ Step 1: Login successful")
 
     base_h = {
         "Authorization":      f"Bearer {initial_token}",
@@ -92,22 +123,22 @@ def munch_login():
         "Munch-Organisation": ORG_ID,
     }
 
-    # Step 2: Retrieve operating context → get scopeId
+    # Step 2: Retrieve operating context -> get scopeId
     r = requests.post(f"{MUNCH_API}/operating-context/retrieve",
                       json={}, headers=base_h, timeout=30)
     r.raise_for_status()
     orgs     = r.json()["data"]["operatingContexts"]["organisations"]
     scope_id = orgs[0]["scopeId"]
     org_id   = orgs[0]["id"]
-    print(f"✓ Step 2: Scope retrieved ({org_id})")
+    print(f"+ Step 2: Scope retrieved ({org_id})")
 
-    # Step 3: Select context — must include BOTH scopeId AND organisationId
+    # Step 3: Select context -- must include BOTH scopeId AND organisationId
     r = requests.post(f"{MUNCH_API}/operating-context/select",
                       json={"scopeId": scope_id, "organisationId": org_id},
                       headers=base_h, timeout=30)
     r.raise_for_status()
     scoped_token = r.json()["data"]["employee"]["accessToken"]
-    print("✓ Step 3: Scoped token obtained")
+    print("+ Step 3: Scoped token obtained")
 
     return scoped_token, employee_id, org_id
 
@@ -146,7 +177,7 @@ def get_recent_debits(token, employee_id, org_id):
     )
     r.raise_for_status()
     items = r.json().get("data", {}).get("accountLedgerItems", [])
-    print(f"✓ Ledger fetched: {len(items)} items in {LOOKBACK_HOURS}h window")
+    print(f"+ Ledger fetched: {len(items)} items in {LOOKBACK_HOURS}h window")
 
     debits = []
     for item in items:
@@ -163,7 +194,7 @@ def get_recent_debits(token, employee_id, org_id):
             "user_name":    f"{user.get('firstName','')} {user.get('lastName','')}".strip(),
         })
 
-    print(f"  → {len(debits)} account debit(s)")
+    print(f"  -> {len(debits)} account debit(s)")
     return debits
 
 
@@ -180,7 +211,7 @@ def get_sale_detail(token, employee_id, org_id, sale_id):
         sales = r.json().get("data", {}).get("sales", [])
         return sales[0] if sales else None
     except Exception as e:
-        print(f"  ⚠ sale/retrieve failed for {sale_id}: {e}")
+        print(f"  ! sale/retrieve failed for {sale_id}: {e}")
         return None
 
 
@@ -217,11 +248,11 @@ def send_whatsapp(phone, first_name, amount, items, date_str, balance):
 def main():
     now_sast = datetime.now(timezone.utc) + timedelta(hours=2)
     print(f"\n{'='*55}")
-    print(f"Munch Account Notifier — {now_sast.strftime('%Y-%m-%d %H:%M:%S')} SAST")
+    print(f"Munch Account Notifier -- {now_sast.strftime('%Y-%m-%d %H:%M:%S')} SAST")
     print(f"{'='*55}\n")
 
-    state       = load_json(STATE_FILE, {"notified": [], "last_updated": ""})
-    notified    = set(state.get("notified", []))
+    # notified is a dict: sale_id -> notified_at ISO string
+    notified    = load_state(STATE_FILE)
     cache       = load_json(CACHE_FILE, {"members": {}, "last_updated": ""})
     phone_cache = cache.get("members", {})
 
@@ -287,7 +318,7 @@ def main():
                 phone = phone_cache[name_lower]
                 print(f"  Phone (cache) : {phone}")
             else:
-                print(f"  ⚠ No phone found for {user_name} — skipping")
+                print(f"  ! No phone found for {user_name} -- skipping")
                 errors.append(f"No phone for {user_name} (sale {sale_id})")
                 continue
 
@@ -295,22 +326,20 @@ def main():
 
         try:
             sid = send_whatsapp(phone, first_name, amount_str, items_str, date_str, balance_str)
-            print(f"  ✓ WhatsApp sent — SID: {sid}")
+            print(f"  + WhatsApp sent -- SID: {sid}")
             sent_ids.append(sale_id)
         except Exception as e:
-            print(f"  ✗ Twilio error: {e}")
+            print(f"  x Twilio error: {e}")
             errors.append(f"Twilio error for {user_name}: {e}")
 
-    # Persist state
+    # Persist state -- record timestamp alongside each sale ID so old entries
+    # can be pruned after STATE_TTL_DAYS rather than by a fixed count limit.
     if sent_ids:
-        notified.update(sent_ids)
-        all_ids = list(notified)
-        if len(all_ids) > MAX_STATE_ENTRIES:
-            all_ids = all_ids[-MAX_STATE_ENTRIES:]
-        state["notified"]     = all_ids
-        state["last_updated"] = datetime.now(timezone.utc).isoformat()
-        save_json(STATE_FILE, state)
-        print(f"\n✓ State updated: {len(sent_ids)} new sale ID(s) saved")
+        now_iso = datetime.now(timezone.utc).isoformat()
+        for sid in sent_ids:
+            notified[sid] = now_iso
+        pruned = save_state(STATE_FILE, notified)
+        print(f"\n+ State updated: {len(sent_ids)} new sale ID(s) saved ({len(pruned)} total)")
 
     # Summary
     print(f"\n{'='*55}")
