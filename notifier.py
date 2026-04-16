@@ -21,8 +21,6 @@ TWILIO_SID     = os.environ["TWILIO_ACCOUNT_SID"]
 TWILIO_TOKEN   = os.environ["TWILIO_AUTH_TOKEN"]
 TWILIO_FROM    = "whatsapp:+27600192724"
 CONTENT_SID    = "HXcc32f85ac944517098c4c212978e938c"   # 5-var template
-MESSAGING_SVC  = "MG37372de845ecfc9e05f2ce97db4ed0cc"   # WhatsApp messaging service
-
 MUNCH_EMAIL    = os.environ["MUNCH_EMAIL"]
 MUNCH_PASSWORD = os.environ["MUNCH_PASSWORD"]
 
@@ -196,8 +194,8 @@ def send_whatsapp(phone, first_name, amount, items, date_str, balance):
     """
     url = f"https://api.twilio.com/2010-04-01/Accounts/{TWILIO_SID}/Messages.json"
     payload = {
-        "MessagingServiceSid": MESSAGING_SVC,
-        "To":                  f"whatsapp:{phone}",
+        "From":  TWILIO_FROM,
+        "To":    f"whatsapp:{phone}",
         "ContentSid":          CONTENT_SID,
         "ContentVariables":    json.dumps({
             "1": first_name,
