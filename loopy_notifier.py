@@ -114,12 +114,14 @@ def generate_message(scenario, context=""):
         "come_back": (
             f"Write a single fun, warm push notification to re-engage a coffee shop customer "
             f"who hasn't visited in a while. They still have {context} stamps saved. "
-            f"Make it enticing and friendly, use 1-2 relevant emojis. MAX 90 characters. "
-            f"Return ONLY the message text, nothing else."
+            f"Encourage them to pop in again. Do NOT mention free coffee, discounts, or specific rewards. "
+            f"Use 1-2 emojis. MAX 90 characters. Return ONLY the message text, nothing else."
         ),
         "loyal": (
             "Write a single fun, celebratory push notification to thank a super loyal coffee "
-            "customer. Make them feel like a VIP. Use 1-2 emojis, keep it warm and trendy. "
+            "customer. Make them feel appreciated and special. "
+            "Do NOT mention free coffee, discounts, or specific rewards. "
+            "Use 1-2 emojis, keep it warm and trendy. "
             "MAX 90 characters. Return ONLY the message text, nothing else."
         ),
     }
