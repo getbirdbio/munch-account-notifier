@@ -119,9 +119,10 @@ async function loadData() {
     if (!r.ok) throw new Error('HTTP ' + r.status);
     const data = await r.json();
     allRuns = (data.runs || []).slice().reverse(); // newest first
+    // allRuns is already newest-first; flatMap preserves that order
     allNotifs = allRuns.flatMap(run =>
       (run.notifications || []).map(n => ({...n, run_ts: run.run_ts}))
-    ).reverse(); // newest first
+    );
 
     renderStats();
     renderCharts();
