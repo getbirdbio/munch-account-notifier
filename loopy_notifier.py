@@ -4,16 +4,16 @@ Loopy Loyalty Push Notifier
 Sends targeted push notifications to Getbird Birdhaven loyalty members.
 
 Scenarios (run daily via GitHub Actions):
-  1. ALMOST_THERE  — currentStamps >= 9 (3 away from free coffee at 12)
-  2. COME_BACK     — no stamp earned in 14+ days, but still has stamps
-  3. LOYAL         — totalStampsEarned >= 24 (2+ full cycles) — monthly
+  1. ALMOST_THERE  -- currentStamps >= 9 (3 away from free coffee at 12)
+  2. COME_BACK     -- no stamp earned in 14+ days, but still has stamps
+  3. LOYAL         -- totalStampsEarned >= 24 (2+ full cycles) -- monthly
 """
 
 import json, os, sys, requests
 from datetime import datetime, timezone, timedelta
 import anthropic
 
-# ── Config ──────────────────────────────────────────────────────────────────
+# -- Config ------------------------------------------------------------------
 LL_API       = "https://api.loopyloyalty.com"
 CAMPAIGN_ID  = "hZd5mudqN2NiIrq2XoM46"
 MAX_STAMPS   = 12   # stamps for a free coffee
@@ -36,7 +36,7 @@ LOYAL_COOLDOWN        = 30
 MAX_COME_BACK_PER_RUN = 50   # cap to avoid mass spam
 
 
-# ── Helpers ──────────────────────────────────────────────────────────────────
+# -- Helpers -----------------------------------------------------------------
 def load_json(path, default):
     try:
         with open(path) as f:
@@ -60,20 +60,20 @@ def is_on_cooldown(state, card_id, scenario, cooldown_days):
 def mark_sent(state, card_id, scenario):
     state.setdefault("sent", {})[f"{card_id}:{scenario}"] = datetime.now(timezone.utc).isoformat()
 
-# ── Loopy Loyalty Auth ───────────────────────────────────────────────────────
+# -- Loopy Loyalty Auth ------------------------------------------------------
 def ll_login():
     r = requests.post(f"{LL_API}/account/login",
                       json={"username": LL_USERNAME, "password": LL_PASSWORD},
                       timeout=15)
     r.raise_for_status()
     token = r.json()["token"]
-    print("✓ Logged in to Loopy Loyalty")
+    print("+ Logged in to Loopy Loyalty")
     return token
 
 def ll_headers(token):
     return {"Authorization": token, "Content-Type": "application/json"}
 
-# ── Loopy Loyalty API ────────────────────────────────────────────────────────
+# -- Loopy Loyalty API -------------------------------------------------------
 def list_all_cards(token):
     """Fetch all cards with pagination."""
     headers = ll_headers(token)
@@ -91,7 +91,7 @@ def list_all_cards(token):
         if len(all_cards) >= total or not cards:
             break
         start += page_size
-    print(f"✓ Fetched {len(all_cards)} / {total} cards")
+    print(f"+ Fetched {len(all_cards)} / {total} cards")
     return all_cards
 
 def send_individual_push(token, card_id, message):
@@ -101,7 +101,7 @@ def send_individual_push(token, card_id, message):
     r.raise_for_status()
     return r.json()
 
-# ── Claude Message Generation ────────────────────────────────────────────────
+# -- Claude Message Generation -----------------------------------------------
 def generate_message(scenario, context=""):
     """Generate a fun, trendy <90-char push message with emojis via Claude Haiku."""
     client = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
@@ -134,9 +134,10 @@ def generate_message(scenario, context=""):
     text = msg.content[0].text.strip().strip('"').strip("'")
     return text[:90] if len(text) > 90 else text
 
-# ── Scenario 1: Almost There ─────────────────────────────────────────────────
+# -- Scenario 1: Almost There ------------------------------------------------
 def run_almost_there(token, state, cards):
-    print("\n── Scenario 1: Almost There ────────────────────────────")
+    """Returns (sent_count, notifications_list)."""
+    print("\n-- Scenario 1: Almost There ----------------------------------------")
     candidates = [
         c for c in cards
         if ALMOST_THERE_MIN <= c.get("currentStamps", 0) < MAX_STAMPS
@@ -145,7 +146,7 @@ def run_almost_there(token, state, cards):
     ]
     print(f"  Candidates: {len(candidates)}")
     if not candidates:
-        return 0
+        return 0, []
 
     # Group by stamp count so we generate one message per count (max 3 calls)
     by_count = {}
@@ -153,25 +154,35 @@ def run_almost_there(token, state, cards):
         by_count.setdefault(c["currentStamps"], []).append(c)
 
     sent = 0
+    notifications = []
     for stamps, group in sorted(by_count.items()):
         remaining = MAX_STAMPS - stamps
         message = generate_message("almost_there", str(stamps))
-        print(f"  [{stamps} stamps → {remaining} to go] {message!r}")
+        print(f"  [{stamps} stamps -> {remaining} to go] {message!r}")
         for card in group:
             name = card.get("customerDetails", {}).get("Name", "Member")
             try:
                 send_individual_push(token, card["id"], message)
                 mark_sent(state, card["id"], "almost_there")
-                print(f"    ✓ {name}")
+                print(f"    + {name}")
                 sent += 1
+                notifications.append({
+                    "ts":       datetime.now(timezone.utc).isoformat(),
+                    "scenario": "almost_there",
+                    "card_id":  card["id"],
+                    "name":     name,
+                    "stamps":   stamps,
+                    "message":  message,
+                })
             except Exception as e:
-                print(f"    ✗ {name}: {e}")
+                print(f"    x {name}: {e}")
     print(f"  Sent: {sent}")
-    return sent
+    return sent, notifications
 
-# ── Scenario 2: Come Back ─────────────────────────────────────────────────────
+# -- Scenario 2: Come Back ---------------------------------------------------
 def run_come_back(token, state, cards):
-    print("\n── Scenario 2: Come Back ────────────────────────────────")
+    """Returns (sent_count, notifications_list)."""
+    print("\n-- Scenario 2: Come Back -------------------------------------------")
     now    = datetime.now(timezone.utc)
     cutoff = now - timedelta(days=COME_BACK_DAYS)
     candidates = []
@@ -191,26 +202,37 @@ def run_come_back(token, state, cards):
     candidates = candidates[:MAX_COME_BACK_PER_RUN]
     print(f"  Candidates: {len(candidates)}")
     if not candidates:
-        return 0
+        return 0, []
 
     message = generate_message("come_back", "a few")
     print(f"  Message: {message!r}")
     sent = 0
+    notifications = []
     for card in candidates:
-        name = card.get("customerDetails", {}).get("Name", "Member")
+        name   = card.get("customerDetails", {}).get("Name", "Member")
+        stamps = card.get("currentStamps", 0)
         try:
             send_individual_push(token, card["id"], message)
             mark_sent(state, card["id"], "come_back")
-            print(f"    ✓ {name} (last: {card.get('lastStampEarned','?')[:10]})")
+            print(f"    + {name} (last: {card.get('lastStampEarned','?')[:10]})")
             sent += 1
+            notifications.append({
+                "ts":       datetime.now(timezone.utc).isoformat(),
+                "scenario": "come_back",
+                "card_id":  card["id"],
+                "name":     name,
+                "stamps":   stamps,
+                "message":  message,
+            })
         except Exception as e:
-            print(f"    ✗ {name}: {e}")
+            print(f"    x {name}: {e}")
     print(f"  Sent: {sent}")
-    return sent
+    return sent, notifications
 
-# ── Scenario 3: Loyal Customers ───────────────────────────────────────────────
+# -- Scenario 3: Loyal Customers ---------------------------------------------
 def run_loyal(token, state, cards):
-    print("\n── Scenario 3: Loyal Customers ──────────────────────────")
+    """Returns (sent_count, notifications_list)."""
+    print("\n-- Scenario 3: Loyal Customers -------------------------------------")
     candidates = [
         c for c in cards
         if c.get("totalStampsEarned", 0) >= LOYAL_THRESHOLD
@@ -219,28 +241,38 @@ def run_loyal(token, state, cards):
     ]
     print(f"  Candidates: {len(candidates)}")
     if not candidates:
-        return 0
+        return 0, []
 
     message = generate_message("loyal")
     print(f"  Message: {message!r}")
     sent = 0
+    notifications = []
     for card in candidates:
-        name = card.get("customerDetails", {}).get("Name", "Member")
+        name   = card.get("customerDetails", {}).get("Name", "Member")
+        stamps = card.get("totalStampsEarned", 0)
         try:
             send_individual_push(token, card["id"], message)
             mark_sent(state, card["id"], "loyal")
-            print(f"    ✓ {name} ({card.get('totalStampsEarned')} lifetime stamps)")
+            print(f"    + {name} ({stamps} lifetime stamps)")
             sent += 1
+            notifications.append({
+                "ts":       datetime.now(timezone.utc).isoformat(),
+                "scenario": "loyal",
+                "card_id":  card["id"],
+                "name":     name,
+                "stamps":   stamps,
+                "message":  message,
+            })
         except Exception as e:
-            print(f"    ✗ {name}: {e}")
+            print(f"    x {name}: {e}")
     print(f"  Sent: {sent}")
-    return sent
+    return sent, notifications
 
-# ── Main ──────────────────────────────────────────────────────────────────────
+# -- Main --------------------------------------------------------------------
 def main():
     now_sast = datetime.now(timezone.utc) + timedelta(hours=2)
     print(f"\n{'='*55}")
-    print(f"Loopy Loyalty Notifier — {now_sast.strftime('%Y-%m-%d %H:%M:%S')} SAST")
+    print(f"Loopy Loyalty Notifier -- {now_sast.strftime('%Y-%m-%d %H:%M:%S')} SAST")
     print(f"{'='*55}")
 
     state = load_json(STATE_FILE, {"sent": {}})
@@ -265,10 +297,10 @@ def main():
 
     save_json(STATE_FILE, state)
 
-    # --- Save run log ---
+    # Save run log -----------------------------------------------------------
     run_log = load_json(RUN_LOG_FILE, {"runs": []})
     run_entry = {
-        "run_ts": now_sast.isoformat(),
+        "run_ts":    now_sast.isoformat(),
         "total_sent": total,
         "by_scenario": {
             "almost_there": sum(1 for n in all_notifications if n["scenario"] == "almost_there"),
