@@ -4986,6 +4986,417 @@
           "message": "[Message not logged \u2014 first run]"
         }
       ]
+    },
+    {
+      "run_ts": "2026-04-17T09:44:54.256578+00:00",
+      "total_sent": 50,
+      "by_scenario": {
+        "almost_there": 1,
+        "come_back": 48,
+        "loyal": 1
+      },
+      "notifications": [
+        {
+          "ts": "2026-04-17T07:44:59.470469+00:00",
+          "scenario": "almost_there",
+          "card_id": "pY5gUlREWQych6",
+          "name": "Herman",
+          "stamps": 9,
+          "message": "You're so close! \u2615 One more visit to unlock your next reward. Let's go! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-17T07:45:00.813707+00:00",
+          "scenario": "come_back",
+          "card_id": "DJCtagKBMRGL9t",
+          "name": "Tessa Pratt",
+          "stamps": 4,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:02.025503+00:00",
+          "scenario": "come_back",
+          "card_id": "mVrXYsvElfFDTX",
+          "name": "Taryn",
+          "stamps": 7,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:02.359789+00:00",
+          "scenario": "come_back",
+          "card_id": "xgqUSNYV6MKd87",
+          "name": "HERMAN DU PREEZ",
+          "stamps": 5,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:03.047053+00:00",
+          "scenario": "come_back",
+          "card_id": "HtRQZxfvp36lyh",
+          "name": "Claudia Holliday",
+          "stamps": 5,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:03.462249+00:00",
+          "scenario": "come_back",
+          "card_id": "NGqb8UHgirIZpm",
+          "name": "Gabriel Katzman",
+          "stamps": 2,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:03.867855+00:00",
+          "scenario": "come_back",
+          "card_id": "G8fAFXlT5mi9vZ",
+          "name": "Heather Dixon",
+          "stamps": 9,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:04.189455+00:00",
+          "scenario": "come_back",
+          "card_id": "Ah0sNxE0jkyeBo",
+          "name": "Austen Parfitt",
+          "stamps": 7,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:04.698594+00:00",
+          "scenario": "come_back",
+          "card_id": "3oteMkmmxc5oDW",
+          "name": "Wayne",
+          "stamps": 1,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:05.200791+00:00",
+          "scenario": "come_back",
+          "card_id": "0nCPmkszSUEEYq",
+          "name": "Clinton Da Costa Brown",
+          "stamps": 2,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:05.590237+00:00",
+          "scenario": "come_back",
+          "card_id": "3iYYAq4mMNOsAQ",
+          "name": "Michelle",
+          "stamps": 12,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:05.936414+00:00",
+          "scenario": "come_back",
+          "card_id": "XjeS4Yiv8dVwg0",
+          "name": "Jann. Setzkorn",
+          "stamps": 2,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:06.375275+00:00",
+          "scenario": "come_back",
+          "card_id": "hYdAXtvOxgJufJ",
+          "name": "Charlotte",
+          "stamps": 11,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:06.881157+00:00",
+          "scenario": "come_back",
+          "card_id": "mr8yQKElVspUT8",
+          "name": "Matthew Hancock",
+          "stamps": 8,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:07.367706+00:00",
+          "scenario": "come_back",
+          "card_id": "ee9xThxUmDBNkZ",
+          "name": "Jonathan",
+          "stamps": 4,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:07.746653+00:00",
+          "scenario": "come_back",
+          "card_id": "dnVD6fwScnIsdY",
+          "name": "Emma Daugherty",
+          "stamps": 2,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:08.211200+00:00",
+          "scenario": "come_back",
+          "card_id": "j0vwtEgfC7tgLM",
+          "name": "Taryn",
+          "stamps": 6,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:08.814165+00:00",
+          "scenario": "come_back",
+          "card_id": "ZIqqObNKWKHhZV",
+          "name": "Rowan Williams",
+          "stamps": 3,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:09.361383+00:00",
+          "scenario": "come_back",
+          "card_id": "GHBe8M2S0LzGje",
+          "name": "Danielle Sack",
+          "stamps": 4,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:09.899839+00:00",
+          "scenario": "come_back",
+          "card_id": "pRu45ApyYpGSug",
+          "name": "Jess Parker",
+          "stamps": 7,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:10.209258+00:00",
+          "scenario": "come_back",
+          "card_id": "WxIRFo3Nb30cbr",
+          "name": "Andrew Cairns",
+          "stamps": 6,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:10.601162+00:00",
+          "scenario": "come_back",
+          "card_id": "tlFsMpWUN0zcr6",
+          "name": "Michael Gamsu",
+          "stamps": 9,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:26.157321+00:00",
+          "scenario": "come_back",
+          "card_id": "iXRpUtSrlHYHGl",
+          "name": "Tayla",
+          "stamps": 4,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:26.554614+00:00",
+          "scenario": "come_back",
+          "card_id": "0tYEXOFGT1eZme",
+          "name": "Jhana Weltman",
+          "stamps": 9,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:27.047905+00:00",
+          "scenario": "come_back",
+          "card_id": "NvhVs8F8irwID7",
+          "name": "Paula Bongiovanni",
+          "stamps": 2,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:27.376392+00:00",
+          "scenario": "come_back",
+          "card_id": "U9JIz7c99c7P9i",
+          "name": "Brogie Mac Farlane",
+          "stamps": 5,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:27.689747+00:00",
+          "scenario": "come_back",
+          "card_id": "EoX0tzgBRg8U2h",
+          "name": "Faith",
+          "stamps": 2,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:27.981496+00:00",
+          "scenario": "come_back",
+          "card_id": "2fe2ZxjPhmQiDO",
+          "name": "Lisa",
+          "stamps": 6,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:28.327017+00:00",
+          "scenario": "come_back",
+          "card_id": "1TBFg2zyVLEome",
+          "name": "Ryan Paulie",
+          "stamps": 1,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:28.621565+00:00",
+          "scenario": "come_back",
+          "card_id": "FzuNfv4Z8kqgjZ",
+          "name": "Jessica",
+          "stamps": 2,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:28.956565+00:00",
+          "scenario": "come_back",
+          "card_id": "659gFUiy55x2hp",
+          "name": "Candice",
+          "stamps": 9,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:29.382568+00:00",
+          "scenario": "come_back",
+          "card_id": "whRcwfWYlPfPTg",
+          "name": "Kate",
+          "stamps": 10,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:29.727486+00:00",
+          "scenario": "come_back",
+          "card_id": "ebLiUs3LzC8iax",
+          "name": "Caitlin Bond",
+          "stamps": 2,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:30.050832+00:00",
+          "scenario": "come_back",
+          "card_id": "KR1qNuNnSpY0LP",
+          "name": "Lee-In Chen",
+          "stamps": 9,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:30.364226+00:00",
+          "scenario": "come_back",
+          "card_id": "ghWMXvuDP8f223",
+          "name": "Amira Bloch",
+          "stamps": 9,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:30.887230+00:00",
+          "scenario": "come_back",
+          "card_id": "hRc51MA2kibDZK",
+          "name": "Rachel Steenkamp",
+          "stamps": 6,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:31.198664+00:00",
+          "scenario": "come_back",
+          "card_id": "gGaZWf4sQiObJA",
+          "name": "Nuvi Pillay",
+          "stamps": 10,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:31.563957+00:00",
+          "scenario": "come_back",
+          "card_id": "fbR1viCC0NRBHM",
+          "name": "Jeff",
+          "stamps": 7,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:32.012055+00:00",
+          "scenario": "come_back",
+          "card_id": "hSnxVXz0r7wxtJ",
+          "name": "Shana",
+          "stamps": 2,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:32.559925+00:00",
+          "scenario": "come_back",
+          "card_id": "aEajVoJY7kQsn5",
+          "name": "Jacqui Clucas",
+          "stamps": 9,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:32.876358+00:00",
+          "scenario": "come_back",
+          "card_id": "N6PtGu9AWEBHv9",
+          "name": "Joubert",
+          "stamps": 2,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:33.223123+00:00",
+          "scenario": "come_back",
+          "card_id": "LgFaxfgF7obcjI",
+          "name": "Olivia Radford",
+          "stamps": 11,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:33.569256+00:00",
+          "scenario": "come_back",
+          "card_id": "lJoHyGrGe2bRWo",
+          "name": "Aim\u00e9e Girdwood",
+          "stamps": 6,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:33.912363+00:00",
+          "scenario": "come_back",
+          "card_id": "VmFCpUyEG3a0DV",
+          "name": "Kate Whitehead",
+          "stamps": 12,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:34.259454+00:00",
+          "scenario": "come_back",
+          "card_id": "61IlgAV45ZWfgH",
+          "name": "Kristin Bellingan",
+          "stamps": 2,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:34.809378+00:00",
+          "scenario": "come_back",
+          "card_id": "zTGxeBtYJ7fhix",
+          "name": "Simon",
+          "stamps": 2,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:35.122382+00:00",
+          "scenario": "come_back",
+          "card_id": "xvsNIqQDLamPBX",
+          "name": "Audrey-Lee",
+          "stamps": 6,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:50.889900+00:00",
+          "scenario": "come_back",
+          "card_id": "J5Wx9RMJG9K1jV",
+          "name": "Noreen Ross",
+          "stamps": 6,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:51.361925+00:00",
+          "scenario": "come_back",
+          "card_id": "msvzxvVTMR6Rpy",
+          "name": "Raey",
+          "stamps": 12,
+          "message": "Hey! Your stamp card is waiting for you \u2615 Come brew up something good with us again soon! "
+        },
+        {
+          "ts": "2026-04-17T07:45:53.207483+00:00",
+          "scenario": "loyal",
+          "card_id": "vD6GBZLd6bjxQf",
+          "name": "Lindi Hawke",
+          "stamps": 24,
+          "message": "You're our favorite regular! \u2615 Thanks for making our mornings brighter every single day. \ud83d\ude4c"
+        }
+      ]
     }
   ]
 }
