@@ -6984,6 +6984,1593 @@
           "message": "Your stamps are waiting! \u2615 Come brew up some good vibes with us again soon! \u2728"
         }
       ]
+    },
+    {
+      "run_ts": "2026-04-19T09:07:19.421147+00:00",
+      "total_sent": 197,
+      "by_scenario": {
+        "almost_there": 145,
+        "come_back": 50,
+        "loyal": 2
+      },
+      "notifications": [
+        {
+          "ts": "2026-04-19T07:07:27.695299+00:00",
+          "scenario": "almost_there",
+          "card_id": "UuVujkXgmA229i",
+          "name": "Brent Fuhr",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:28.149983+00:00",
+          "scenario": "almost_there",
+          "card_id": "uqxu3j9hc5MX9c",
+          "name": "Howard Segall",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:28.459271+00:00",
+          "scenario": "almost_there",
+          "card_id": "sXNDSwJU0apMcV",
+          "name": "Alexa Peters",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:29.031364+00:00",
+          "scenario": "almost_there",
+          "card_id": "O35rONA6X0xCwf",
+          "name": "Gabriella",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:29.520009+00:00",
+          "scenario": "almost_there",
+          "card_id": "mrWOtVS9apqRb7",
+          "name": "Josephine",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:29.759099+00:00",
+          "scenario": "almost_there",
+          "card_id": "xiVaeawLvmorPw",
+          "name": "Tanya Cruz",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:30.392183+00:00",
+          "scenario": "almost_there",
+          "card_id": "ng0qLrDSkjtADu",
+          "name": "Jenna Kantor",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:30.631358+00:00",
+          "scenario": "almost_there",
+          "card_id": "jDSOLEmKOQWBrQ",
+          "name": "Albe",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:31.270309+00:00",
+          "scenario": "almost_there",
+          "card_id": "G8fAFXlT5mi9vZ",
+          "name": "Heather Dixon",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:31.749210+00:00",
+          "scenario": "almost_there",
+          "card_id": "0tYEXOFGT1eZme",
+          "name": "Jhana Weltman",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:32.059033+00:00",
+          "scenario": "almost_there",
+          "card_id": "659gFUiy55x2hp",
+          "name": "Candice",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:32.322076+00:00",
+          "scenario": "almost_there",
+          "card_id": "KR1qNuNnSpY0LP",
+          "name": "Lee-In Chen",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:32.565250+00:00",
+          "scenario": "almost_there",
+          "card_id": "ghWMXvuDP8f223",
+          "name": "Amira Bloch",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:36.000294+00:00",
+          "scenario": "almost_there",
+          "card_id": "aEajVoJY7kQsn5",
+          "name": "Jacqui Clucas",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:37.998272+00:00",
+          "scenario": "almost_there",
+          "card_id": "r3kaB7dcQorRYH",
+          "name": "Mia van der Nest",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:38.298105+00:00",
+          "scenario": "almost_there",
+          "card_id": "7VDlzAAP9ORpYH",
+          "name": "Carli Hugo",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:38.870183+00:00",
+          "scenario": "almost_there",
+          "card_id": "WOAPjWTJ1Yl10r",
+          "name": "Talya",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:39.350569+00:00",
+          "scenario": "almost_there",
+          "card_id": "vjVVIxXgocCzB8",
+          "name": "Damian Sparks",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:39.687970+00:00",
+          "scenario": "almost_there",
+          "card_id": "1hH88ZEvFPoL3o",
+          "name": "Simon",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:40.150399+00:00",
+          "scenario": "almost_there",
+          "card_id": "4TqvnBXfiADYMS",
+          "name": "David Rabinowitz",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:40.391805+00:00",
+          "scenario": "almost_there",
+          "card_id": "4l9U4UoGP2OgPw",
+          "name": "G S",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:40.948756+00:00",
+          "scenario": "almost_there",
+          "card_id": "Cs5bxir6Dv3vY7",
+          "name": "Sarah Vogel",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:41.429675+00:00",
+          "scenario": "almost_there",
+          "card_id": "W32JAGtrphK8bf",
+          "name": "Charles Burman",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:41.684212+00:00",
+          "scenario": "almost_there",
+          "card_id": "fVuRXZKTYM4HiH",
+          "name": "Wanya Visagie",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:43.828690+00:00",
+          "scenario": "almost_there",
+          "card_id": "v1zgIPqdPdtGro",
+          "name": "Kelby Crane",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:44.064854+00:00",
+          "scenario": "almost_there",
+          "card_id": "xq4aK4ckT7i7xZ",
+          "name": "Pierre van der Hoven",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:44.325369+00:00",
+          "scenario": "almost_there",
+          "card_id": "ehUBSMjD9w86CN",
+          "name": "Jodi",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:44.565517+00:00",
+          "scenario": "almost_there",
+          "card_id": "Gz6Runw5ZT1wQR",
+          "name": "Rachelli",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:44.785919+00:00",
+          "scenario": "almost_there",
+          "card_id": "vAWXt4jqDHq8j2",
+          "name": "Rita",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:45.004233+00:00",
+          "scenario": "almost_there",
+          "card_id": "4w6g1UgKwww9M5",
+          "name": "Julian Sun",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:45.236053+00:00",
+          "scenario": "almost_there",
+          "card_id": "JcAUPzJOapOlSy",
+          "name": "Benji",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:45.507582+00:00",
+          "scenario": "almost_there",
+          "card_id": "3o4AQMIQKlqw8q",
+          "name": "Tracy Ackermann",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:45.743894+00:00",
+          "scenario": "almost_there",
+          "card_id": "v5vjRgODspoT41",
+          "name": "Sello",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:46.229561+00:00",
+          "scenario": "almost_there",
+          "card_id": "uqF7gqN0DXSuiM",
+          "name": "Sean",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:46.441343+00:00",
+          "scenario": "almost_there",
+          "card_id": "DT63rWTnRqJwew",
+          "name": "Zo\u00eb Austen",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:46.778418+00:00",
+          "scenario": "almost_there",
+          "card_id": "JHoKYxhJFHYa9L",
+          "name": "Caitlin Solomons",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:47.270203+00:00",
+          "scenario": "almost_there",
+          "card_id": "lzSVXi5T8sttXk",
+          "name": "Mari Rabie",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:47.829612+00:00",
+          "scenario": "almost_there",
+          "card_id": "h5Iy4d0sKPB6uP",
+          "name": "Caitlin Williams",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:48.062104+00:00",
+          "scenario": "almost_there",
+          "card_id": "iMVXBwoSsdp1Po",
+          "name": "Jillian katz",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:48.792034+00:00",
+          "scenario": "almost_there",
+          "card_id": "pY5gUlREWQych6",
+          "name": "Herman",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:49.269001+00:00",
+          "scenario": "almost_there",
+          "card_id": "eCkeh7AD7o9ggJ",
+          "name": "Glen Copans",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:49.576533+00:00",
+          "scenario": "almost_there",
+          "card_id": "bUAFj88r68M7NI",
+          "name": "Doron Falk",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:50.069169+00:00",
+          "scenario": "almost_there",
+          "card_id": "rz6heaknrOVR0N",
+          "name": "Francois Lion-Cachet",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:50.459120+00:00",
+          "scenario": "almost_there",
+          "card_id": "tFFnn9Y9gBNx6T",
+          "name": "Marc Romberg",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:52.388543+00:00",
+          "scenario": "almost_there",
+          "card_id": "wVwCTjEEzV9Hwd",
+          "name": "Justin",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:52.619927+00:00",
+          "scenario": "almost_there",
+          "card_id": "ktZOxatZq5NGgN",
+          "name": "Darren Sosnovik",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:52.846937+00:00",
+          "scenario": "almost_there",
+          "card_id": "vWUDtSaPLFyK3Y",
+          "name": "Ben",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:53.108820+00:00",
+          "scenario": "almost_there",
+          "card_id": "8VJc9PnXFmgsvl",
+          "name": "Matthew Bray",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:53.596533+00:00",
+          "scenario": "almost_there",
+          "card_id": "5NiSL1xF6TOpXc",
+          "name": "David",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:53.933962+00:00",
+          "scenario": "almost_there",
+          "card_id": "z43kkoGCNGBe1A",
+          "name": "Mia Nichol",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:55.669138+00:00",
+          "scenario": "almost_there",
+          "card_id": "yclE9dHnIsNNkN",
+          "name": "Tori Emdin",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:56.628256+00:00",
+          "scenario": "almost_there",
+          "card_id": "keSoIopMSJkMcv",
+          "name": "Dani Zekry",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:56.842066+00:00",
+          "scenario": "almost_there",
+          "card_id": "9HtulsWRTsPFdQ",
+          "name": "Hannah Jossel",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:57.268726+00:00",
+          "scenario": "almost_there",
+          "card_id": "TBEfmWjgbgJ8Lv",
+          "name": "Hayley Pogir",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:57.749484+00:00",
+          "scenario": "almost_there",
+          "card_id": "s9U9i5uFEJ5pCp",
+          "name": "Glenda Kaplan",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:57.990818+00:00",
+          "scenario": "almost_there",
+          "card_id": "oXOu5Lr8LJqk5F",
+          "name": "Chaya Riesenburg",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:58.474181+00:00",
+          "scenario": "almost_there",
+          "card_id": "EkikWyrOoiIa2Q",
+          "name": "Laura van der Haer",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:59.268727+00:00",
+          "scenario": "almost_there",
+          "card_id": "mLVQQheX0cpflM",
+          "name": "Jessica Dutton",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:07:59.493473+00:00",
+          "scenario": "almost_there",
+          "card_id": "pUiAC0KkEsfyaw",
+          "name": "Adam Bresler",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:00.068714+00:00",
+          "scenario": "almost_there",
+          "card_id": "JqKHt7GFeaPPH9",
+          "name": "Jozua Booysen",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:00.549482+00:00",
+          "scenario": "almost_there",
+          "card_id": "RFN9lzrFpi3IY2",
+          "name": "Stella",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:01.028639+00:00",
+          "scenario": "almost_there",
+          "card_id": "QRLf54OuFteSy7",
+          "name": "Neil Promnick",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:01.277742+00:00",
+          "scenario": "almost_there",
+          "card_id": "Wn8wtFSrN9nWaz",
+          "name": "Rokeya Lakhi",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:01.496838+00:00",
+          "scenario": "almost_there",
+          "card_id": "xDxuqhsmMSlEHM",
+          "name": "Allan Joffe",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:01.734023+00:00",
+          "scenario": "almost_there",
+          "card_id": "RWDH1oAy8lWImf",
+          "name": "Mark Smith",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:02.003387+00:00",
+          "scenario": "almost_there",
+          "card_id": "DIv8j3avvT9EuZ",
+          "name": "Brendan",
+          "stamps": 9,
+          "message": "You're just 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:03.094705+00:00",
+          "scenario": "almost_there",
+          "card_id": "rCYADouMyCo8BZ",
+          "name": "Eleni Artemides",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:03.589224+00:00",
+          "scenario": "almost_there",
+          "card_id": "auKQxoj0WOP3Pe",
+          "name": "Jesmika",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:03.814897+00:00",
+          "scenario": "almost_there",
+          "card_id": "tlFsMpWUN0zcr6",
+          "name": "Michael Gamsu",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:04.311344+00:00",
+          "scenario": "almost_there",
+          "card_id": "whRcwfWYlPfPTg",
+          "name": "Kate",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:04.546789+00:00",
+          "scenario": "almost_there",
+          "card_id": "gGaZWf4sQiObJA",
+          "name": "Nuvi Pillay",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:05.032684+00:00",
+          "scenario": "almost_there",
+          "card_id": "6E9pLLV6CmHdcg",
+          "name": "Adrienne B",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:05.255018+00:00",
+          "scenario": "almost_there",
+          "card_id": "GVaXas5K7gyhma",
+          "name": "Sofia",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:05.763020+00:00",
+          "scenario": "almost_there",
+          "card_id": "XyTs0BiIrRuvLp",
+          "name": "Gina Altshuler",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:06.229024+00:00",
+          "scenario": "almost_there",
+          "card_id": "3rSmt4R9LwFin6",
+          "name": "David",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:06.709138+00:00",
+          "scenario": "almost_there",
+          "card_id": "e2TjyBL5tAlPPr",
+          "name": "Kevin Frankental",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:06.930331+00:00",
+          "scenario": "almost_there",
+          "card_id": "kAsamPxRZGFoq5",
+          "name": "Sarah",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:07.429666+00:00",
+          "scenario": "almost_there",
+          "card_id": "gqj0MTG8WzFWSV",
+          "name": "Theo de Jager",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:07.664237+00:00",
+          "scenario": "almost_there",
+          "card_id": "tK1kPsFDzAMeTC",
+          "name": "Kirsten Keen",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:08.150337+00:00",
+          "scenario": "almost_there",
+          "card_id": "sZl0CbY9Ml4Wm1",
+          "name": "Luke Judhe",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:08.628652+00:00",
+          "scenario": "almost_there",
+          "card_id": "jqT91RyqRelcwO",
+          "name": "Mike",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:08.854901+00:00",
+          "scenario": "almost_there",
+          "card_id": "rOBxOi90fXMcFU",
+          "name": "Thea Shapiro",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:09.084005+00:00",
+          "scenario": "almost_there",
+          "card_id": "h1RYCRFjNMOpDw",
+          "name": "Josh Ackerman",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:09.290422+00:00",
+          "scenario": "almost_there",
+          "card_id": "8ferBI2F4tWMn0",
+          "name": "Natalie Moutafis",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:09.510630+00:00",
+          "scenario": "almost_there",
+          "card_id": "5XfRUf2oUOIvA6",
+          "name": "Ryan Brick",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:09.989170+00:00",
+          "scenario": "almost_there",
+          "card_id": "rdB8bCEoJvH0Rl",
+          "name": "Ari Chipkin",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:12.071291+00:00",
+          "scenario": "almost_there",
+          "card_id": "562nSqX3bbvP6O",
+          "name": "Jo morreira",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:12.298153+00:00",
+          "scenario": "almost_there",
+          "card_id": "oWTX0qQ5EayUMn",
+          "name": "Ruhan Strydom",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:12.541558+00:00",
+          "scenario": "almost_there",
+          "card_id": "xN5AcYV1mGzz2G",
+          "name": "Josh Katz",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:12.760855+00:00",
+          "scenario": "almost_there",
+          "card_id": "1szDQuTQ7tMxG0",
+          "name": "Michele",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:12.988549+00:00",
+          "scenario": "almost_there",
+          "card_id": "QZtgiau4cn23kf",
+          "name": "Dr Vladimir Jovanovic",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:13.222658+00:00",
+          "scenario": "almost_there",
+          "card_id": "pYHQPtSy3RQ2PY",
+          "name": "Emma",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:13.668669+00:00",
+          "scenario": "almost_there",
+          "card_id": "0cZ4SWcHTe3WFB",
+          "name": "Adel",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:14.151582+00:00",
+          "scenario": "almost_there",
+          "card_id": "zpf48yrhWovDX9",
+          "name": "Taryn",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:14.629048+00:00",
+          "scenario": "almost_there",
+          "card_id": "z1VOK8QjIMNdJI",
+          "name": "Michael Naude",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:14.855895+00:00",
+          "scenario": "almost_there",
+          "card_id": "dUlu91zfhaRJ9i",
+          "name": "Beverly Smullen",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:15.118695+00:00",
+          "scenario": "almost_there",
+          "card_id": "th74VFoxR4tg5a",
+          "name": "Heather green",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:17.029305+00:00",
+          "scenario": "almost_there",
+          "card_id": "nu47WC2Upnf7PG",
+          "name": "Bernalee",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:17.261344+00:00",
+          "scenario": "almost_there",
+          "card_id": "kIQ7J0vyDGlORZ",
+          "name": "Sarah Erasmus",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:19.762800+00:00",
+          "scenario": "almost_there",
+          "card_id": "3DbmiZeb9PDbVU",
+          "name": "Yael",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:20.003837+00:00",
+          "scenario": "almost_there",
+          "card_id": "pMc4r58oTl8QA1",
+          "name": "David Greenway",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:20.709028+00:00",
+          "scenario": "almost_there",
+          "card_id": "xKNKnJUN9VuFNB",
+          "name": "Adam Hurwitz",
+          "stamps": 10,
+          "message": "You're so close! \u2615 Visit us soon and unlock something special. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-19T07:08:22.241263+00:00",
+          "scenario": "almost_there",
+          "card_id": "zUEpuxMlYGPZaN",
+          "name": "Tidimalo",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:22.461555+00:00",
+          "scenario": "almost_there",
+          "card_id": "f076TxIoH3NNw9",
+          "name": "Caiti Mackenzie",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:24.882115+00:00",
+          "scenario": "almost_there",
+          "card_id": "Taxtx6AYEH718l",
+          "name": "Matt",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:25.349758+00:00",
+          "scenario": "almost_there",
+          "card_id": "hYdAXtvOxgJufJ",
+          "name": "Charlotte",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:25.989574+00:00",
+          "scenario": "almost_there",
+          "card_id": "pRu45ApyYpGSug",
+          "name": "Jess Parker",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:26.470363+00:00",
+          "scenario": "almost_there",
+          "card_id": "LgFaxfgF7obcjI",
+          "name": "Olivia Radford",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:26.683267+00:00",
+          "scenario": "almost_there",
+          "card_id": "sTN5DE1Zo8Rgn2",
+          "name": "Qhawekazi Ngcobo",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:26.938266+00:00",
+          "scenario": "almost_there",
+          "card_id": "vkRU7mZaHTHuSP",
+          "name": "Mark Mofsowitz",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:27.172921+00:00",
+          "scenario": "almost_there",
+          "card_id": "JI0Ek2CHTwqmRJ",
+          "name": "Kayleigh Bersiks",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:27.399028+00:00",
+          "scenario": "almost_there",
+          "card_id": "NiKdpyPwUsIv9s",
+          "name": "Portia Matoli",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:27.625827+00:00",
+          "scenario": "almost_there",
+          "card_id": "h6GmM3hVk3emJc",
+          "name": "Khumo",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:28.069139+00:00",
+          "scenario": "almost_there",
+          "card_id": "LwQBbRxdHjOj00",
+          "name": "Chandni",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:28.434110+00:00",
+          "scenario": "almost_there",
+          "card_id": "jMtnvp3a2FTqWC",
+          "name": "Danielle Meyerowitz",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:30.158022+00:00",
+          "scenario": "almost_there",
+          "card_id": "4eOtNXs3oGEqgF",
+          "name": "Alexa Bortz",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:30.397973+00:00",
+          "scenario": "almost_there",
+          "card_id": "yBWbtoZoHTtgvy",
+          "name": "Jake",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:32.387383+00:00",
+          "scenario": "almost_there",
+          "card_id": "TLvBEP21qqDAqI",
+          "name": "Karen Prissman",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:33.030218+00:00",
+          "scenario": "almost_there",
+          "card_id": "SIr8v85271LiLF",
+          "name": "Riana",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:33.249571+00:00",
+          "scenario": "almost_there",
+          "card_id": "6f29TMB0DB2zs4",
+          "name": "Pretash Bhoola",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:33.830247+00:00",
+          "scenario": "almost_there",
+          "card_id": "QQTmbq6XGbuJ1r",
+          "name": "Sara Joselowsky",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:34.057799+00:00",
+          "scenario": "almost_there",
+          "card_id": "vxlCQUpokzvg36",
+          "name": "Gabi goldstein",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:34.338260+00:00",
+          "scenario": "almost_there",
+          "card_id": "mBrhWNynRXhijT",
+          "name": "Cliff Rosen",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:34.562309+00:00",
+          "scenario": "almost_there",
+          "card_id": "aUKZjf3R64pcHK",
+          "name": "Justine Seeff",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:34.801911+00:00",
+          "scenario": "almost_there",
+          "card_id": "V5MeCpK6VRrBXT",
+          "name": "Helena Comitis",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:35.033076+00:00",
+          "scenario": "almost_there",
+          "card_id": "ZHx7HpKn5coLOV",
+          "name": "Kylie Skye",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:35.258669+00:00",
+          "scenario": "almost_there",
+          "card_id": "Lc983IP1dP5ECH",
+          "name": "Hadassah Atie",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:35.749311+00:00",
+          "scenario": "almost_there",
+          "card_id": "VcK8AHWn5uoJB6",
+          "name": "Marissa Selipas",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:35.969027+00:00",
+          "scenario": "almost_there",
+          "card_id": "HUVl1uLhhYLVHC",
+          "name": "Mark Morreira",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:36.200614+00:00",
+          "scenario": "almost_there",
+          "card_id": "O819UcAmT8Cia4",
+          "name": "Andrew Smith",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:38.389411+00:00",
+          "scenario": "almost_there",
+          "card_id": "GgzKgrsDJzUs8T",
+          "name": "Ruan Du Toit",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:38.606604+00:00",
+          "scenario": "almost_there",
+          "card_id": "uxsWbANicViyqB",
+          "name": "Yasmin Furmie",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:38.844818+00:00",
+          "scenario": "almost_there",
+          "card_id": "QLIulaKWXyVmE8",
+          "name": "Claire Hislop",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:39.073502+00:00",
+          "scenario": "almost_there",
+          "card_id": "4CxWprORSrwAmE",
+          "name": "Morgan Robbie",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:39.510041+00:00",
+          "scenario": "almost_there",
+          "card_id": "C2aY1KoxeVtGKg",
+          "name": "Tali Britany",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:39.742392+00:00",
+          "scenario": "almost_there",
+          "card_id": "DwxPtuiM2DBInM",
+          "name": "Erin Gottlieb",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:39.948204+00:00",
+          "scenario": "almost_there",
+          "card_id": "xRgtLMFejOuTbE",
+          "name": "Sharon Sopher",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:40.389710+00:00",
+          "scenario": "almost_there",
+          "card_id": "j1XnJA4UAXxUjo",
+          "name": "Julie Moritz",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:40.949906+00:00",
+          "scenario": "almost_there",
+          "card_id": "tv6lxn4xmu5URF",
+          "name": "Jenna Moritz",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:41.508145+00:00",
+          "scenario": "almost_there",
+          "card_id": "bhtQIZG3gWyABb",
+          "name": "Kerry Vinokur",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:41.714641+00:00",
+          "scenario": "almost_there",
+          "card_id": "vhHMcDfE1dybhw",
+          "name": "Jonathan Blumenthal",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:41.936254+00:00",
+          "scenario": "almost_there",
+          "card_id": "znrumVEr3ZLq1T",
+          "name": "Meg",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:42.325253+00:00",
+          "scenario": "almost_there",
+          "card_id": "RW1CjzxkpCnMiW",
+          "name": "Amy messer",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:42.540328+00:00",
+          "scenario": "almost_there",
+          "card_id": "35AJahvt04Fk7S",
+          "name": "Anna Rose",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:42.769567+00:00",
+          "scenario": "almost_there",
+          "card_id": "8Trtst3gewg2rq",
+          "name": "Ross Maharage",
+          "stamps": 11,
+          "message": "You're 1 stamp away from something awesome! \u2615 Stop by soon and claim it! \u2728"
+        },
+        {
+          "ts": "2026-04-19T07:08:44.389247+00:00",
+          "scenario": "come_back",
+          "card_id": "0eJvh8WuQawS81",
+          "name": "Greg Feigin",
+          "stamps": 2,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:44.699423+00:00",
+          "scenario": "come_back",
+          "card_id": "5KjrhkX8iWOo8b",
+          "name": "Noa Gershuni",
+          "stamps": 1,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:44.929535+00:00",
+          "scenario": "come_back",
+          "card_id": "M8gf1DKG98hJf6",
+          "name": "Ross van Coller",
+          "stamps": 5,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:45.434688+00:00",
+          "scenario": "come_back",
+          "card_id": "iVftQnSU9aNzuO",
+          "name": "Sam",
+          "stamps": 5,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:45.657605+00:00",
+          "scenario": "come_back",
+          "card_id": "eesGoQX4Sn6R1R",
+          "name": "Taryn Smith",
+          "stamps": 3,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:46.149466+00:00",
+          "scenario": "come_back",
+          "card_id": "YrpTn33yXm4liA",
+          "name": "Regan James",
+          "stamps": 2,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:46.382450+00:00",
+          "scenario": "come_back",
+          "card_id": "ZgcQSs6IGFDYh7",
+          "name": "Reilly Preece",
+          "stamps": 2,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:46.873441+00:00",
+          "scenario": "come_back",
+          "card_id": "Caopt6rMEZiRwE",
+          "name": "Chris Morrow",
+          "stamps": 5,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:49.033942+00:00",
+          "scenario": "come_back",
+          "card_id": "0KoBXA5EXeLTav",
+          "name": "Akiva Levitt",
+          "stamps": 5,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:49.670620+00:00",
+          "scenario": "come_back",
+          "card_id": "e2TjyBL5tAlPPr",
+          "name": "Kevin Frankental",
+          "stamps": 10,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:50.151906+00:00",
+          "scenario": "come_back",
+          "card_id": "qReMVX0KmpU0II",
+          "name": "Kate Pickard",
+          "stamps": 1,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:50.630304+00:00",
+          "scenario": "come_back",
+          "card_id": "8GZg5rMjiM1Jwm",
+          "name": "Craig Aarons",
+          "stamps": 12,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:50.871297+00:00",
+          "scenario": "come_back",
+          "card_id": "CLAsJhVSj0Ijra",
+          "name": "Sara",
+          "stamps": 6,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:51.105922+00:00",
+          "scenario": "come_back",
+          "card_id": "q0tP2K7WZE8U6P",
+          "name": "Kiara McLuckie",
+          "stamps": 6,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:51.339905+00:00",
+          "scenario": "come_back",
+          "card_id": "7Ufcl6q8rIXAzT",
+          "name": "Angelika",
+          "stamps": 3,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:51.574186+00:00",
+          "scenario": "come_back",
+          "card_id": "vBGyhA4VOu8iZf",
+          "name": "Dalya Brainin",
+          "stamps": 8,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:52.071077+00:00",
+          "scenario": "come_back",
+          "card_id": "bJpkNMgowIPIbA",
+          "name": "Andile Manganye",
+          "stamps": 6,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:52.549490+00:00",
+          "scenario": "come_back",
+          "card_id": "nytyQcVYU2xuOa",
+          "name": "Qhawekazi",
+          "stamps": 4,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:52.779022+00:00",
+          "scenario": "come_back",
+          "card_id": "h6GmM3hVk3emJc",
+          "name": "Khumo",
+          "stamps": 11,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:53.270901+00:00",
+          "scenario": "come_back",
+          "card_id": "kAsamPxRZGFoq5",
+          "name": "Sarah",
+          "stamps": 10,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:53.491399+00:00",
+          "scenario": "come_back",
+          "card_id": "PryKAg0XVzhg5p",
+          "name": "Warren Bedil",
+          "stamps": 7,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:54.149839+00:00",
+          "scenario": "come_back",
+          "card_id": "13rawYrF1yITNE",
+          "name": "Gillian Mead",
+          "stamps": 2,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:54.363302+00:00",
+          "scenario": "come_back",
+          "card_id": "JQsl9XtMVMnh57",
+          "name": "Vincent Ehlers",
+          "stamps": 2,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:54.601846+00:00",
+          "scenario": "come_back",
+          "card_id": "21j2XXJXiLeXH7",
+          "name": "Nicholas Church",
+          "stamps": 6,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:54.819381+00:00",
+          "scenario": "come_back",
+          "card_id": "4l9U4UoGP2OgPw",
+          "name": "G S",
+          "stamps": 9,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:55.041149+00:00",
+          "scenario": "come_back",
+          "card_id": "vc1eFFaD42ilFW",
+          "name": "Catherine",
+          "stamps": 1,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:55.281131+00:00",
+          "scenario": "come_back",
+          "card_id": "7z0akUGlILabg8",
+          "name": "Justin Blume",
+          "stamps": 3,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:55.508476+00:00",
+          "scenario": "come_back",
+          "card_id": "WkdB2as3P4xqns",
+          "name": "Inga",
+          "stamps": 8,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:55.746829+00:00",
+          "scenario": "come_back",
+          "card_id": "L4NBCSIznHO4UI",
+          "name": "Loren shapiro",
+          "stamps": 6,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:55.964273+00:00",
+          "scenario": "come_back",
+          "card_id": "OxQfrkX7LAmyVX",
+          "name": "Warren Flood",
+          "stamps": 3,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:56.470937+00:00",
+          "scenario": "come_back",
+          "card_id": "02iCeS2UhDd2gx",
+          "name": "Peter Mennen",
+          "stamps": 5,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:57.108678+00:00",
+          "scenario": "come_back",
+          "card_id": "Cs5bxir6Dv3vY7",
+          "name": "Sarah Vogel",
+          "stamps": 9,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:57.553051+00:00",
+          "scenario": "come_back",
+          "card_id": "ZyQueSmGdp8PPY",
+          "name": "Meg Duffy",
+          "stamps": 8,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:08:59.588481+00:00",
+          "scenario": "come_back",
+          "card_id": "qHCwcy9qhQ9h2m",
+          "name": "Andrew Munro",
+          "stamps": 12,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:09:00.229230+00:00",
+          "scenario": "come_back",
+          "card_id": "LwQBbRxdHjOj00",
+          "name": "Chandni",
+          "stamps": 11,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:09:02.079701+00:00",
+          "scenario": "come_back",
+          "card_id": "wNgYjqWxGi63ib",
+          "name": "Carl",
+          "stamps": 1,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:09:02.548387+00:00",
+          "scenario": "come_back",
+          "card_id": "jaBIVif5GrGgd0",
+          "name": "Kyla",
+          "stamps": 4,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:09:02.912794+00:00",
+          "scenario": "come_back",
+          "card_id": "6wuqHUYhjHT1RT",
+          "name": "Emma Viljoen",
+          "stamps": 2,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:09:03.142046+00:00",
+          "scenario": "come_back",
+          "card_id": "oQjxvMAlExiCdd",
+          "name": "Jocelyn Dyer",
+          "stamps": 2,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:09:03.598289+00:00",
+          "scenario": "come_back",
+          "card_id": "zREzdY5zXrhxOG",
+          "name": "Tom Montgomery",
+          "stamps": 4,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:09:04.230890+00:00",
+          "scenario": "come_back",
+          "card_id": "D4SMrLcZgDB77F",
+          "name": "Christopher Schmidt",
+          "stamps": 12,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:09:04.544868+00:00",
+          "scenario": "come_back",
+          "card_id": "63RPFqWqVtzSPC",
+          "name": "Valery Mthunywa",
+          "stamps": 3,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:09:05.036755+00:00",
+          "scenario": "come_back",
+          "card_id": "Uz0tqFeh18J0xX",
+          "name": "Chanan Emdin",
+          "stamps": 7,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:09:05.276622+00:00",
+          "scenario": "come_back",
+          "card_id": "W32JAGtrphK8bf",
+          "name": "Charles Burman",
+          "stamps": 9,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:09:05.510527+00:00",
+          "scenario": "come_back",
+          "card_id": "wouL7VdLVkRh28",
+          "name": "Shivani",
+          "stamps": 1,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:09:05.740317+00:00",
+          "scenario": "come_back",
+          "card_id": "MKuBALQxUhNN0J",
+          "name": "Ethan",
+          "stamps": 2,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:09:06.229269+00:00",
+          "scenario": "come_back",
+          "card_id": "FsOoaO2DHDW9hB",
+          "name": "Noah Ditz",
+          "stamps": 8,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:09:06.465527+00:00",
+          "scenario": "come_back",
+          "card_id": "jMtnvp3a2FTqWC",
+          "name": "Danielle Meyerowitz",
+          "stamps": 11,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:09:06.705421+00:00",
+          "scenario": "come_back",
+          "card_id": "2tw0oVbTixiX86",
+          "name": "Ross Beukes",
+          "stamps": 12,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:09:07.189618+00:00",
+          "scenario": "come_back",
+          "card_id": "rgfINO33PwtzcO",
+          "name": "CECILIA",
+          "stamps": 5,
+          "message": "Hey! Your stamps are waiting for you \u2615 Come brew up some good times with us again soon! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-19T07:09:08.566403+00:00",
+          "scenario": "loyal",
+          "card_id": "8ggxB8Abl4hnOF",
+          "name": "Stacy Gluch",
+          "stamps": 25,
+          "message": "You're a coffee legend! \u2615 Thanks for being the best part of our mornings. We're so glad yo"
+        },
+        {
+          "ts": "2026-04-19T07:09:10.548326+00:00",
+          "scenario": "loyal",
+          "card_id": "Vff11Qa4YDv62D",
+          "name": "David Smith",
+          "stamps": 29,
+          "message": "You're a coffee legend! \u2615 Thanks for being the best part of our mornings. We're so glad yo"
+        }
+      ]
     }
   ]
 }
