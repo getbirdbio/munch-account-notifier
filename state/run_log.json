@@ -10142,6 +10142,441 @@
           "message": "You're our favorite regular! \u2615 Thanks for making our mornings brighter. We see you! \ud83d\udc9b"
         }
       ]
+    },
+    {
+      "run_ts": "2026-04-21T09:22:13.707549+00:00",
+      "total_sent": 53,
+      "by_scenario": {
+        "almost_there": 3,
+        "come_back": 50,
+        "loyal": 0
+      },
+      "notifications": [
+        {
+          "ts": "2026-04-21T07:22:22.592222+00:00",
+          "scenario": "almost_there",
+          "card_id": "rGaXWMwFMtfrUA",
+          "name": "Finn",
+          "stamps": 9,
+          "message": "You're so close! \u2615 One more visit to unlock something special. \u2728"
+        },
+        {
+          "ts": "2026-04-21T07:22:23.955701+00:00",
+          "scenario": "almost_there",
+          "card_id": "F3WNNAEhS41wFV",
+          "name": "Kim",
+          "stamps": 10,
+          "message": "You're 10 stamps away from something special! \u2615\u2728 Stop by soon and keep the momentum going."
+        },
+        {
+          "ts": "2026-04-21T07:22:24.393000+00:00",
+          "scenario": "almost_there",
+          "card_id": "BDRwcSyajPyorC",
+          "name": "Michael Gildenhuys",
+          "stamps": 10,
+          "message": "You're 10 stamps away from something special! \u2615\u2728 Stop by soon and keep the momentum going."
+        },
+        {
+          "ts": "2026-04-21T07:22:25.939220+00:00",
+          "scenario": "come_back",
+          "card_id": "uqxu3j9hc5MX9c",
+          "name": "Howard Segall",
+          "stamps": 9,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:28.667126+00:00",
+          "scenario": "come_back",
+          "card_id": "eYrWIwMw5WNTyy",
+          "name": "Sean Douglass",
+          "stamps": 1,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:29.304615+00:00",
+          "scenario": "come_back",
+          "card_id": "lDKmlXsg4o0yoN",
+          "name": "PJ",
+          "stamps": 4,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:29.936911+00:00",
+          "scenario": "come_back",
+          "card_id": "JaahDorm1KLPtV",
+          "name": "Lindsay Cilliers",
+          "stamps": 7,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:30.341723+00:00",
+          "scenario": "come_back",
+          "card_id": "HAyK7GhczRqQtg",
+          "name": "Ricky Smith",
+          "stamps": 2,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:30.977656+00:00",
+          "scenario": "come_back",
+          "card_id": "FUbgP69XjxQ5wT",
+          "name": "Jackie Standish-White",
+          "stamps": 3,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:31.388701+00:00",
+          "scenario": "come_back",
+          "card_id": "yBWbtoZoHTtgvy",
+          "name": "Jake",
+          "stamps": 11,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:31.823351+00:00",
+          "scenario": "come_back",
+          "card_id": "woKskRKbTx5vqg",
+          "name": "Joe",
+          "stamps": 6,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:32.578429+00:00",
+          "scenario": "come_back",
+          "card_id": "Gz6Runw5ZT1wQR",
+          "name": "Rachelli",
+          "stamps": 9,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:33.095707+00:00",
+          "scenario": "come_back",
+          "card_id": "5rjsF4F0u3vQBG",
+          "name": "Liza Landauer",
+          "stamps": 2,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:33.505610+00:00",
+          "scenario": "come_back",
+          "card_id": "w87CxtENE9zJIa",
+          "name": "Muhammad",
+          "stamps": 4,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:33.974515+00:00",
+          "scenario": "come_back",
+          "card_id": "h1RYCRFjNMOpDw",
+          "name": "Josh Ackerman",
+          "stamps": 10,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:34.903809+00:00",
+          "scenario": "come_back",
+          "card_id": "5ZMmvJF3WXIIAy",
+          "name": "Alexa young",
+          "stamps": 4,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:35.320653+00:00",
+          "scenario": "come_back",
+          "card_id": "tuMjydaeqvjCcA",
+          "name": "Sisanda Henna",
+          "stamps": 1,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:35.741364+00:00",
+          "scenario": "come_back",
+          "card_id": "yJsalrEpPGobGm",
+          "name": "Amber Shuttleworth",
+          "stamps": 1,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:36.162694+00:00",
+          "scenario": "come_back",
+          "card_id": "OBd7n5D3ZPZ2pR",
+          "name": "Meera Morar",
+          "stamps": 12,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:36.898310+00:00",
+          "scenario": "come_back",
+          "card_id": "vAWXt4jqDHq8j2",
+          "name": "Rita",
+          "stamps": 9,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:37.324405+00:00",
+          "scenario": "come_back",
+          "card_id": "PUiOFYMdrZ9bYS",
+          "name": "Danit",
+          "stamps": 7,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:37.777818+00:00",
+          "scenario": "come_back",
+          "card_id": "ur60J8zknzLNDe",
+          "name": "Devon",
+          "stamps": 7,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:38.197953+00:00",
+          "scenario": "come_back",
+          "card_id": "cPEm5Sd5nVvvd6",
+          "name": "Carli Goldblum",
+          "stamps": 1,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:38.824147+00:00",
+          "scenario": "come_back",
+          "card_id": "6DBkkiChusUuB8",
+          "name": "Jarred Britany",
+          "stamps": 3,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:39.457320+00:00",
+          "scenario": "come_back",
+          "card_id": "xd5di6uFMPHGGY",
+          "name": "Danit Emdin",
+          "stamps": 4,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:40.100009+00:00",
+          "scenario": "come_back",
+          "card_id": "ZapbZ25oY9oxgV",
+          "name": "Jenna Duffy",
+          "stamps": 6,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:40.511218+00:00",
+          "scenario": "come_back",
+          "card_id": "cAJlVPWsqDGeCE",
+          "name": "Cornel",
+          "stamps": 4,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:40.945263+00:00",
+          "scenario": "come_back",
+          "card_id": "VdjtSbmhZmO6wF",
+          "name": "Renn",
+          "stamps": 5,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:41.620765+00:00",
+          "scenario": "come_back",
+          "card_id": "Zs7s3wJyBjRBq5",
+          "name": "Roberta Stamatis",
+          "stamps": 5,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:42.115942+00:00",
+          "scenario": "come_back",
+          "card_id": "cD7J12nRByAh0W",
+          "name": "MARK ROBINSON",
+          "stamps": 5,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:42.546363+00:00",
+          "scenario": "come_back",
+          "card_id": "9Y7gs6ESskLkeJ",
+          "name": "Jess",
+          "stamps": 2,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:42.968816+00:00",
+          "scenario": "come_back",
+          "card_id": "xfL9i613pb9tfU",
+          "name": "Steve mars",
+          "stamps": 8,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:43.618318+00:00",
+          "scenario": "come_back",
+          "card_id": "SIr8v85271LiLF",
+          "name": "Riana",
+          "stamps": 11,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:44.037174+00:00",
+          "scenario": "come_back",
+          "card_id": "4w6g1UgKwww9M5",
+          "name": "Julian Sun",
+          "stamps": 9,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:44.515485+00:00",
+          "scenario": "come_back",
+          "card_id": "2K7ABhQSFMhLh7",
+          "name": "Gregory Hack",
+          "stamps": 8,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:45.137370+00:00",
+          "scenario": "come_back",
+          "card_id": "Ai9A8ZRkgBSw7e",
+          "name": "Nadia Dannhauser",
+          "stamps": 6,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:45.778359+00:00",
+          "scenario": "come_back",
+          "card_id": "XDzVYzVfmWCZJP",
+          "name": "Nicolene Van der Merwe",
+          "stamps": 1,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:46.177097+00:00",
+          "scenario": "come_back",
+          "card_id": "TdAUcx2DDKxcYy",
+          "name": "Shani",
+          "stamps": 12,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:46.616012+00:00",
+          "scenario": "come_back",
+          "card_id": "o2E5p0vq2WoDCE",
+          "name": "Christel",
+          "stamps": 4,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:47.054037+00:00",
+          "scenario": "come_back",
+          "card_id": "8ferBI2F4tWMn0",
+          "name": "Natalie Moutafis",
+          "stamps": 10,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:47.466687+00:00",
+          "scenario": "come_back",
+          "card_id": "XSs2Ss1LEjhyEH",
+          "name": "Rumbi",
+          "stamps": 4,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:47.874898+00:00",
+          "scenario": "come_back",
+          "card_id": "dgTojXdRNOyoLu",
+          "name": "Yoni Balkind",
+          "stamps": 5,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:48.496527+00:00",
+          "scenario": "come_back",
+          "card_id": "JN7sIqqTeJSG3u",
+          "name": "Genevieve Field",
+          "stamps": 4,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:49.140998+00:00",
+          "scenario": "come_back",
+          "card_id": "qCXuSHrL00DWkA",
+          "name": "Nadia",
+          "stamps": 6,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:49.782685+00:00",
+          "scenario": "come_back",
+          "card_id": "gDwRsCmcdYgWFw",
+          "name": "Jackie",
+          "stamps": 1,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:50.199724+00:00",
+          "scenario": "come_back",
+          "card_id": "JcAUPzJOapOlSy",
+          "name": "Benji",
+          "stamps": 9,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:50.612134+00:00",
+          "scenario": "come_back",
+          "card_id": "IYvpsVXqQMqWDu",
+          "name": "Netanel Shirazi",
+          "stamps": 8,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:51.017814+00:00",
+          "scenario": "come_back",
+          "card_id": "kUs7UgrUGVuAlK",
+          "name": "Megan",
+          "stamps": 4,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:51.460852+00:00",
+          "scenario": "come_back",
+          "card_id": "QQTmbq6XGbuJ1r",
+          "name": "Sara Joselowsky",
+          "stamps": 11,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:52.098472+00:00",
+          "scenario": "come_back",
+          "card_id": "vxlCQUpokzvg36",
+          "name": "Gabi goldstein",
+          "stamps": 11,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:52.737023+00:00",
+          "scenario": "come_back",
+          "card_id": "19wvOG8qi5xcHH",
+          "name": "Vanessa",
+          "stamps": 12,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:53.163478+00:00",
+          "scenario": "come_back",
+          "card_id": "eOqH5hWvPRGnin",
+          "name": "Warren",
+          "stamps": 3,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        },
+        {
+          "ts": "2026-04-21T07:22:53.583587+00:00",
+          "scenario": "come_back",
+          "card_id": "gGjEKa6VaFwN7e",
+          "name": "Zama",
+          "stamps": 6,
+          "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
+        }
+      ]
     }
   ]
 }
