@@ -106,22 +106,26 @@ def generate_message(scenario, context=""):
     """Generate a fun, trendy <90-char push message with emojis via Claude Haiku."""
     client = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
     prompts = {
+        # context = remaining stamps needed (e.g. "3")
         "almost_there": (
             f"Write a single fun, trendy push notification for a coffee loyalty card app. "
-            f"The customer has {context} stamps and is close to their next reward. "
-            f"Nudge them to visit again. Do NOT mention free coffee, discounts, or specific rewards. "
+            f"The customer needs exactly {context} more stamp(s) to earn a free coffee "
+            f"(our loyalty card gives 1 free coffee every 12 stamps). "
+            f"Mention the exact number of stamps still needed and reference the free coffee reward. "
             f"Use 1-2 emojis. MAX 90 characters. Return ONLY the message text, nothing else."
         ),
+        # context = current stamp count (e.g. "5")
         "come_back": (
             f"Write a single fun, warm push notification to re-engage a coffee shop customer "
-            f"who hasn't visited in a while. They still have {context} stamps saved. "
-            f"Encourage them to pop in again. Do NOT mention free coffee, discounts, or specific rewards. "
+            f"who hasn't visited in a while. They already have {context} stamps saved toward "
+            f"their next free coffee (12 stamps = 1 free coffee). "
+            f"Encourage them to pop in and keep building their stamps. "
             f"Use 1-2 emojis. MAX 90 characters. Return ONLY the message text, nothing else."
         ),
         "loyal": (
             "Write a single fun, celebratory push notification to thank a super loyal coffee "
-            "customer. Make them feel appreciated and special. "
-            "Do NOT mention free coffee, discounts, or specific rewards. "
+            "customer who has earned multiple free coffees with us (12 stamps each). "
+            "Make them feel appreciated and special — they're a true regular. "
             "Use 1-2 emojis, keep it warm and trendy. "
             "MAX 90 characters. Return ONLY the message text, nothing else."
         ),
@@ -157,7 +161,7 @@ def run_almost_there(token, state, cards):
     notifications = []
     for stamps, group in sorted(by_count.items()):
         remaining = MAX_STAMPS - stamps
-        message = generate_message("almost_there", str(stamps))
+        message = generate_message("almost_there", str(remaining))
         print(f"  [{stamps} stamps -> {remaining} to go] {message!r}")
         for card in group:
             name = card.get("customerDetails", {}).get("Name", "Member")
