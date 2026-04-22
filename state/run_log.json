@@ -10577,6 +10577,1553 @@
           "message": "We miss your smile! \u2615 Come grab a cup and see what's new. Your stamps are waiting! \ud83d\ude0a"
         }
       ]
+    },
+    {
+      "run_ts": "2026-04-22T09:20:19.085938+00:00",
+      "total_sent": 192,
+      "by_scenario": {
+        "almost_there": 142,
+        "come_back": 50,
+        "loyal": 0
+      },
+      "notifications": [
+        {
+          "ts": "2026-04-22T07:20:24.399050+00:00",
+          "scenario": "almost_there",
+          "card_id": "UuVujkXgmA229i",
+          "name": "Brent Fuhr",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:24.950319+00:00",
+          "scenario": "almost_there",
+          "card_id": "KSKjl8VpWWwzpm",
+          "name": "Saskia Lasch",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:25.186379+00:00",
+          "scenario": "almost_there",
+          "card_id": "uqxu3j9hc5MX9c",
+          "name": "Howard Segall",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:25.668671+00:00",
+          "scenario": "almost_there",
+          "card_id": "sXNDSwJU0apMcV",
+          "name": "Alexa Peters",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:25.987566+00:00",
+          "scenario": "almost_there",
+          "card_id": "O35rONA6X0xCwf",
+          "name": "Gabriella",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:26.235203+00:00",
+          "scenario": "almost_there",
+          "card_id": "mrWOtVS9apqRb7",
+          "name": "Josephine",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:27.029155+00:00",
+          "scenario": "almost_there",
+          "card_id": "xiVaeawLvmorPw",
+          "name": "Tanya Cruz",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:29.109051+00:00",
+          "scenario": "almost_there",
+          "card_id": "ng0qLrDSkjtADu",
+          "name": "Jenna Kantor",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:29.374236+00:00",
+          "scenario": "almost_there",
+          "card_id": "jDSOLEmKOQWBrQ",
+          "name": "Albe",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:29.614909+00:00",
+          "scenario": "almost_there",
+          "card_id": "G8fAFXlT5mi9vZ",
+          "name": "Heather Dixon",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:29.924953+00:00",
+          "scenario": "almost_there",
+          "card_id": "0tYEXOFGT1eZme",
+          "name": "Jhana Weltman",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:30.471800+00:00",
+          "scenario": "almost_there",
+          "card_id": "659gFUiy55x2hp",
+          "name": "Candice",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:30.746042+00:00",
+          "scenario": "almost_there",
+          "card_id": "KR1qNuNnSpY0LP",
+          "name": "Lee-In Chen",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:31.190427+00:00",
+          "scenario": "almost_there",
+          "card_id": "ghWMXvuDP8f223",
+          "name": "Amira Bloch",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:31.670352+00:00",
+          "scenario": "almost_there",
+          "card_id": "aEajVoJY7kQsn5",
+          "name": "Jacqui Clucas",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:31.897957+00:00",
+          "scenario": "almost_there",
+          "card_id": "r3kaB7dcQorRYH",
+          "name": "Mia van der Nest",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:32.390246+00:00",
+          "scenario": "almost_there",
+          "card_id": "7VDlzAAP9ORpYH",
+          "name": "Carli Hugo",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:32.872054+00:00",
+          "scenario": "almost_there",
+          "card_id": "WOAPjWTJ1Yl10r",
+          "name": "Talya",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:33.181810+00:00",
+          "scenario": "almost_there",
+          "card_id": "vjVVIxXgocCzB8",
+          "name": "Damian Sparks",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:33.429620+00:00",
+          "scenario": "almost_there",
+          "card_id": "1hH88ZEvFPoL3o",
+          "name": "Simon",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:33.666307+00:00",
+          "scenario": "almost_there",
+          "card_id": "4TqvnBXfiADYMS",
+          "name": "David Rabinowitz",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:34.157314+00:00",
+          "scenario": "almost_there",
+          "card_id": "Cs5bxir6Dv3vY7",
+          "name": "Sarah Vogel",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:34.629929+00:00",
+          "scenario": "almost_there",
+          "card_id": "W32JAGtrphK8bf",
+          "name": "Charles Burman",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:34.952474+00:00",
+          "scenario": "almost_there",
+          "card_id": "fVuRXZKTYM4HiH",
+          "name": "Wanya Visagie",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:35.430281+00:00",
+          "scenario": "almost_there",
+          "card_id": "v1zgIPqdPdtGro",
+          "name": "Kelby Crane",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:35.909155+00:00",
+          "scenario": "almost_there",
+          "card_id": "xq4aK4ckT7i7xZ",
+          "name": "Pierre van der Hoven",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:36.165239+00:00",
+          "scenario": "almost_there",
+          "card_id": "ehUBSMjD9w86CN",
+          "name": "Jodi",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:36.709551+00:00",
+          "scenario": "almost_there",
+          "card_id": "Gz6Runw5ZT1wQR",
+          "name": "Rachelli",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:36.963263+00:00",
+          "scenario": "almost_there",
+          "card_id": "vAWXt4jqDHq8j2",
+          "name": "Rita",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:37.429053+00:00",
+          "scenario": "almost_there",
+          "card_id": "4w6g1UgKwww9M5",
+          "name": "Julian Sun",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:37.909919+00:00",
+          "scenario": "almost_there",
+          "card_id": "JcAUPzJOapOlSy",
+          "name": "Benji",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:38.186961+00:00",
+          "scenario": "almost_there",
+          "card_id": "3o4AQMIQKlqw8q",
+          "name": "Tracy Ackermann",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:38.710411+00:00",
+          "scenario": "almost_there",
+          "card_id": "v5vjRgODspoT41",
+          "name": "Sello",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:39.056304+00:00",
+          "scenario": "almost_there",
+          "card_id": "DT63rWTnRqJwew",
+          "name": "Zo\u00eb Austen",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:39.286975+00:00",
+          "scenario": "almost_there",
+          "card_id": "LlKBjjgLeajvC6",
+          "name": "Debra Rosen",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:39.526261+00:00",
+          "scenario": "almost_there",
+          "card_id": "B4FTo4XzpWEwIj",
+          "name": "Amanda Gifford",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:39.773432+00:00",
+          "scenario": "almost_there",
+          "card_id": "JHoKYxhJFHYa9L",
+          "name": "Caitlin Solomons",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:40.022107+00:00",
+          "scenario": "almost_there",
+          "card_id": "lzSVXi5T8sttXk",
+          "name": "Mari Rabie",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:40.629331+00:00",
+          "scenario": "almost_there",
+          "card_id": "h5Iy4d0sKPB6uP",
+          "name": "Caitlin Williams",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:41.110860+00:00",
+          "scenario": "almost_there",
+          "card_id": "eCkeh7AD7o9ggJ",
+          "name": "Glen Copans",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:41.412290+00:00",
+          "scenario": "almost_there",
+          "card_id": "bUAFj88r68M7NI",
+          "name": "Doron Falk",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:41.683138+00:00",
+          "scenario": "almost_there",
+          "card_id": "rz6heaknrOVR0N",
+          "name": "Francois Lion-Cachet",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:42.150397+00:00",
+          "scenario": "almost_there",
+          "card_id": "tFFnn9Y9gBNx6T",
+          "name": "Marc Romberg",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:42.630452+00:00",
+          "scenario": "almost_there",
+          "card_id": "wVwCTjEEzV9Hwd",
+          "name": "Justin",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:43.112518+00:00",
+          "scenario": "almost_there",
+          "card_id": "ktZOxatZq5NGgN",
+          "name": "Darren Sosnovik",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:45.119246+00:00",
+          "scenario": "almost_there",
+          "card_id": "vWUDtSaPLFyK3Y",
+          "name": "Ben",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:45.830090+00:00",
+          "scenario": "almost_there",
+          "card_id": "8VJc9PnXFmgsvl",
+          "name": "Matthew Bray",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:46.309911+00:00",
+          "scenario": "almost_there",
+          "card_id": "5NiSL1xF6TOpXc",
+          "name": "David",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:46.539344+00:00",
+          "scenario": "almost_there",
+          "card_id": "z43kkoGCNGBe1A",
+          "name": "Mia Nichol",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:46.756745+00:00",
+          "scenario": "almost_there",
+          "card_id": "yclE9dHnIsNNkN",
+          "name": "Tori Emdin",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:47.077535+00:00",
+          "scenario": "almost_there",
+          "card_id": "keSoIopMSJkMcv",
+          "name": "Dani Zekry",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:47.307053+00:00",
+          "scenario": "almost_there",
+          "card_id": "9HtulsWRTsPFdQ",
+          "name": "Hannah Jossel",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:47.755686+00:00",
+          "scenario": "almost_there",
+          "card_id": "YKAt6miiD9rnUv",
+          "name": "Jessica Leigh Chimes",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:47.996525+00:00",
+          "scenario": "almost_there",
+          "card_id": "TBEfmWjgbgJ8Lv",
+          "name": "Hayley Pogir",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:48.221030+00:00",
+          "scenario": "almost_there",
+          "card_id": "s9U9i5uFEJ5pCp",
+          "name": "Glenda Kaplan",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:48.475503+00:00",
+          "scenario": "almost_there",
+          "card_id": "oXOu5Lr8LJqk5F",
+          "name": "Chaya Riesenburg",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:48.683284+00:00",
+          "scenario": "almost_there",
+          "card_id": "EkikWyrOoiIa2Q",
+          "name": "Laura van der Haer",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:48.921237+00:00",
+          "scenario": "almost_there",
+          "card_id": "mLVQQheX0cpflM",
+          "name": "Jessica Dutton",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:49.351297+00:00",
+          "scenario": "almost_there",
+          "card_id": "JqKHt7GFeaPPH9",
+          "name": "Jozua Booysen",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:49.828443+00:00",
+          "scenario": "almost_there",
+          "card_id": "RFN9lzrFpi3IY2",
+          "name": "Stella",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:50.391134+00:00",
+          "scenario": "almost_there",
+          "card_id": "QRLf54OuFteSy7",
+          "name": "Neil Promnick",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:50.879334+00:00",
+          "scenario": "almost_there",
+          "card_id": "Wn8wtFSrN9nWaz",
+          "name": "Rokeya Lakhi",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:51.349964+00:00",
+          "scenario": "almost_there",
+          "card_id": "xDxuqhsmMSlEHM",
+          "name": "Allan Joffe",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:51.989915+00:00",
+          "scenario": "almost_there",
+          "card_id": "IG1Recb1gjVtWC",
+          "name": "Christopher",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:52.263497+00:00",
+          "scenario": "almost_there",
+          "card_id": "RWDH1oAy8lWImf",
+          "name": "Mark Smith",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:52.709966+00:00",
+          "scenario": "almost_there",
+          "card_id": "DIv8j3avvT9EuZ",
+          "name": "Brendan",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a FREE COFFEE! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:20:53.622653+00:00",
+          "scenario": "almost_there",
+          "card_id": "rCYADouMyCo8BZ",
+          "name": "Eleni Artemides",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:20:53.847845+00:00",
+          "scenario": "almost_there",
+          "card_id": "auKQxoj0WOP3Pe",
+          "name": "Jesmika",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:20:55.760793+00:00",
+          "scenario": "almost_there",
+          "card_id": "tlFsMpWUN0zcr6",
+          "name": "Michael Gamsu",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:20:56.229533+00:00",
+          "scenario": "almost_there",
+          "card_id": "whRcwfWYlPfPTg",
+          "name": "Kate",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:20:56.711525+00:00",
+          "scenario": "almost_there",
+          "card_id": "gGaZWf4sQiObJA",
+          "name": "Nuvi Pillay",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:20:56.937882+00:00",
+          "scenario": "almost_there",
+          "card_id": "6E9pLLV6CmHdcg",
+          "name": "Adrienne B",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:20:57.184875+00:00",
+          "scenario": "almost_there",
+          "card_id": "GVaXas5K7gyhma",
+          "name": "Sofia",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:20:57.424921+00:00",
+          "scenario": "almost_there",
+          "card_id": "XyTs0BiIrRuvLp",
+          "name": "Gina Altshuler",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:20:57.910788+00:00",
+          "scenario": "almost_there",
+          "card_id": "3rSmt4R9LwFin6",
+          "name": "David",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:20:58.184245+00:00",
+          "scenario": "almost_there",
+          "card_id": "kAsamPxRZGFoq5",
+          "name": "Sarah",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:20:58.434717+00:00",
+          "scenario": "almost_there",
+          "card_id": "tK1kPsFDzAMeTC",
+          "name": "Kirsten Keen",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:20:58.670633+00:00",
+          "scenario": "almost_there",
+          "card_id": "sZl0CbY9Ml4Wm1",
+          "name": "Luke Judhe",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:20:59.189580+00:00",
+          "scenario": "almost_there",
+          "card_id": "jqT91RyqRelcwO",
+          "name": "Mike",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:20:59.410331+00:00",
+          "scenario": "almost_there",
+          "card_id": "rOBxOi90fXMcFU",
+          "name": "Thea Shapiro",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:20:59.652166+00:00",
+          "scenario": "almost_there",
+          "card_id": "h1RYCRFjNMOpDw",
+          "name": "Josh Ackerman",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:21:00.151004+00:00",
+          "scenario": "almost_there",
+          "card_id": "Ko63J3pH9qwNLe",
+          "name": "Siddhi",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:21:00.629712+00:00",
+          "scenario": "almost_there",
+          "card_id": "8ferBI2F4tWMn0",
+          "name": "Natalie Moutafis",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:21:01.109731+00:00",
+          "scenario": "almost_there",
+          "card_id": "5XfRUf2oUOIvA6",
+          "name": "Ryan Brick",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:21:01.357623+00:00",
+          "scenario": "almost_there",
+          "card_id": "rdB8bCEoJvH0Rl",
+          "name": "Ari Chipkin",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:21:01.828677+00:00",
+          "scenario": "almost_there",
+          "card_id": "uqF7gqN0DXSuiM",
+          "name": "Sean",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:21:02.125478+00:00",
+          "scenario": "almost_there",
+          "card_id": "562nSqX3bbvP6O",
+          "name": "Jo morreira",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:21:02.376630+00:00",
+          "scenario": "almost_there",
+          "card_id": "4LSiHQ80bpxiQ4",
+          "name": "Shaun",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:21:02.607100+00:00",
+          "scenario": "almost_there",
+          "card_id": "oWTX0qQ5EayUMn",
+          "name": "Ruhan Strydom",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:21:03.109842+00:00",
+          "scenario": "almost_there",
+          "card_id": "xN5AcYV1mGzz2G",
+          "name": "Josh Katz",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:21:03.668209+00:00",
+          "scenario": "almost_there",
+          "card_id": "1szDQuTQ7tMxG0",
+          "name": "Michele",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:21:04.149546+00:00",
+          "scenario": "almost_there",
+          "card_id": "QZtgiau4cn23kf",
+          "name": "Dr Vladimir Jovanovic",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:21:04.403507+00:00",
+          "scenario": "almost_there",
+          "card_id": "pYHQPtSy3RQ2PY",
+          "name": "Emma",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:21:04.635793+00:00",
+          "scenario": "almost_there",
+          "card_id": "0cZ4SWcHTe3WFB",
+          "name": "Adel",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:21:04.866785+00:00",
+          "scenario": "almost_there",
+          "card_id": "zpf48yrhWovDX9",
+          "name": "Taryn",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:21:05.508959+00:00",
+          "scenario": "almost_there",
+          "card_id": "z1VOK8QjIMNdJI",
+          "name": "Michael Naude",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:21:05.735669+00:00",
+          "scenario": "almost_there",
+          "card_id": "dUlu91zfhaRJ9i",
+          "name": "Beverly Smullen",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:21:06.228584+00:00",
+          "scenario": "almost_there",
+          "card_id": "nu47WC2Upnf7PG",
+          "name": "Bernalee",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:21:06.632669+00:00",
+          "scenario": "almost_there",
+          "card_id": "FJc7BOgPhcTBxn",
+          "name": "Vicky Peech",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:21:06.860062+00:00",
+          "scenario": "almost_there",
+          "card_id": "kIQ7J0vyDGlORZ",
+          "name": "Sarah Erasmus",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:21:07.349539+00:00",
+          "scenario": "almost_there",
+          "card_id": "3DbmiZeb9PDbVU",
+          "name": "Yael",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:21:09.029503+00:00",
+          "scenario": "almost_there",
+          "card_id": "xKNKnJUN9VuFNB",
+          "name": "Adam Hurwitz",
+          "stamps": 10,
+          "message": "You're 2 stamps away from your free coffee! \u2615 Keep brewing!"
+        },
+        {
+          "ts": "2026-04-22T07:21:10.628700+00:00",
+          "scenario": "almost_there",
+          "card_id": "zUEpuxMlYGPZaN",
+          "name": "Tidimalo",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:11.109584+00:00",
+          "scenario": "almost_there",
+          "card_id": "f076TxIoH3NNw9",
+          "name": "Caiti Mackenzie",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:11.338102+00:00",
+          "scenario": "almost_there",
+          "card_id": "Taxtx6AYEH718l",
+          "name": "Matt",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:13.910477+00:00",
+          "scenario": "almost_there",
+          "card_id": "hYdAXtvOxgJufJ",
+          "name": "Charlotte",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:14.141535+00:00",
+          "scenario": "almost_there",
+          "card_id": "pRu45ApyYpGSug",
+          "name": "Jess Parker",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:14.628753+00:00",
+          "scenario": "almost_there",
+          "card_id": "LgFaxfgF7obcjI",
+          "name": "Olivia Radford",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:15.351210+00:00",
+          "scenario": "almost_there",
+          "card_id": "sTN5DE1Zo8Rgn2",
+          "name": "Qhawekazi Ngcobo",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:15.911379+00:00",
+          "scenario": "almost_there",
+          "card_id": "vkRU7mZaHTHuSP",
+          "name": "Mark Mofsowitz",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:16.389598+00:00",
+          "scenario": "almost_there",
+          "card_id": "JI0Ek2CHTwqmRJ",
+          "name": "Kayleigh Bersiks",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:16.949621+00:00",
+          "scenario": "almost_there",
+          "card_id": "NiKdpyPwUsIv9s",
+          "name": "Portia Matoli",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:17.432853+00:00",
+          "scenario": "almost_there",
+          "card_id": "e2TjyBL5tAlPPr",
+          "name": "Kevin Frankental",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:17.686988+00:00",
+          "scenario": "almost_there",
+          "card_id": "h6GmM3hVk3emJc",
+          "name": "Khumo",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:18.150203+00:00",
+          "scenario": "almost_there",
+          "card_id": "LwQBbRxdHjOj00",
+          "name": "Chandni",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:18.629726+00:00",
+          "scenario": "almost_there",
+          "card_id": "jMtnvp3a2FTqWC",
+          "name": "Danielle Meyerowitz",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:18.847722+00:00",
+          "scenario": "almost_there",
+          "card_id": "4eOtNXs3oGEqgF",
+          "name": "Alexa Bortz",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:19.508527+00:00",
+          "scenario": "almost_there",
+          "card_id": "yBWbtoZoHTtgvy",
+          "name": "Jake",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:19.990474+00:00",
+          "scenario": "almost_there",
+          "card_id": "SIr8v85271LiLF",
+          "name": "Riana",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:20.469379+00:00",
+          "scenario": "almost_there",
+          "card_id": "QQTmbq6XGbuJ1r",
+          "name": "Sara Joselowsky",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:20.953391+00:00",
+          "scenario": "almost_there",
+          "card_id": "vxlCQUpokzvg36",
+          "name": "Gabi goldstein",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:21.201030+00:00",
+          "scenario": "almost_there",
+          "card_id": "mBrhWNynRXhijT",
+          "name": "Cliff Rosen",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:21.506213+00:00",
+          "scenario": "almost_there",
+          "card_id": "aUKZjf3R64pcHK",
+          "name": "Justine Seeff",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:21.734383+00:00",
+          "scenario": "almost_there",
+          "card_id": "V5MeCpK6VRrBXT",
+          "name": "Helena Comitis",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:21.943418+00:00",
+          "scenario": "almost_there",
+          "card_id": "Lc983IP1dP5ECH",
+          "name": "Hadassah Atie",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:22.392361+00:00",
+          "scenario": "almost_there",
+          "card_id": "VcK8AHWn5uoJB6",
+          "name": "Marissa Selipas",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:23.029691+00:00",
+          "scenario": "almost_there",
+          "card_id": "HUVl1uLhhYLVHC",
+          "name": "Mark Morreira",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:25.120795+00:00",
+          "scenario": "almost_there",
+          "card_id": "O819UcAmT8Cia4",
+          "name": "Andrew Smith",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:25.589595+00:00",
+          "scenario": "almost_there",
+          "card_id": "uxsWbANicViyqB",
+          "name": "Yasmin Furmie",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:26.069188+00:00",
+          "scenario": "almost_there",
+          "card_id": "QLIulaKWXyVmE8",
+          "name": "Claire Hislop",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:26.547920+00:00",
+          "scenario": "almost_there",
+          "card_id": "4CxWprORSrwAmE",
+          "name": "Morgan Robbie",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:28.308686+00:00",
+          "scenario": "almost_there",
+          "card_id": "C2aY1KoxeVtGKg",
+          "name": "Tali Britany",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:28.871988+00:00",
+          "scenario": "almost_there",
+          "card_id": "DwxPtuiM2DBInM",
+          "name": "Erin Gottlieb",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:29.354754+00:00",
+          "scenario": "almost_there",
+          "card_id": "xRgtLMFejOuTbE",
+          "name": "Sharon Sopher",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:29.831398+00:00",
+          "scenario": "almost_there",
+          "card_id": "tv6lxn4xmu5URF",
+          "name": "Jenna Moritz",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:30.720533+00:00",
+          "scenario": "almost_there",
+          "card_id": "bhtQIZG3gWyABb",
+          "name": "Kerry Vinokur",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:30.929822+00:00",
+          "scenario": "almost_there",
+          "card_id": "vhHMcDfE1dybhw",
+          "name": "Jonathan Blumenthal",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:31.157366+00:00",
+          "scenario": "almost_there",
+          "card_id": "znrumVEr3ZLq1T",
+          "name": "Meg",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:31.589322+00:00",
+          "scenario": "almost_there",
+          "card_id": "RW1CjzxkpCnMiW",
+          "name": "Amy messer",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:31.811543+00:00",
+          "scenario": "almost_there",
+          "card_id": "pMc4r58oTl8QA1",
+          "name": "David Greenway",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:32.402871+00:00",
+          "scenario": "almost_there",
+          "card_id": "35AJahvt04Fk7S",
+          "name": "Anna Rose",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:32.622859+00:00",
+          "scenario": "almost_there",
+          "card_id": "8Trtst3gewg2rq",
+          "name": "Ross Maharage",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a free coffee! \u2615 Get your next visit to claim it. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-22T07:21:33.718051+00:00",
+          "scenario": "come_back",
+          "card_id": "mrWOtVS9apqRb7",
+          "name": "Josephine",
+          "stamps": 9,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:34.150520+00:00",
+          "scenario": "come_back",
+          "card_id": "wglfcpm3FnToHm",
+          "name": "Sarah Bryer",
+          "stamps": 6,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:34.383983+00:00",
+          "scenario": "come_back",
+          "card_id": "R16JYiDZPxV3H5",
+          "name": "Liora",
+          "stamps": 1,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:34.615469+00:00",
+          "scenario": "come_back",
+          "card_id": "e7sE5XUw08kwHx",
+          "name": "Lamiya  Dasoo",
+          "stamps": 12,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:35.115050+00:00",
+          "scenario": "come_back",
+          "card_id": "kJUedFPUuVrOHK",
+          "name": "Luca",
+          "stamps": 7,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:35.590075+00:00",
+          "scenario": "come_back",
+          "card_id": "3xP7liM8B9fgc9",
+          "name": "Zarush Jackpersad",
+          "stamps": 12,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:35.833253+00:00",
+          "scenario": "come_back",
+          "card_id": "5XfRUf2oUOIvA6",
+          "name": "Ryan Brick",
+          "stamps": 10,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:36.069521+00:00",
+          "scenario": "come_back",
+          "card_id": "MtJxZc2zEEi1GE",
+          "name": "Tasneem",
+          "stamps": 7,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:36.308174+00:00",
+          "scenario": "come_back",
+          "card_id": "GScZRPdSP7Jon1",
+          "name": "Jennifer",
+          "stamps": 7,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:36.533447+00:00",
+          "scenario": "come_back",
+          "card_id": "d9iX9WLmNdHn7o",
+          "name": "Theoni Zuccollo",
+          "stamps": 7,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:37.108516+00:00",
+          "scenario": "come_back",
+          "card_id": "doS7n95fQrBysN",
+          "name": "Nikki Ireland",
+          "stamps": 2,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:37.357451+00:00",
+          "scenario": "come_back",
+          "card_id": "W8zeBxVx9wY53k",
+          "name": "Jenna",
+          "stamps": 3,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:37.601609+00:00",
+          "scenario": "come_back",
+          "card_id": "mr3uMTujdg6clg",
+          "name": "Tammi Beck",
+          "stamps": 2,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:37.835079+00:00",
+          "scenario": "come_back",
+          "card_id": "xT2uGmNCvGdygn",
+          "name": "Natalie",
+          "stamps": 12,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:38.390205+00:00",
+          "scenario": "come_back",
+          "card_id": "rdB8bCEoJvH0Rl",
+          "name": "Ari Chipkin",
+          "stamps": 10,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:39.761504+00:00",
+          "scenario": "come_back",
+          "card_id": "IClhe3W24vyFea",
+          "name": "Laura",
+          "stamps": 4,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:41.600236+00:00",
+          "scenario": "come_back",
+          "card_id": "DWRpihmGjTq6Jv",
+          "name": "Cassandra Twala",
+          "stamps": 7,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:43.679361+00:00",
+          "scenario": "come_back",
+          "card_id": "47jj2v3Fqrx0oe",
+          "name": "Garreth prout",
+          "stamps": 3,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:44.150248+00:00",
+          "scenario": "come_back",
+          "card_id": "LfHWTq8ZuD7AxK",
+          "name": "Roald Brits",
+          "stamps": 5,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:44.846583+00:00",
+          "scenario": "come_back",
+          "card_id": "62CZA7hJ1phVeb",
+          "name": "Ang\u00e9",
+          "stamps": 3,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:45.352476+00:00",
+          "scenario": "come_back",
+          "card_id": "WWDr3yMCAHWv09",
+          "name": "Sean Meyersfeld",
+          "stamps": 3,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:45.830065+00:00",
+          "scenario": "come_back",
+          "card_id": "0S5pw5pZQ332Dw",
+          "name": "Daniella boner",
+          "stamps": 7,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:46.308491+00:00",
+          "scenario": "come_back",
+          "card_id": "khV1Y8odPbQIXr",
+          "name": "Kirsty",
+          "stamps": 5,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:46.789891+00:00",
+          "scenario": "come_back",
+          "card_id": "ms2uje1cZjPGBe",
+          "name": "Nalin Pillay",
+          "stamps": 1,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:47.270692+00:00",
+          "scenario": "come_back",
+          "card_id": "EYcD6EcbRDNXF6",
+          "name": "Christopher",
+          "stamps": 3,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:47.763157+00:00",
+          "scenario": "come_back",
+          "card_id": "4Uc1Rh2smTtNKt",
+          "name": "Tyla Braun",
+          "stamps": 8,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:48.004844+00:00",
+          "scenario": "come_back",
+          "card_id": "eqpiCD7yUKkGgE",
+          "name": "Sasha Hatzkilson",
+          "stamps": 7,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:48.468667+00:00",
+          "scenario": "come_back",
+          "card_id": "4nWLwEUQVJnQ7b",
+          "name": "Tintswalo Mokhare",
+          "stamps": 8,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:48.734439+00:00",
+          "scenario": "come_back",
+          "card_id": "v5vjRgODspoT41",
+          "name": "Sello",
+          "stamps": 9,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:49.188691+00:00",
+          "scenario": "come_back",
+          "card_id": "k61vuLtMYRtvKj",
+          "name": "Tracy Instone",
+          "stamps": 7,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:49.672137+00:00",
+          "scenario": "come_back",
+          "card_id": "iQmsaJTupqmpwn",
+          "name": "Georgia Turner",
+          "stamps": 1,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:50.149852+00:00",
+          "scenario": "come_back",
+          "card_id": "CcmeBhNzNOkYBf",
+          "name": "Desi Salkow",
+          "stamps": 2,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:50.629719+00:00",
+          "scenario": "come_back",
+          "card_id": "DT63rWTnRqJwew",
+          "name": "Zo\u00eb Austen",
+          "stamps": 9,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:51.115567+00:00",
+          "scenario": "come_back",
+          "card_id": "TZEuHZfPn5A9ja",
+          "name": "Brandon",
+          "stamps": 12,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:51.354241+00:00",
+          "scenario": "come_back",
+          "card_id": "vBscOGHU1vyvU2",
+          "name": "Jonathan",
+          "stamps": 5,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:51.585000+00:00",
+          "scenario": "come_back",
+          "card_id": "ysLB4MhTKxBD2e",
+          "name": "Kimberlee",
+          "stamps": 4,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:51.811573+00:00",
+          "scenario": "come_back",
+          "card_id": "fzfVyyAYoBAWRg",
+          "name": "Likho Jiba",
+          "stamps": 6,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:52.312143+00:00",
+          "scenario": "come_back",
+          "card_id": "xvrPTUTYpIlfdo",
+          "name": "Sabreen",
+          "stamps": 1,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:52.544662+00:00",
+          "scenario": "come_back",
+          "card_id": "ycyd4pvzHBDEO0",
+          "name": "Kish",
+          "stamps": 1,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:52.788954+00:00",
+          "scenario": "come_back",
+          "card_id": "tFgzJzUbWvD3Fj",
+          "name": "Sarah Wilmot",
+          "stamps": 3,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:53.043803+00:00",
+          "scenario": "come_back",
+          "card_id": "XW7D5UGjBNjRLg",
+          "name": "Mickayla Pinto",
+          "stamps": 5,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:53.265492+00:00",
+          "scenario": "come_back",
+          "card_id": "mBrhWNynRXhijT",
+          "name": "Cliff Rosen",
+          "stamps": 11,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:55.107706+00:00",
+          "scenario": "come_back",
+          "card_id": "SUCsZCx9VYotwt",
+          "name": "Isabella Polkinghorne",
+          "stamps": 1,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:55.594142+00:00",
+          "scenario": "come_back",
+          "card_id": "K1ZkutAg4oYLKY",
+          "name": "Shavanna",
+          "stamps": 6,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:56.068555+00:00",
+          "scenario": "come_back",
+          "card_id": "4ZEtYIWb3mxaft",
+          "name": "Michelle Josset",
+          "stamps": 7,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:56.289387+00:00",
+          "scenario": "come_back",
+          "card_id": "aUKZjf3R64pcHK",
+          "name": "Justine Seeff",
+          "stamps": 11,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:56.791765+00:00",
+          "scenario": "come_back",
+          "card_id": "xSNTk4BZOrUM0G",
+          "name": "Anusha Lalloo",
+          "stamps": 2,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:57.031680+00:00",
+          "scenario": "come_back",
+          "card_id": "i1k8HtMzYsrVu6",
+          "name": "Tanya Waksman",
+          "stamps": 6,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:57.510904+00:00",
+          "scenario": "come_back",
+          "card_id": "3cmOn29NsrKeVz",
+          "name": "Ralph Tsatsi",
+          "stamps": 4,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        },
+        {
+          "ts": "2026-04-22T07:21:57.991467+00:00",
+          "scenario": "come_back",
+          "card_id": "pCvlOyz0DsJrrA",
+          "name": "Mark Salmon",
+          "stamps": 12,
+          "message": "Your stamps are waiting! \u2615 Pop in soon and snag that free coffee. We've missed you! \u263a\ufe0f"
+        }
+      ]
     }
   ]
 }
