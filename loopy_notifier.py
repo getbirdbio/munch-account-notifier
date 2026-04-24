@@ -29,7 +29,7 @@ ALMOST_THERE_MIN      = 9    # stamps >= this triggers "almost there"
 COME_BACK_DAYS        = 14   # days since last stamp before nudge
 LOYAL_THRESHOLD       = 24   # lifetime stamps >= this = loyal customer
 
-ALMOST_THERE_COOLDOWN = 1    # re-notify after N days
+ALMOST_THERE_COOLDOWN = 7    # re-notify after N days
 COME_BACK_COOLDOWN    = 7
 LOYAL_COOLDOWN        = 30
 
@@ -59,6 +59,13 @@ def is_on_cooldown(state, card_id, scenario, cooldown_days):
 
 def mark_sent(state, card_id, scenario):
     state.setdefault("sent", {})[f"{card_id}:{scenario}"] = datetime.now(timezone.utc).isoformat()
+
+def was_notified_this_week(state, card_id):
+    """True if the customer received any notification in the past 7 days."""
+    return any(
+        is_on_cooldown(state, card_id, s, WEEKLY_PER_CUSTOMER_COOLDOWN)
+        for s in ("almost_there", "come_back", "loyal")
+    )
 
 # -- Loopy Loyalty Auth ------------------------------------------------------
 def ll_login():
@@ -147,6 +154,8 @@ def run_almost_there(token, state, cards):
         if ALMOST_THERE_MIN <= c.get("currentStamps", 0) < MAX_STAMPS
         and c.get("status") == "installed"
         and not is_on_cooldown(state, c["id"], "almost_there", ALMOST_THERE_COOLDOWN)
+        and not was_notified_this_week(state, c["id"])
+        and not was_notified_this_week(state, c["id"])
     ]
     print(f"  Candidates: {len(candidates)}")
     if not candidates:
@@ -198,7 +207,7 @@ def run_come_back(token, state, cards):
             continue
         try:
             last_dt = datetime.fromisoformat(last_raw.replace("Z", "+00:00"))
-            if last_dt < cutoff and not is_on_cooldown(state, card["id"], "come_back", COME_BACK_COOLDOWN):
+            if last_dt < cutoff and not is_on_cooldown(state, card["id"], "come_back", COME_BACK_COOLDOWN) and not was_notified_this_week(state, card["id"]):
                 candidates.append(card)
         except Exception:
             pass
@@ -242,6 +251,8 @@ def run_loyal(token, state, cards):
         if c.get("totalStampsEarned", 0) >= LOYAL_THRESHOLD
         and c.get("status") == "installed"
         and not is_on_cooldown(state, c["id"], "loyal", LOYAL_COOLDOWN)
+        and not was_notified_this_week(state, c["id"])
+        and not was_notified_this_week(state, c["id"])
     ]
     print(f"  Candidates: {len(candidates)}")
     if not candidates:
