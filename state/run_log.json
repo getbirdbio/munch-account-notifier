@@ -13719,6 +13719,433 @@
           "message": "You're a coffee legend! \u2615 Claim your free drinks\u2014you've earned them all! We love having yo"
         }
       ]
+    },
+    {
+      "run_ts": "2026-04-25T10:07:25.902158+00:00",
+      "total_sent": 52,
+      "by_scenario": {
+        "almost_there": 2,
+        "come_back": 50,
+        "loyal": 0
+      },
+      "notifications": [
+        {
+          "ts": "2026-04-25T08:07:33.269630+00:00",
+          "scenario": "almost_there",
+          "card_id": "kMrl4cIw9UED8C",
+          "name": "Naomi Booysen",
+          "stamps": 10,
+          "message": "You're 2 stamps away from a free coffee! \u2615 Keep brewing your rewards \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-25T08:07:34.615545+00:00",
+          "scenario": "almost_there",
+          "card_id": "epALhJ7jX14uhG",
+          "name": "Jonathan Waksman",
+          "stamps": 11,
+          "message": "You're 1 stamp away from your free coffee! \u2615 One more visit to unlock your reward. \ud83c\udf89"
+        },
+        {
+          "ts": "2026-04-25T08:07:36.521100+00:00",
+          "scenario": "come_back",
+          "card_id": "f5Ds6nTbtjtlnz",
+          "name": "Steph",
+          "stamps": 2,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:36.904778+00:00",
+          "scenario": "come_back",
+          "card_id": "Ah0sNxE0jkyeBo",
+          "name": "Austen Parfitt",
+          "stamps": 7,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:38.890301+00:00",
+          "scenario": "come_back",
+          "card_id": "3oteMkmmxc5oDW",
+          "name": "Wayne",
+          "stamps": 1,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:39.704240+00:00",
+          "scenario": "come_back",
+          "card_id": "0nCPmkszSUEEYq",
+          "name": "Clinton Da Costa Brown",
+          "stamps": 2,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:40.098171+00:00",
+          "scenario": "come_back",
+          "card_id": "3iYYAq4mMNOsAQ",
+          "name": "Michelle",
+          "stamps": 12,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:40.731777+00:00",
+          "scenario": "come_back",
+          "card_id": "XjeS4Yiv8dVwg0",
+          "name": "Jann. Setzkorn",
+          "stamps": 2,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:41.452831+00:00",
+          "scenario": "come_back",
+          "card_id": "mr8yQKElVspUT8",
+          "name": "Matthew Hancock",
+          "stamps": 8,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:42.177851+00:00",
+          "scenario": "come_back",
+          "card_id": "ee9xThxUmDBNkZ",
+          "name": "Jonathan",
+          "stamps": 4,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:42.816733+00:00",
+          "scenario": "come_back",
+          "card_id": "dnVD6fwScnIsdY",
+          "name": "Emma Daugherty",
+          "stamps": 2,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:43.254368+00:00",
+          "scenario": "come_back",
+          "card_id": "j0vwtEgfC7tgLM",
+          "name": "Taryn",
+          "stamps": 6,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:43.656055+00:00",
+          "scenario": "come_back",
+          "card_id": "ZIqqObNKWKHhZV",
+          "name": "Rowan Williams",
+          "stamps": 3,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:44.109945+00:00",
+          "scenario": "come_back",
+          "card_id": "GHBe8M2S0LzGje",
+          "name": "Danielle Sack",
+          "stamps": 4,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:44.671034+00:00",
+          "scenario": "come_back",
+          "card_id": "TimsHaN2yuy3Ji",
+          "name": "Ramiza",
+          "stamps": 12,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:45.464509+00:00",
+          "scenario": "come_back",
+          "card_id": "WxIRFo3Nb30cbr",
+          "name": "Andrew Cairns",
+          "stamps": 6,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:46.090541+00:00",
+          "scenario": "come_back",
+          "card_id": "ZPecBeHa7JkPSf",
+          "name": "Stuart Brown",
+          "stamps": 2,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:46.568231+00:00",
+          "scenario": "come_back",
+          "card_id": "iXRpUtSrlHYHGl",
+          "name": "Tayla",
+          "stamps": 4,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:47.291244+00:00",
+          "scenario": "come_back",
+          "card_id": "NvhVs8F8irwID7",
+          "name": "Paula Bongiovanni",
+          "stamps": 2,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:49.147847+00:00",
+          "scenario": "come_back",
+          "card_id": "U9JIz7c99c7P9i",
+          "name": "Brogie Mac Farlane",
+          "stamps": 5,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:49.686520+00:00",
+          "scenario": "come_back",
+          "card_id": "Otcn3aSZSZVC17",
+          "name": "Zeenat Laher",
+          "stamps": 2,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:50.100985+00:00",
+          "scenario": "come_back",
+          "card_id": "EoX0tzgBRg8U2h",
+          "name": "Faith",
+          "stamps": 2,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:50.816556+00:00",
+          "scenario": "come_back",
+          "card_id": "2fe2ZxjPhmQiDO",
+          "name": "Lisa",
+          "stamps": 6,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:51.451070+00:00",
+          "scenario": "come_back",
+          "card_id": "1TBFg2zyVLEome",
+          "name": "Ryan Paulie",
+          "stamps": 1,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:53.530495+00:00",
+          "scenario": "come_back",
+          "card_id": "FzuNfv4Z8kqgjZ",
+          "name": "Jessica",
+          "stamps": 2,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:54.176432+00:00",
+          "scenario": "come_back",
+          "card_id": "ebLiUs3LzC8iax",
+          "name": "Caitlin Bond",
+          "stamps": 2,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:55.301292+00:00",
+          "scenario": "come_back",
+          "card_id": "hRc51MA2kibDZK",
+          "name": "Rachel Steenkamp",
+          "stamps": 6,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:55.684948+00:00",
+          "scenario": "come_back",
+          "card_id": "fbR1viCC0NRBHM",
+          "name": "Jeff",
+          "stamps": 7,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:56.087878+00:00",
+          "scenario": "come_back",
+          "card_id": "hSnxVXz0r7wxtJ",
+          "name": "Shana",
+          "stamps": 2,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:56.737369+00:00",
+          "scenario": "come_back",
+          "card_id": "HPst1hfak7NYAP",
+          "name": "Robin Hall",
+          "stamps": 1,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:57.376958+00:00",
+          "scenario": "come_back",
+          "card_id": "N6PtGu9AWEBHv9",
+          "name": "Joubert",
+          "stamps": 2,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:57.776428+00:00",
+          "scenario": "come_back",
+          "card_id": "lJoHyGrGe2bRWo",
+          "name": "Aim\u00e9e Girdwood",
+          "stamps": 6,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:58.169038+00:00",
+          "scenario": "come_back",
+          "card_id": "VmFCpUyEG3a0DV",
+          "name": "Kate Whitehead",
+          "stamps": 12,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:58.813514+00:00",
+          "scenario": "come_back",
+          "card_id": "61IlgAV45ZWfgH",
+          "name": "Kristin Bellingan",
+          "stamps": 2,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:07:59.839441+00:00",
+          "scenario": "come_back",
+          "card_id": "zTGxeBtYJ7fhix",
+          "name": "Simon",
+          "stamps": 2,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:08:00.488628+00:00",
+          "scenario": "come_back",
+          "card_id": "xvsNIqQDLamPBX",
+          "name": "Audrey-Lee",
+          "stamps": 6,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:08:00.906106+00:00",
+          "scenario": "come_back",
+          "card_id": "J5Wx9RMJG9K1jV",
+          "name": "Noreen Ross",
+          "stamps": 6,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:08:01.530267+00:00",
+          "scenario": "come_back",
+          "card_id": "msvzxvVTMR6Rpy",
+          "name": "Raey",
+          "stamps": 12,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:08:02.171810+00:00",
+          "scenario": "come_back",
+          "card_id": "Q7etN9QFRu9ngQ",
+          "name": "Ibrahim  Tasgetiren",
+          "stamps": 1,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:08:02.996803+00:00",
+          "scenario": "come_back",
+          "card_id": "TymBHKNFe3UWpR",
+          "name": "Mike De Bellis",
+          "stamps": 1,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:08:03.405226+00:00",
+          "scenario": "come_back",
+          "card_id": "Iy7x5B9iYaqIPq",
+          "name": "Aston silver",
+          "stamps": 6,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:08:04.179507+00:00",
+          "scenario": "come_back",
+          "card_id": "YR2FxUnBIZy8FZ",
+          "name": "David",
+          "stamps": 6,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:08:04.737982+00:00",
+          "scenario": "come_back",
+          "card_id": "SPf7Ks6BC3v5DU",
+          "name": "Stella Fenster",
+          "stamps": 1,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:08:05.287295+00:00",
+          "scenario": "come_back",
+          "card_id": "lWoLWxLOZfnXeF",
+          "name": "Tuscan Lambrechts",
+          "stamps": 1,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:08:05.673626+00:00",
+          "scenario": "come_back",
+          "card_id": "PLuc1CppPvF6nj",
+          "name": "Jessica",
+          "stamps": 4,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:08:06.050236+00:00",
+          "scenario": "come_back",
+          "card_id": "fdPwd13jTlV04N",
+          "name": "Leonette",
+          "stamps": 1,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:08:06.648562+00:00",
+          "scenario": "come_back",
+          "card_id": "Y9wJFa3HVM2gZ9",
+          "name": "Skye Sutton",
+          "stamps": 5,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:08:07.058429+00:00",
+          "scenario": "come_back",
+          "card_id": "liYEnl8vbtNHcv",
+          "name": "Saul Singer",
+          "stamps": 6,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:08:07.690475+00:00",
+          "scenario": "come_back",
+          "card_id": "UiquRd09EJv3Er",
+          "name": "Darshnika",
+          "stamps": 6,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:08:08.416082+00:00",
+          "scenario": "come_back",
+          "card_id": "mv4FuXvFDBnLZn",
+          "name": "Scott Lawrence",
+          "stamps": 7,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:08:08.904469+00:00",
+          "scenario": "come_back",
+          "card_id": "vgfwPukEYKSfDW",
+          "name": "Daniel Wertheimer",
+          "stamps": 6,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        },
+        {
+          "ts": "2026-04-25T08:08:09.320301+00:00",
+          "scenario": "come_back",
+          "card_id": "KdTvpTbHeyaiU8",
+          "name": "Caitlin Mackenzie",
+          "stamps": 3,
+          "message": "Your stamps are waiting! \u2615 Come grab your next brew and keep stacking toward that free cof"
+        }
+      ]
     }
   ]
 }
