@@ -32,6 +32,7 @@ LOYAL_THRESHOLD       = 24   # lifetime stamps >= this = loyal customer
 ALMOST_THERE_COOLDOWN = 7    # re-notify after N days
 COME_BACK_COOLDOWN    = 7
 LOYAL_COOLDOWN        = 30
+WEEKLY_PER_CUSTOMER_COOLDOWN = 7  # max 1 notification per customer per week
 
 MAX_COME_BACK_PER_RUN = 50   # cap to avoid mass spam
 
@@ -155,7 +156,6 @@ def run_almost_there(token, state, cards):
         and c.get("status") == "installed"
         and not is_on_cooldown(state, c["id"], "almost_there", ALMOST_THERE_COOLDOWN)
         and not was_notified_this_week(state, c["id"])
-        and not was_notified_this_week(state, c["id"])
     ]
     print(f"  Candidates: {len(candidates)}")
     if not candidates:
@@ -251,7 +251,6 @@ def run_loyal(token, state, cards):
         if c.get("totalStampsEarned", 0) >= LOYAL_THRESHOLD
         and c.get("status") == "installed"
         and not is_on_cooldown(state, c["id"], "loyal", LOYAL_COOLDOWN)
-        and not was_notified_this_week(state, c["id"])
         and not was_notified_this_week(state, c["id"])
     ]
     print(f"  Candidates: {len(candidates)}")
