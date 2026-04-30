@@ -173,7 +173,7 @@ def run_almost_there(token, state, cards):
         message = generate_message("almost_there", str(remaining))
         print(f"  [{stamps} stamps -> {remaining} to go] {message!r}")
         for card in group:
-            name = card.get("customerDetails", {}).get("Name", "Member")
+            name = (card.get("customerDetails") or {}).get("Name", "Member")
             try:
                 send_individual_push(token, card["id"], message)
                 mark_sent(state, card["id"], "almost_there")
@@ -222,7 +222,7 @@ def run_come_back(token, state, cards):
     sent = 0
     notifications = []
     for card in candidates:
-        name   = card.get("customerDetails", {}).get("Name", "Member")
+        name   = (card.get("customerDetails") or {}).get("Name", "Member")
         stamps = card.get("currentStamps", 0)
         try:
             send_individual_push(token, card["id"], message)
@@ -262,7 +262,7 @@ def run_loyal(token, state, cards):
     sent = 0
     notifications = []
     for card in candidates:
-        name   = card.get("customerDetails", {}).get("Name", "Member")
+        name   = (card.get("customerDetails") or {}).get("Name", "Member")
         stamps = card.get("totalStampsEarned", 0)
         try:
             send_individual_push(token, card["id"], message)
