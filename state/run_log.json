@@ -34108,6 +34108,529 @@
           "message": "You're a coffee legend! \ud83c\udf89 Claim your free brews\u2014you've earned it, regular! \u2615"
         }
       ]
+    },
+    {
+      "run_ts": "2026-05-27T11:28:19.367697+00:00",
+      "total_sent": 64,
+      "by_scenario": {
+        "almost_there": 12,
+        "come_back": 50,
+        "loyal": 2
+      },
+      "notifications": [
+        {
+          "ts": "2026-05-27T09:28:33.135687+00:00",
+          "scenario": "almost_there",
+          "card_id": "ZyQueSmGdp8PPY",
+          "name": "Meg Duffy",
+          "stamps": 9,
+          "message": "You're 3 stamps away from your free coffee! \u2615 Keep brewing, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-05-27T09:28:33.782952+00:00",
+          "scenario": "almost_there",
+          "card_id": "gqj0MTG8WzFWSV",
+          "name": "Theo de Jager",
+          "stamps": 9,
+          "message": "You're 3 stamps away from your free coffee! \u2615 Keep brewing, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-05-27T09:28:34.420847+00:00",
+          "scenario": "almost_there",
+          "card_id": "cD7J12nRByAh0W",
+          "name": "MARK ROBINSON",
+          "stamps": 9,
+          "message": "You're 3 stamps away from your free coffee! \u2615 Keep brewing, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-05-27T09:28:35.858198+00:00",
+          "scenario": "almost_there",
+          "card_id": "FYCpFbtBKF8QK7",
+          "name": "Ross",
+          "stamps": 9,
+          "message": "You're 3 stamps away from your free coffee! \u2615 Keep brewing, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-05-27T09:28:36.356261+00:00",
+          "scenario": "almost_there",
+          "card_id": "fhxR9wFc1N7y1O",
+          "name": "Josh Kaplan",
+          "stamps": 9,
+          "message": "You're 3 stamps away from your free coffee! \u2615 Keep brewing, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-05-27T09:28:36.982861+00:00",
+          "scenario": "almost_there",
+          "card_id": "iSHdOF1zQii7wu",
+          "name": "Megan Holesgrove",
+          "stamps": 9,
+          "message": "You're 3 stamps away from your free coffee! \u2615 Keep brewing, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-05-27T09:28:38.657593+00:00",
+          "scenario": "almost_there",
+          "card_id": "MhlVRuXrdRgCuH",
+          "name": "Tal",
+          "stamps": 10,
+          "message": "You're 2 stamps away from a free coffee! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-05-27T09:28:39.150597+00:00",
+          "scenario": "almost_there",
+          "card_id": "W32JAGtrphK8bf",
+          "name": "Charles Burman",
+          "stamps": 10,
+          "message": "You're 2 stamps away from a free coffee! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-05-27T09:28:40.577275+00:00",
+          "scenario": "almost_there",
+          "card_id": "UtFV7q4WJD2SmH",
+          "name": "Lance Van Der Westhuizen",
+          "stamps": 10,
+          "message": "You're 2 stamps away from a free coffee! \u2615 Keep sipping, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-05-27T09:28:42.232653+00:00",
+          "scenario": "almost_there",
+          "card_id": "kStvucd8FN9lSb",
+          "name": "Tiaan Goussard",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a FREE coffee! \u2615 Grab your next cup and claim your reward! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-05-27T09:28:42.983612+00:00",
+          "scenario": "almost_there",
+          "card_id": "MbymCJ1idZlGU9",
+          "name": "Matt",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a FREE coffee! \u2615 Grab your next cup and claim your reward! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-05-27T09:28:43.466258+00:00",
+          "scenario": "almost_there",
+          "card_id": "ko34sqoE1CcBjJ",
+          "name": "Danielle Fine",
+          "stamps": 11,
+          "message": "You're 1 stamp away from a FREE coffee! \u2615 Grab your next cup and claim your reward! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-05-27T09:28:45.622969+00:00",
+          "scenario": "come_back",
+          "card_id": "Fzi7kX30CQCiVj",
+          "name": "Leigh",
+          "stamps": 2,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:28:46.340307+00:00",
+          "scenario": "come_back",
+          "card_id": "zUEpuxMlYGPZaN",
+          "name": "Tidimalo",
+          "stamps": 2,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:28:46.763101+00:00",
+          "scenario": "come_back",
+          "card_id": "PzKDFGou2eHSbO",
+          "name": "Laila Stergiopoulos",
+          "stamps": 12,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:28:47.203317+00:00",
+          "scenario": "come_back",
+          "card_id": "ng0qLrDSkjtADu",
+          "name": "Jenna Kantor",
+          "stamps": 3,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:28:47.629520+00:00",
+          "scenario": "come_back",
+          "card_id": "AkXE3uGFPkF6f0",
+          "name": "Abby Behr",
+          "stamps": 12,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:28:48.431674+00:00",
+          "scenario": "come_back",
+          "card_id": "e7sE5XUw08kwHx",
+          "name": "Lamiya  Dasoo",
+          "stamps": 12,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:28:48.873129+00:00",
+          "scenario": "come_back",
+          "card_id": "nXRyy6uoBIFJrN",
+          "name": "Tayla Cox",
+          "stamps": 1,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:28:49.621697+00:00",
+          "scenario": "come_back",
+          "card_id": "lDKmlXsg4o0yoN",
+          "name": "PJ",
+          "stamps": 4,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:28:50.077895+00:00",
+          "scenario": "come_back",
+          "card_id": "FcPigWwaOQCvhu",
+          "name": "Lorin Burgoyne",
+          "stamps": 8,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:28:50.741130+00:00",
+          "scenario": "come_back",
+          "card_id": "w1Fl5UlQ4fRC4x",
+          "name": "katrien van den berg",
+          "stamps": 7,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:28:51.247472+00:00",
+          "scenario": "come_back",
+          "card_id": "kJUedFPUuVrOHK",
+          "name": "Luca",
+          "stamps": 7,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:28:51.672340+00:00",
+          "scenario": "come_back",
+          "card_id": "MwKQaU1xrmaMr2",
+          "name": "Michael",
+          "stamps": 4,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:28:52.341841+00:00",
+          "scenario": "come_back",
+          "card_id": "KLQbXcAe2QNR5f",
+          "name": "Ari Slotsky",
+          "stamps": 7,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:28:52.980413+00:00",
+          "scenario": "come_back",
+          "card_id": "JaahDorm1KLPtV",
+          "name": "Lindsay Cilliers",
+          "stamps": 7,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:28:53.406931+00:00",
+          "scenario": "come_back",
+          "card_id": "YSsZCufOw1V7Ee",
+          "name": "Alon Katz",
+          "stamps": 8,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:28:53.851608+00:00",
+          "scenario": "come_back",
+          "card_id": "3xP7liM8B9fgc9",
+          "name": "Zarush Jackpersad",
+          "stamps": 12,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:28:54.502075+00:00",
+          "scenario": "come_back",
+          "card_id": "ZExSF4bzcSZAKo",
+          "name": "Adam Copans",
+          "stamps": 5,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:28:55.144449+00:00",
+          "scenario": "come_back",
+          "card_id": "5nHFre7PkXl4De",
+          "name": "Orry Messer",
+          "stamps": 5,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:28:55.567536+00:00",
+          "scenario": "come_back",
+          "card_id": "OKOSxLjXPCcEZs",
+          "name": "Lawrence",
+          "stamps": 6,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:28:56.047978+00:00",
+          "scenario": "come_back",
+          "card_id": "MAsFqp4r0poT82",
+          "name": "Max guess",
+          "stamps": 6,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:28:56.742399+00:00",
+          "scenario": "come_back",
+          "card_id": "9Ls7v9qTLW2y6M",
+          "name": "Gerald Neo Mahome",
+          "stamps": 2,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:28:57.193363+00:00",
+          "scenario": "come_back",
+          "card_id": "2GKy0RDcgwOB7k",
+          "name": "Anisa",
+          "stamps": 8,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:28:57.635649+00:00",
+          "scenario": "come_back",
+          "card_id": "HAyK7GhczRqQtg",
+          "name": "Ricky Smith",
+          "stamps": 2,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:28:58.270377+00:00",
+          "scenario": "come_back",
+          "card_id": "FUbgP69XjxQ5wT",
+          "name": "Jackie Standish-White",
+          "stamps": 3,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:28:58.903711+00:00",
+          "scenario": "come_back",
+          "card_id": "woKskRKbTx5vqg",
+          "name": "Joe",
+          "stamps": 6,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:28:59.345736+00:00",
+          "scenario": "come_back",
+          "card_id": "5rjsF4F0u3vQBG",
+          "name": "Liza Landauer",
+          "stamps": 2,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:28:59.810849+00:00",
+          "scenario": "come_back",
+          "card_id": "w87CxtENE9zJIa",
+          "name": "Muhammad",
+          "stamps": 4,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:29:00.260109+00:00",
+          "scenario": "come_back",
+          "card_id": "5ZMmvJF3WXIIAy",
+          "name": "Alexa young",
+          "stamps": 4,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:29:00.782541+00:00",
+          "scenario": "come_back",
+          "card_id": "tuMjydaeqvjCcA",
+          "name": "Sisanda Henna",
+          "stamps": 1,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:29:01.462521+00:00",
+          "scenario": "come_back",
+          "card_id": "yJsalrEpPGobGm",
+          "name": "Amber Shuttleworth",
+          "stamps": 1,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:29:02.100491+00:00",
+          "scenario": "come_back",
+          "card_id": "OBd7n5D3ZPZ2pR",
+          "name": "Meera Morar",
+          "stamps": 12,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:29:02.538796+00:00",
+          "scenario": "come_back",
+          "card_id": "OEYjHUk7el2BQ7",
+          "name": "Howard Berchowitz",
+          "stamps": 2,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:29:02.974474+00:00",
+          "scenario": "come_back",
+          "card_id": "ur60J8zknzLNDe",
+          "name": "Devon",
+          "stamps": 7,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:29:03.406388+00:00",
+          "scenario": "come_back",
+          "card_id": "6DBkkiChusUuB8",
+          "name": "Jarred Britany",
+          "stamps": 3,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:29:04.102301+00:00",
+          "scenario": "come_back",
+          "card_id": "xd5di6uFMPHGGY",
+          "name": "Danit Emdin",
+          "stamps": 4,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:29:04.977528+00:00",
+          "scenario": "come_back",
+          "card_id": "ZapbZ25oY9oxgV",
+          "name": "Jenna Duffy",
+          "stamps": 6,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:29:05.700815+00:00",
+          "scenario": "come_back",
+          "card_id": "cAJlVPWsqDGeCE",
+          "name": "Cornel",
+          "stamps": 4,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:29:06.342839+00:00",
+          "scenario": "come_back",
+          "card_id": "VdjtSbmhZmO6wF",
+          "name": "Renn",
+          "stamps": 5,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:29:06.983909+00:00",
+          "scenario": "come_back",
+          "card_id": "Zs7s3wJyBjRBq5",
+          "name": "Roberta Stamatis",
+          "stamps": 5,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:29:07.623045+00:00",
+          "scenario": "come_back",
+          "card_id": "2K7ABhQSFMhLh7",
+          "name": "Gregory Hack",
+          "stamps": 8,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:29:08.056392+00:00",
+          "scenario": "come_back",
+          "card_id": "Ai9A8ZRkgBSw7e",
+          "name": "Nadia Dannhauser",
+          "stamps": 6,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:29:08.740765+00:00",
+          "scenario": "come_back",
+          "card_id": "XDzVYzVfmWCZJP",
+          "name": "Nicolene Van der Merwe",
+          "stamps": 1,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:29:09.239055+00:00",
+          "scenario": "come_back",
+          "card_id": "TdAUcx2DDKxcYy",
+          "name": "Shani",
+          "stamps": 12,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:29:09.860391+00:00",
+          "scenario": "come_back",
+          "card_id": "cWK5LTPi0j3196",
+          "name": "Aileen",
+          "stamps": 3,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:29:10.383596+00:00",
+          "scenario": "come_back",
+          "card_id": "XSs2Ss1LEjhyEH",
+          "name": "Rumbi",
+          "stamps": 4,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:29:10.827418+00:00",
+          "scenario": "come_back",
+          "card_id": "dgTojXdRNOyoLu",
+          "name": "Yoni Balkind",
+          "stamps": 5,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:29:11.311435+00:00",
+          "scenario": "come_back",
+          "card_id": "IYvpsVXqQMqWDu",
+          "name": "Netanel Shirazi",
+          "stamps": 8,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:29:11.755037+00:00",
+          "scenario": "come_back",
+          "card_id": "kUs7UgrUGVuAlK",
+          "name": "Megan",
+          "stamps": 5,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:29:12.181623+00:00",
+          "scenario": "come_back",
+          "card_id": "19wvOG8qi5xcHH",
+          "name": "Vanessa",
+          "stamps": 12,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:29:12.601508+00:00",
+          "scenario": "come_back",
+          "card_id": "gGjEKa6VaFwN7e",
+          "name": "Zama",
+          "stamps": 6,
+          "message": "Your free coffee is calling! \u2615 Come finish those last few stamps & treat yourself. We've m"
+        },
+        {
+          "ts": "2026-05-27T09:29:14.044579+00:00",
+          "scenario": "loyal",
+          "card_id": "D2FkZlRpkb3jtj",
+          "name": "Justin",
+          "stamps": 25,
+          "message": "You're a coffee legend! \ud83c\udf89 Enjoy your free drinks\u2014you've earned every sip. \u2615 Thanks for bei"
+        },
+        {
+          "ts": "2026-05-27T09:29:14.465601+00:00",
+          "scenario": "loyal",
+          "card_id": "Em9bUzF4nT5hbD",
+          "name": "Darrin Thomas",
+          "stamps": 182,
+          "message": "You're a coffee legend! \ud83c\udf89 Enjoy your free drinks\u2014you've earned every sip. \u2615 Thanks for bei"
+        }
+      ]
     }
   ]
 }
