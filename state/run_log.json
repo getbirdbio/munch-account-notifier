@@ -58301,6 +58301,449 @@
           "message": "You're a coffee legend! \ud83c\udf89 Enjoy your free drinks\u2014you've earned every sip. We're lucky to h"
         }
       ]
+    },
+    {
+      "run_ts": "2026-07-02T10:41:19.496861+00:00",
+      "total_sent": 54,
+      "by_scenario": {
+        "almost_there": 3,
+        "come_back": 50,
+        "loyal": 1
+      },
+      "notifications": [
+        {
+          "ts": "2026-07-02T08:41:24.046808+00:00",
+          "scenario": "almost_there",
+          "card_id": "2xro9JoBKpHlQ7",
+          "name": "Carly Whitaker",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a free coffee! \u2615 Keep the momentum going and treat yourself. \u2728"
+        },
+        {
+          "ts": "2026-07-02T08:41:24.367062+00:00",
+          "scenario": "almost_there",
+          "card_id": "xRgtLMFejOuTbE",
+          "name": "Sharon Sopher",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a free coffee! \u2615 Keep the momentum going and treat yourself. \u2728"
+        },
+        {
+          "ts": "2026-07-02T08:41:25.360997+00:00",
+          "scenario": "almost_there",
+          "card_id": "B4FTo4XzpWEwIj",
+          "name": "Amanda Gifford",
+          "stamps": 10,
+          "message": "You're 2 stamps away from a free coffee! \u2615 Keep the momentum going and earn your reward!"
+        },
+        {
+          "ts": "2026-07-02T08:41:26.630805+00:00",
+          "scenario": "come_back",
+          "card_id": "xvsNIqQDLamPBX",
+          "name": "Audrey-Lee",
+          "stamps": 8,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:26.936787+00:00",
+          "scenario": "come_back",
+          "card_id": "CIkKLA12QhPZEu",
+          "name": "Carmen McEwan",
+          "stamps": 5,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:27.205336+00:00",
+          "scenario": "come_back",
+          "card_id": "sOHcg8ijSPLwGz",
+          "name": "Nicole Mc Millan",
+          "stamps": 12,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:27.509032+00:00",
+          "scenario": "come_back",
+          "card_id": "bvLBMEdRoGOaB4",
+          "name": "Amy Visser",
+          "stamps": 5,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:27.981226+00:00",
+          "scenario": "come_back",
+          "card_id": "0mZLJwU9q8vYmI",
+          "name": "Lauren",
+          "stamps": 8,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:28.246315+00:00",
+          "scenario": "come_back",
+          "card_id": "ISUKmcwR4qtUjz",
+          "name": "Daniel Argentin",
+          "stamps": 2,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:28.494293+00:00",
+          "scenario": "come_back",
+          "card_id": "ngbYIW1mTal1ZZ",
+          "name": "Annie Davidson",
+          "stamps": 5,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:28.752734+00:00",
+          "scenario": "come_back",
+          "card_id": "nb6eLc6C0DHFQF",
+          "name": "Ethan",
+          "stamps": 3,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:29.218997+00:00",
+          "scenario": "come_back",
+          "card_id": "Mxroz7oqgUPv4e",
+          "name": "Robyn Fittinghoff",
+          "stamps": 6,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:29.470962+00:00",
+          "scenario": "come_back",
+          "card_id": "9zrMS3qJuKXgwB",
+          "name": "Simonne bugai",
+          "stamps": 1,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:29.708346+00:00",
+          "scenario": "come_back",
+          "card_id": "vrPYzz3YNOs6EB",
+          "name": "Kate Lodwick",
+          "stamps": 4,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:30.048224+00:00",
+          "scenario": "come_back",
+          "card_id": "5KjrhkX8iWOo8b",
+          "name": "Noa Gershuni",
+          "stamps": 1,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:30.411569+00:00",
+          "scenario": "come_back",
+          "card_id": "M8gf1DKG98hJf6",
+          "name": "Ross van Coller",
+          "stamps": 5,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:30.643845+00:00",
+          "scenario": "come_back",
+          "card_id": "YrpTn33yXm4liA",
+          "name": "Regan James",
+          "stamps": 5,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:30.956865+00:00",
+          "scenario": "come_back",
+          "card_id": "ZgcQSs6IGFDYh7",
+          "name": "Reilly Preece",
+          "stamps": 2,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:31.233697+00:00",
+          "scenario": "come_back",
+          "card_id": "Caopt6rMEZiRwE",
+          "name": "Chris Morrow",
+          "stamps": 5,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:31.470913+00:00",
+          "scenario": "come_back",
+          "card_id": "0KoBXA5EXeLTav",
+          "name": "Akiva Levitt",
+          "stamps": 5,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:31.716999+00:00",
+          "scenario": "come_back",
+          "card_id": "XScIP6u11qAriJ",
+          "name": "Sam",
+          "stamps": 12,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:32.025906+00:00",
+          "scenario": "come_back",
+          "card_id": "qReMVX0KmpU0II",
+          "name": "Kate Pickard",
+          "stamps": 1,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:32.327021+00:00",
+          "scenario": "come_back",
+          "card_id": "8GZg5rMjiM1Jwm",
+          "name": "Craig Aarons",
+          "stamps": 12,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:32.565438+00:00",
+          "scenario": "come_back",
+          "card_id": "vBGyhA4VOu8iZf",
+          "name": "Dalya Brainin",
+          "stamps": 8,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:33.001649+00:00",
+          "scenario": "come_back",
+          "card_id": "PryKAg0XVzhg5p",
+          "name": "Warren Bedil",
+          "stamps": 8,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:33.291833+00:00",
+          "scenario": "come_back",
+          "card_id": "JQsl9XtMVMnh57",
+          "name": "Vincent Ehlers",
+          "stamps": 2,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:33.540482+00:00",
+          "scenario": "come_back",
+          "card_id": "v6AECfrl2qXSTZ",
+          "name": "Jess",
+          "stamps": 4,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:33.792234+00:00",
+          "scenario": "come_back",
+          "card_id": "4l9U4UoGP2OgPw",
+          "name": "G S",
+          "stamps": 1,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:34.025968+00:00",
+          "scenario": "come_back",
+          "card_id": "7z0akUGlILabg8",
+          "name": "Justin Blume",
+          "stamps": 3,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:34.258059+00:00",
+          "scenario": "come_back",
+          "card_id": "wouL7VdLVkRh28",
+          "name": "Shivani",
+          "stamps": 1,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:34.605499+00:00",
+          "scenario": "come_back",
+          "card_id": "gZMpP65LGAFwoW",
+          "name": "Gila Orkin",
+          "stamps": 7,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:34.998343+00:00",
+          "scenario": "come_back",
+          "card_id": "IrKUB14dqfG3wD",
+          "name": "Katinka Harsanyi",
+          "stamps": 5,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:35.238839+00:00",
+          "scenario": "come_back",
+          "card_id": "6f29TMB0DB2zs4",
+          "name": "Pretash Bhoola",
+          "stamps": 1,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:35.466730+00:00",
+          "scenario": "come_back",
+          "card_id": "0S5pw5pZQ332Dw",
+          "name": "Daniella boner",
+          "stamps": 1,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:35.808335+00:00",
+          "scenario": "come_back",
+          "card_id": "HVWFb1ymVKmtZz",
+          "name": "Stephanie",
+          "stamps": 4,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:36.046969+00:00",
+          "scenario": "come_back",
+          "card_id": "HdmAMeKqcoAh3v",
+          "name": "Isabella",
+          "stamps": 7,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:36.290547+00:00",
+          "scenario": "come_back",
+          "card_id": "BgGfIuftiBFJaf",
+          "name": "Ally",
+          "stamps": 6,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:36.532071+00:00",
+          "scenario": "come_back",
+          "card_id": "kRp2f1JVRfcwZu",
+          "name": "Kevin",
+          "stamps": 4,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:36.872859+00:00",
+          "scenario": "come_back",
+          "card_id": "EVVqfoz3f2rnIm",
+          "name": "Bev Cohen",
+          "stamps": 1,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:37.116819+00:00",
+          "scenario": "come_back",
+          "card_id": "k2ntmcU6nEV9oJ",
+          "name": "Jay",
+          "stamps": 12,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:37.355822+00:00",
+          "scenario": "come_back",
+          "card_id": "6B1ywKNe6hrFyP",
+          "name": "Gavin Morris",
+          "stamps": 8,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:37.640992+00:00",
+          "scenario": "come_back",
+          "card_id": "1DwfSphFMx3Aif",
+          "name": "Josh Sack",
+          "stamps": 1,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:37.876978+00:00",
+          "scenario": "come_back",
+          "card_id": "iASk1fXP5gtDGI",
+          "name": "Taine Walker",
+          "stamps": 2,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:38.113473+00:00",
+          "scenario": "come_back",
+          "card_id": "MpT3KdoOH0KkXr",
+          "name": "Geoff",
+          "stamps": 6,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:38.340885+00:00",
+          "scenario": "come_back",
+          "card_id": "omGEnu9iJWnoz7",
+          "name": "Laura Loveland",
+          "stamps": 3,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:38.586739+00:00",
+          "scenario": "come_back",
+          "card_id": "uPx01tp3Na2YaU",
+          "name": "Janet",
+          "stamps": 1,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:38.818721+00:00",
+          "scenario": "come_back",
+          "card_id": "eTPOuyFXcnl1GL",
+          "name": "Zahra",
+          "stamps": 1,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:39.051979+00:00",
+          "scenario": "come_back",
+          "card_id": "DBq6dXeNA2Fdo6",
+          "name": "Ruby",
+          "stamps": 4,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:39.295755+00:00",
+          "scenario": "come_back",
+          "card_id": "bDfIjV5zsyYs6n",
+          "name": "Farra Moritz",
+          "stamps": 4,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:39.546641+00:00",
+          "scenario": "come_back",
+          "card_id": "J6YgusrgTPHetK",
+          "name": "Melissa Rowlston",
+          "stamps": 6,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:39.790388+00:00",
+          "scenario": "come_back",
+          "card_id": "5hZk0cenYPRzjR",
+          "name": "Nicola",
+          "stamps": 6,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:40.014872+00:00",
+          "scenario": "come_back",
+          "card_id": "juCJzEdedQoDjC",
+          "name": "Mamokete",
+          "stamps": 1,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:40.266556+00:00",
+          "scenario": "come_back",
+          "card_id": "VzBBDTxyE5MsBc",
+          "name": "Maria Yiallouris",
+          "stamps": 1,
+          "message": "Your free coffee is waiting! \u2615 You've got 7 stamps saved. Pop in soon to finish your rewar"
+        },
+        {
+          "ts": "2026-07-02T08:41:41.316646+00:00",
+          "scenario": "loyal",
+          "card_id": "2Y4AsgdBz1S00G",
+          "name": "Carla Greeff",
+          "stamps": 211,
+          "message": "You're a coffee legend! \ud83c\udf89 Claim your free drinks\u2014you've earned them all! \u2615"
+        }
+      ]
     }
   ]
 }
