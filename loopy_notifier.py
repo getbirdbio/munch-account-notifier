@@ -9,7 +9,7 @@ Scenarios (run daily via GitHub Actions):
   3. LOYAL         -- totalStampsEarned >= 24 (2+ full cycles) -- monthly
 """
 
-import json, os, sys, requests
+import json, os, sys, time, requests
 from datetime import datetime, timezone, timedelta
 import anthropic
 
@@ -36,8 +36,28 @@ WEEKLY_PER_CUSTOMER_COOLDOWN = 7  # max 1 notification per customer per week
 
 MAX_COME_BACK_PER_RUN = 50   # cap to avoid mass spam
 
+LL_RETRY_ATTEMPTS = 3
+LL_RETRY_BASE_TIMEOUT = 15   # seconds; doubles each attempt
+
 
 # -- Helpers -----------------------------------------------------------------
+def ll_request(method, url, **kwargs):
+    """POST/GET to the Loopy Loyalty API with retry on transient timeouts."""
+    last_error = None
+    for attempt in range(LL_RETRY_ATTEMPTS):
+        timeout = LL_RETRY_BASE_TIMEOUT * (2 ** attempt)
+        try:
+            r = requests.request(method, url, timeout=timeout, **kwargs)
+            r.raise_for_status()
+            return r
+        except requests.exceptions.RequestException as e:
+            last_error = e
+            print(f"  ! Loopy API attempt {attempt + 1}/{LL_RETRY_ATTEMPTS} failed: {e}")
+            if attempt < LL_RETRY_ATTEMPTS - 1:
+                time.sleep(5 * (attempt + 1))
+    raise last_error
+
+
 def load_json(path, default):
     try:
         with open(path) as f:
@@ -70,10 +90,8 @@ def was_notified_this_week(state, card_id):
 
 # -- Loopy Loyalty Auth ------------------------------------------------------
 def ll_login():
-    r = requests.post(f"{LL_API}/account/login",
-                      json={"username": LL_USERNAME, "password": LL_PASSWORD},
-                      timeout=15)
-    r.raise_for_status()
+    r = ll_request("post", f"{LL_API}/account/login",
+                   json={"username": LL_USERNAME, "password": LL_PASSWORD})
     token = r.json()["token"]
     print("+ Logged in to Loopy Loyalty")
     return token
@@ -87,11 +105,10 @@ def list_all_cards(token):
     headers = ll_headers(token)
     all_cards, start, page_size = [], 0, 200
     while True:
-        r = requests.post(f"{LL_API}/card/cid/{CAMPAIGN_ID}",
-                          json={"dt": {"start": start, "length": page_size,
-                                       "order": {"column": "created", "dir": "desc"}}},
-                          headers=headers, timeout=30)
-        r.raise_for_status()
+        r = ll_request("post", f"{LL_API}/card/cid/{CAMPAIGN_ID}",
+                       json={"dt": {"start": start, "length": page_size,
+                                    "order": {"column": "created", "dir": "desc"}}},
+                       headers=headers)
         data  = r.json()
         cards = data.get("data", [])
         all_cards.extend(cards)
