@@ -1,417 +1,6 @@
 {
   "runs": [
     {
-      "run_ts": "2026-06-20T10:39:41.969164+00:00",
-      "total_sent": 50,
-      "by_scenario": {
-        "almost_there": 0,
-        "come_back": 50,
-        "loyal": 0
-      },
-      "notifications": [
-        {
-          "ts": "2026-06-20T08:39:50.812711+00:00",
-          "scenario": "come_back",
-          "card_id": "0zFApiMOKR6sHB",
-          "name": "Megan Dixon",
-          "stamps": 6,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:39:51.406036+00:00",
-          "scenario": "come_back",
-          "card_id": "LkChWICZu1x2cD",
-          "name": "Zach Melvill",
-          "stamps": 2,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:39:51.919760+00:00",
-          "scenario": "come_back",
-          "card_id": "xd5di6uFMPHGGY",
-          "name": "Danit Emdin",
-          "stamps": 4,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:39:52.528356+00:00",
-          "scenario": "come_back",
-          "card_id": "VdjtSbmhZmO6wF",
-          "name": "Renn",
-          "stamps": 5,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:39:54.863170+00:00",
-          "scenario": "come_back",
-          "card_id": "2K7ABhQSFMhLh7",
-          "name": "Gregory Hack",
-          "stamps": 8,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:39:55.485292+00:00",
-          "scenario": "come_back",
-          "card_id": "XDzVYzVfmWCZJP",
-          "name": "Nicolene Van der Merwe",
-          "stamps": 1,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:39:55.897037+00:00",
-          "scenario": "come_back",
-          "card_id": "TdAUcx2DDKxcYy",
-          "name": "Shani",
-          "stamps": 12,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:39:56.525695+00:00",
-          "scenario": "come_back",
-          "card_id": "o2E5p0vq2WoDCE",
-          "name": "Christel",
-          "stamps": 4,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:39:56.945849+00:00",
-          "scenario": "come_back",
-          "card_id": "8ggxB8Abl4hnOF",
-          "name": "Stacy Gluch",
-          "stamps": 1,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:39:57.373144+00:00",
-          "scenario": "come_back",
-          "card_id": "jkx3azCy5CzlWn",
-          "name": "lisa cohen",
-          "stamps": 1,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:39:58.044330+00:00",
-          "scenario": "come_back",
-          "card_id": "JN7sIqqTeJSG3u",
-          "name": "Genevieve Field",
-          "stamps": 4,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:00.927447+00:00",
-          "scenario": "come_back",
-          "card_id": "IYvpsVXqQMqWDu",
-          "name": "Netanel Shirazi",
-          "stamps": 8,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:01.439592+00:00",
-          "scenario": "come_back",
-          "card_id": "kUs7UgrUGVuAlK",
-          "name": "Megan",
-          "stamps": 5,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:02.049277+00:00",
-          "scenario": "come_back",
-          "card_id": "19wvOG8qi5xcHH",
-          "name": "Vanessa",
-          "stamps": 12,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:02.685171+00:00",
-          "scenario": "come_back",
-          "card_id": "eOqH5hWvPRGnin",
-          "name": "Warren",
-          "stamps": 3,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:03.085814+00:00",
-          "scenario": "come_back",
-          "card_id": "GScZRPdSP7Jon1",
-          "name": "Jennifer",
-          "stamps": 7,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:03.685737+00:00",
-          "scenario": "come_back",
-          "card_id": "d9iX9WLmNdHn7o",
-          "name": "Theoni Zuccollo",
-          "stamps": 7,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:04.285279+00:00",
-          "scenario": "come_back",
-          "card_id": "doS7n95fQrBysN",
-          "name": "Nikki Ireland",
-          "stamps": 2,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:04.749265+00:00",
-          "scenario": "come_back",
-          "card_id": "W8zeBxVx9wY53k",
-          "name": "Jenna",
-          "stamps": 3,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:05.123485+00:00",
-          "scenario": "come_back",
-          "card_id": "mr3uMTujdg6clg",
-          "name": "Tammi Beck",
-          "stamps": 2,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:05.884623+00:00",
-          "scenario": "come_back",
-          "card_id": "xT2uGmNCvGdygn",
-          "name": "Natalie",
-          "stamps": 12,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:06.527116+00:00",
-          "scenario": "come_back",
-          "card_id": "IClhe3W24vyFea",
-          "name": "Laura",
-          "stamps": 4,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:06.919963+00:00",
-          "scenario": "come_back",
-          "card_id": "DWRpihmGjTq6Jv",
-          "name": "Cassandra Twala",
-          "stamps": 7,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:07.644814+00:00",
-          "scenario": "come_back",
-          "card_id": "47jj2v3Fqrx0oe",
-          "name": "Garreth prout",
-          "stamps": 3,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:08.018794+00:00",
-          "scenario": "come_back",
-          "card_id": "LfHWTq8ZuD7AxK",
-          "name": "Roald Brits",
-          "stamps": 5,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:08.388389+00:00",
-          "scenario": "come_back",
-          "card_id": "62CZA7hJ1phVeb",
-          "name": "Ang\u00e9",
-          "stamps": 3,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:08.814106+00:00",
-          "scenario": "come_back",
-          "card_id": "WWDr3yMCAHWv09",
-          "name": "Sean Meyersfeld",
-          "stamps": 3,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:09.191544+00:00",
-          "scenario": "come_back",
-          "card_id": "khV1Y8odPbQIXr",
-          "name": "Kirsty",
-          "stamps": 6,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:09.810102+00:00",
-          "scenario": "come_back",
-          "card_id": "ms2uje1cZjPGBe",
-          "name": "Nalin Pillay",
-          "stamps": 1,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:10.173100+00:00",
-          "scenario": "come_back",
-          "card_id": "3o4AQMIQKlqw8q",
-          "name": "Tracy Ackermann",
-          "stamps": 12,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:10.764322+00:00",
-          "scenario": "come_back",
-          "card_id": "EYcD6EcbRDNXF6",
-          "name": "Christopher",
-          "stamps": 3,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:11.149929+00:00",
-          "scenario": "come_back",
-          "card_id": "4Uc1Rh2smTtNKt",
-          "name": "Tyla Braun",
-          "stamps": 8,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:11.637527+00:00",
-          "scenario": "come_back",
-          "card_id": "eqpiCD7yUKkGgE",
-          "name": "Sasha Hatzkilson",
-          "stamps": 7,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:12.147839+00:00",
-          "scenario": "come_back",
-          "card_id": "4nWLwEUQVJnQ7b",
-          "name": "Tintswalo Mokhare",
-          "stamps": 8,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:12.927195+00:00",
-          "scenario": "come_back",
-          "card_id": "uqF7gqN0DXSuiM",
-          "name": "Sean",
-          "stamps": 1,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:13.306741+00:00",
-          "scenario": "come_back",
-          "card_id": "CcmeBhNzNOkYBf",
-          "name": "Desi Salkow",
-          "stamps": 2,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:13.731224+00:00",
-          "scenario": "come_back",
-          "card_id": "vBscOGHU1vyvU2",
-          "name": "Jonathan",
-          "stamps": 5,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:14.135755+00:00",
-          "scenario": "come_back",
-          "card_id": "ysLB4MhTKxBD2e",
-          "name": "Kimberlee",
-          "stamps": 4,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:14.647560+00:00",
-          "scenario": "come_back",
-          "card_id": "xvrPTUTYpIlfdo",
-          "name": "Sabreen",
-          "stamps": 1,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:15.091582+00:00",
-          "scenario": "come_back",
-          "card_id": "ycyd4pvzHBDEO0",
-          "name": "Kish",
-          "stamps": 1,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:15.647559+00:00",
-          "scenario": "come_back",
-          "card_id": "tFgzJzUbWvD3Fj",
-          "name": "Sarah Wilmot",
-          "stamps": 3,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:16.013234+00:00",
-          "scenario": "come_back",
-          "card_id": "XW7D5UGjBNjRLg",
-          "name": "Mickayla Pinto",
-          "stamps": 5,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:16.689077+00:00",
-          "scenario": "come_back",
-          "card_id": "NfWXmnq7P3ytYS",
-          "name": "Cordelia McTaggart",
-          "stamps": 12,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:19.096674+00:00",
-          "scenario": "come_back",
-          "card_id": "i1k8HtMzYsrVu6",
-          "name": "Tanya Waksman",
-          "stamps": 6,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:19.463887+00:00",
-          "scenario": "come_back",
-          "card_id": "PazeRSclM3YYix",
-          "name": "Gregg Mandy",
-          "stamps": 1,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:19.813910+00:00",
-          "scenario": "come_back",
-          "card_id": "HUVl1uLhhYLVHC",
-          "name": "Mark Morreira",
-          "stamps": 5,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:20.176485+00:00",
-          "scenario": "come_back",
-          "card_id": "MbymCJ1idZlGU9",
-          "name": "Matt",
-          "stamps": 1,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:20.530373+00:00",
-          "scenario": "come_back",
-          "card_id": "zzTGjiEheN9aXC",
-          "name": "Jordan",
-          "stamps": 5,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:21.164996+00:00",
-          "scenario": "come_back",
-          "card_id": "UtFV7q4WJD2SmH",
-          "name": "Lance Van Der Westhuizen",
-          "stamps": 2,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        },
-        {
-          "ts": "2026-06-20T08:40:21.726022+00:00",
-          "scenario": "come_back",
-          "card_id": "LEBJ5kMtjG8Gui",
-          "name": "Leigh",
-          "stamps": 4,
-          "message": "Your stamps are waiting! \u2615 Pop in soon and knock out that free coffee. We've missed you! \ud83d\ude0a"
-        }
-      ]
-    },
-    {
       "run_ts": "2026-06-21T11:34:37.421749+00:00",
       "total_sent": 170,
       "by_scenario": {
@@ -60755,6 +60344,489 @@
           "name": "Bisiel",
           "stamps": 27,
           "message": "You're a coffee legend! \ud83c\udf89 Treat yourself\u2014you've earned 2 free drinks. \u2615 Thanks for being a"
+        }
+      ]
+    },
+    {
+      "run_ts": "2026-09-19T10:49:18.378669+00:00",
+      "total_sent": 59,
+      "by_scenario": {
+        "almost_there": 1,
+        "come_back": 50,
+        "loyal": 8
+      },
+      "notifications": [
+        {
+          "ts": "2026-09-19T08:49:27.337003+00:00",
+          "scenario": "almost_there",
+          "card_id": "qSUep7sohSO6OJ",
+          "name": "Rob Alexander",
+          "stamps": 9,
+          "message": "You're 3 stamps away from a free coffee! \u2615 Keep brewing, you've got this! \ud83c\udf89"
+        },
+        {
+          "ts": "2026-09-19T08:49:28.994339+00:00",
+          "scenario": "come_back",
+          "card_id": "fG6GnvJ0182xFk",
+          "name": "cassidy",
+          "stamps": 5,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:29.541841+00:00",
+          "scenario": "come_back",
+          "card_id": "eMTGCWcG17N27v",
+          "name": "Gabriella Hector",
+          "stamps": 3,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:30.068885+00:00",
+          "scenario": "come_back",
+          "card_id": "sXNDSwJU0apMcV",
+          "name": "Alexa Peters",
+          "stamps": 3,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:30.755163+00:00",
+          "scenario": "come_back",
+          "card_id": "bXGA3QbqpfoIQb",
+          "name": "Ashnee Dorasamy",
+          "stamps": 12,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:31.421023+00:00",
+          "scenario": "come_back",
+          "card_id": "NvhVs8F8irwID7",
+          "name": "Paula Bongiovanni",
+          "stamps": 2,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:31.899052+00:00",
+          "scenario": "come_back",
+          "card_id": "uRelYgHg1LyIJb",
+          "name": "Jonathan van Vuren",
+          "stamps": 6,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:32.377647+00:00",
+          "scenario": "come_back",
+          "card_id": "mpUoox94RFb9TT",
+          "name": "Vaishali Desai",
+          "stamps": 12,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:32.849030+00:00",
+          "scenario": "come_back",
+          "card_id": "Awp9epNjRijUUN",
+          "name": "Lauren Hellmann Berman",
+          "stamps": 1,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:33.494747+00:00",
+          "scenario": "come_back",
+          "card_id": "jV1ad7Rh6vvPFv",
+          "name": "Simone Watson",
+          "stamps": 8,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:33.980795+00:00",
+          "scenario": "come_back",
+          "card_id": "UZhlsatw6afkug",
+          "name": "Janna Bernic",
+          "stamps": 1,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:34.464443+00:00",
+          "scenario": "come_back",
+          "card_id": "dtbxi8zUXoS1dS",
+          "name": "Lisa",
+          "stamps": 12,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:35.091694+00:00",
+          "scenario": "come_back",
+          "card_id": "eA96DmwGNJIhCR",
+          "name": "Erin Atie",
+          "stamps": 3,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:35.583854+00:00",
+          "scenario": "come_back",
+          "card_id": "IZf5YEq5Dq9rzY",
+          "name": "Britney Bulkin",
+          "stamps": 2,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:36.273585+00:00",
+          "scenario": "come_back",
+          "card_id": "uJ1MgIz1nM0v1y",
+          "name": "Daniel De Jesus",
+          "stamps": 2,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:36.772496+00:00",
+          "scenario": "come_back",
+          "card_id": "8AmuYNyfzo8D6i",
+          "name": "Paul chines",
+          "stamps": 12,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:37.394523+00:00",
+          "scenario": "come_back",
+          "card_id": "5tYHoh3fEzGeuY",
+          "name": "Roz",
+          "stamps": 5,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:37.897179+00:00",
+          "scenario": "come_back",
+          "card_id": "YDn89Go4glQf7J",
+          "name": "Janna",
+          "stamps": 3,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:38.364842+00:00",
+          "scenario": "come_back",
+          "card_id": "klsue11GnlErbI",
+          "name": "Sally Faber",
+          "stamps": 6,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:38.870996+00:00",
+          "scenario": "come_back",
+          "card_id": "JbwLccufRTcFmv",
+          "name": "Jessica Sacks",
+          "stamps": 2,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:39.406004+00:00",
+          "scenario": "come_back",
+          "card_id": "W9b1nz9bs0f8YL",
+          "name": "Naadira",
+          "stamps": 12,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:39.864561+00:00",
+          "scenario": "come_back",
+          "card_id": "06XCUmI7S9bA0v",
+          "name": "Candice-Jane Le Roux",
+          "stamps": 12,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:40.377006+00:00",
+          "scenario": "come_back",
+          "card_id": "HVWFb1ymVKmtZz",
+          "name": "Stephanie",
+          "stamps": 5,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:40.855992+00:00",
+          "scenario": "come_back",
+          "card_id": "0seOcJxD9sAgc8",
+          "name": "Nicolene Joffe",
+          "stamps": 1,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:41.362168+00:00",
+          "scenario": "come_back",
+          "card_id": "Q3Ra7oyvYN3q2s",
+          "name": "Cade",
+          "stamps": 3,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:41.904908+00:00",
+          "scenario": "come_back",
+          "card_id": "cDI5dv6dPhDZa7",
+          "name": "Kelly Ryan",
+          "stamps": 1,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:42.368842+00:00",
+          "scenario": "come_back",
+          "card_id": "UtLXkIfJKNF9Sn",
+          "name": "Jeremy Friedman",
+          "stamps": 2,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:43.005777+00:00",
+          "scenario": "come_back",
+          "card_id": "xhxLSH5g4fC7Uj",
+          "name": "Dora Blumberg",
+          "stamps": 12,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:43.500435+00:00",
+          "scenario": "come_back",
+          "card_id": "BP2NUDNL3sYp7i",
+          "name": "Jason",
+          "stamps": 5,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:43.992536+00:00",
+          "scenario": "come_back",
+          "card_id": "yQ1SlfgJHG51ka",
+          "name": "Lance Maron",
+          "stamps": 3,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:44.594428+00:00",
+          "scenario": "come_back",
+          "card_id": "Qi2YAA3XHxkttx",
+          "name": "Tzofia Kramer",
+          "stamps": 12,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:45.107728+00:00",
+          "scenario": "come_back",
+          "card_id": "AFtvk0GQKaEeee",
+          "name": "Khanyisile Mkhize",
+          "stamps": 1,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:45.572524+00:00",
+          "scenario": "come_back",
+          "card_id": "Kry6ItmEMI4zz9",
+          "name": "Lele",
+          "stamps": 8,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:46.055754+00:00",
+          "scenario": "come_back",
+          "card_id": "VgEPWStt5SvTnO",
+          "name": "Mvelo",
+          "stamps": 4,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:46.526580+00:00",
+          "scenario": "come_back",
+          "card_id": "HdmAMeKqcoAh3v",
+          "name": "Isabella",
+          "stamps": 7,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:47.314197+00:00",
+          "scenario": "come_back",
+          "card_id": "fkgn9Evg0iF624",
+          "name": "Tzvia",
+          "stamps": 12,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:47.875158+00:00",
+          "scenario": "come_back",
+          "card_id": "BgGfIuftiBFJaf",
+          "name": "Ally",
+          "stamps": 6,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:48.446421+00:00",
+          "scenario": "come_back",
+          "card_id": "R8XGldk1RXgSga",
+          "name": "Khaled",
+          "stamps": 5,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:49.016860+00:00",
+          "scenario": "come_back",
+          "card_id": "ctnXIsvYEZB6fj",
+          "name": "Joburg Coffee dude",
+          "stamps": 8,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:49.554536+00:00",
+          "scenario": "come_back",
+          "card_id": "oVdHFJbf8CIjOS",
+          "name": "Greg Senior",
+          "stamps": 4,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:50.049165+00:00",
+          "scenario": "come_back",
+          "card_id": "iqcgkQczyg3ZrC",
+          "name": "Leora Porter",
+          "stamps": 7,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:50.676722+00:00",
+          "scenario": "come_back",
+          "card_id": "pXTy6epJj02CoY",
+          "name": "Nina Gamsu",
+          "stamps": 4,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:51.220696+00:00",
+          "scenario": "come_back",
+          "card_id": "tFFnn9Y9gBNx6T",
+          "name": "Marc Romberg",
+          "stamps": 1,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:51.694741+00:00",
+          "scenario": "come_back",
+          "card_id": "P4uhgBEId8HekJ",
+          "name": "Raphi Druion",
+          "stamps": 8,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:52.440425+00:00",
+          "scenario": "come_back",
+          "card_id": "j9UTzI8JFmScXR",
+          "name": "Kelly Berman",
+          "stamps": 12,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:52.952447+00:00",
+          "scenario": "come_back",
+          "card_id": "dmUIHHiofJZkXM",
+          "name": "Steve Abro",
+          "stamps": 2,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:53.651617+00:00",
+          "scenario": "come_back",
+          "card_id": "BYLT49nfcDsuvb",
+          "name": "Talya Davis",
+          "stamps": 3,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:54.227766+00:00",
+          "scenario": "come_back",
+          "card_id": "Hc9qXKoKv5GkCG",
+          "name": "Ryan Dube",
+          "stamps": 12,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:54.835004+00:00",
+          "scenario": "come_back",
+          "card_id": "1szDQuTQ7tMxG0",
+          "name": "Michele",
+          "stamps": 12,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:55.560623+00:00",
+          "scenario": "come_back",
+          "card_id": "Eq9jAJQ923M8zd",
+          "name": "Elizabeth",
+          "stamps": 1,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:56.055393+00:00",
+          "scenario": "come_back",
+          "card_id": "IuQvyv5RzZelXC",
+          "name": "Thea",
+          "stamps": 3,
+          "message": "Your stamps are waiting! \u2615 Pop in soon to earn that free coffee. We've missed you! \u2728"
+        },
+        {
+          "ts": "2026-09-19T08:49:57.637521+00:00",
+          "scenario": "loyal",
+          "card_id": "vD6GBZLd6bjxQf",
+          "name": "Lindi Hawke",
+          "stamps": 43,
+          "message": "You're a coffee legend! \ud83c\udf89 Claim your free drinks\u2014you've earned them. We love you! \u2615"
+        },
+        {
+          "ts": "2026-09-19T08:49:58.116475+00:00",
+          "scenario": "loyal",
+          "card_id": "pPCFrNcXj1Oau1",
+          "name": "Jessica Boyer",
+          "stamps": 199,
+          "message": "You're a coffee legend! \ud83c\udf89 Claim your free drinks\u2014you've earned them. We love you! \u2615"
+        },
+        {
+          "ts": "2026-09-19T08:49:58.594278+00:00",
+          "scenario": "loyal",
+          "card_id": "9TfNqLEY34gBIH",
+          "name": "Rosie",
+          "stamps": 42,
+          "message": "You're a coffee legend! \ud83c\udf89 Claim your free drinks\u2014you've earned them. We love you! \u2615"
+        },
+        {
+          "ts": "2026-09-19T08:49:59.128924+00:00",
+          "scenario": "loyal",
+          "card_id": "4WYmJ6nDUQx9Hn",
+          "name": "David Vinokur",
+          "stamps": 53,
+          "message": "You're a coffee legend! \ud83c\udf89 Claim your free drinks\u2014you've earned them. We love you! \u2615"
+        },
+        {
+          "ts": "2026-09-19T08:49:59.883045+00:00",
+          "scenario": "loyal",
+          "card_id": "juCJzEdedQoDjC",
+          "name": "Mamokete",
+          "stamps": 37,
+          "message": "You're a coffee legend! \ud83c\udf89 Claim your free drinks\u2014you've earned them. We love you! \u2615"
+        },
+        {
+          "ts": "2026-09-19T08:50:00.594478+00:00",
+          "scenario": "loyal",
+          "card_id": "7JanywzjNVq7sT",
+          "name": "Silvia Barber Luna",
+          "stamps": 329,
+          "message": "You're a coffee legend! \ud83c\udf89 Claim your free drinks\u2014you've earned them. We love you! \u2615"
+        },
+        {
+          "ts": "2026-09-19T08:50:01.114365+00:00",
+          "scenario": "loyal",
+          "card_id": "HcK3imjOxYTCqv",
+          "name": "Emma Davidson",
+          "stamps": 232,
+          "message": "You're a coffee legend! \ud83c\udf89 Claim your free drinks\u2014you've earned them. We love you! \u2615"
+        },
+        {
+          "ts": "2026-09-19T08:50:01.793942+00:00",
+          "scenario": "loyal",
+          "card_id": "0M6yFulsHzwljS",
+          "name": "Loren",
+          "stamps": 37,
+          "message": "You're a coffee legend! \ud83c\udf89 Claim your free drinks\u2014you've earned them. We love you! \u2615"
         }
       ]
     }
